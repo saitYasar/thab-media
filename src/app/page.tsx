@@ -15,7 +15,7 @@ export default function Home() {
             src="/logo.svg"
             alt="ThaB Media"
             width={320}
-            height={160}
+            height={178}
             priority
             className="mx-auto"
           />
@@ -24,22 +24,13 @@ export default function Home() {
             Web sitemiz çok yakında yayında.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+          <div className="flex items-center justify-center pt-4">
             <a
-              href="mailto:info@thabmedia.com"
+              href="mailto:info@thabmedia.com.tr"
               className="inline-flex items-center gap-2 rounded-lg bg-[#192652] text-white px-6 py-3 text-sm font-semibold transition-all hover:bg-[#0f1a3d] hover:scale-105"
             >
               <MailIcon />
-              E-posta ile İletişim
-            </a>
-            <a
-              href="https://instagram.com/thabmedia"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-[#192652] text-[#192652] px-6 py-3 text-sm font-semibold transition-all hover:bg-[#192652] hover:text-white hover:scale-105"
-            >
-              <InstagramIcon />
-              Instagram
+              info@thabmedia.com.tr
             </a>
           </div>
         </div>
@@ -67,26 +58,6 @@ function MailIcon() {
     >
       <rect width="20" height="16" x="2" y="4" rx="2" />
       <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-    </svg>
-  );
-}
-
-function InstagramIcon() {
-  return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="16"
-      height="16"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-      <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
     </svg>
   );
 }
