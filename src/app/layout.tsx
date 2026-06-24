@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description:
     "Markalar için yaratıcı reklam, dijital pazarlama ve medya çözümleri. Çok yakında yayındayız.",
   robots: "noindex, nofollow",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr" className={`${geistSans.variable} antialiased`}>
-      <body className="min-h-dvh flex flex-col bg-[#0a0e1a] text-white font-sans">
+      <body className="min-h-dvh flex flex-col bg-[#f8f9fc] text-[#192652] font-sans">
         {children}
       </body>
     </html>

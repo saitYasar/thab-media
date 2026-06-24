@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <>
       <div className="fixed inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-[-20%] left-[50%] -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-[#1a1040] opacity-60 blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-[#0f2027] opacity-50 blur-[100px]" />
-        <div className="absolute top-[30%] left-[-5%] w-[400px] h-[400px] rounded-full bg-[#1c1030] opacity-40 blur-[80px]" />
+        <div className="absolute top-[-20%] left-[50%] -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-[#dce3f0] opacity-60 blur-[120px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-[#e8dff0] opacity-50 blur-[100px]" />
+        <div className="absolute top-[30%] left-[-5%] w-[400px] h-[400px] rounded-full bg-[#fde8e8] opacity-40 blur-[80px]" />
       </div>
 
       <main className="flex-1 flex items-center justify-center px-6 py-16">
@@ -20,14 +20,14 @@ export default function Home() {
             className="mx-auto"
           />
 
-          <p className="text-lg sm:text-xl text-gray-300">
+          <p className="text-lg sm:text-xl text-[#3a4a6b]">
             Web sitemiz çok yakında yayında.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <a
               href="mailto:info@thabmedia.com"
-              className="inline-flex items-center gap-2 rounded-lg bg-white text-[#0a0e1a] px-6 py-3 text-sm font-semibold transition-all hover:bg-gray-200 hover:scale-105"
+              className="inline-flex items-center gap-2 rounded-lg bg-[#192652] text-white px-6 py-3 text-sm font-semibold transition-all hover:bg-[#0f1a3d] hover:scale-105"
             >
               <MailIcon />
               E-posta ile İletişim
@@ -36,7 +36,7 @@ export default function Home() {
               href="https://instagram.com/thabmedia"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-gray-600 px-6 py-3 text-sm font-semibold transition-all hover:border-white hover:bg-white/5 hover:scale-105"
+              className="inline-flex items-center gap-2 rounded-lg border border-[#192652] text-[#192652] px-6 py-3 text-sm font-semibold transition-all hover:bg-[#192652] hover:text-white hover:scale-105"
             >
               <InstagramIcon />
               Instagram
@@ -45,7 +45,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="py-6 text-center text-xs text-gray-500">
+      <footer className="py-6 text-center text-xs text-[#8a95aa]">
         © 2026 ThaB Media. Tüm hakları saklıdır.
       </footer>
     </>
