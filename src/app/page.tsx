@@ -1,21 +1,28 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <>
+      <div className="fixed inset-0 -z-10 overflow-hidden">
+        <div className="absolute top-[-20%] left-[50%] -translate-x-1/2 w-[800px] h-[800px] rounded-full bg-[#1a1040] opacity-60 blur-[120px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] rounded-full bg-[#0f2027] opacity-50 blur-[100px]" />
+        <div className="absolute top-[30%] left-[-5%] w-[400px] h-[400px] rounded-full bg-[#1c1030] opacity-40 blur-[80px]" />
+      </div>
+
       <main className="flex-1 flex items-center justify-center px-6 py-16">
         <div className="max-w-lg w-full text-center space-y-8">
-          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            ThaB Media
-          </h1>
+          <Image
+            src="/logo.svg"
+            alt="ThaB Media"
+            width={320}
+            height={160}
+            priority
+            className="mx-auto"
+          />
 
-          <div className="space-y-3">
-            <p className="text-lg sm:text-xl text-gray-300">
-              Web sitemiz çok yakında yayında.
-            </p>
-            <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
-              Markalar için yaratıcı reklam, dijital pazarlama ve medya
-              çözümleri hazırlıyoruz.
-            </p>
-          </div>
+          <p className="text-lg sm:text-xl text-gray-300">
+            Web sitemiz çok yakında yayında.
+          </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
             <a
