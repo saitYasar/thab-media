@@ -1,7 +1,7 @@
 // TODO: Replace contact placeholders before launch.
 export const siteConfig = {
   name: 'ThaB Media',
-  email: 'info@thabmedia.com.tr',
+  email: 'info@thubmedya.com',
   phone: null as string | null,
   whatsappNumber: null as string | null,
   whatsappUrl: null as string | null,

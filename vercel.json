@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?!thubmedya\\.com).*"
+        }
+      ],
+      "destination": "https://thubmedya.com/:path*",
+      "permanent": true
+    }
+  ]
+}

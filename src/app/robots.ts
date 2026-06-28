@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://thabmedia.com.tr/sitemap.xml',
+    sitemap: 'https://thubmedya.com/sitemap.xml',
   }
 }
