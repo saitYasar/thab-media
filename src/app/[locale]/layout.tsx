@@ -9,7 +9,6 @@ import { WhatsAppFloatingButton } from '@/components/layout/WhatsAppFloatingButt
 import { StickyMobileCTA } from '@/components/layout/StickyMobileCTA'
 import { ScrollProgressButton } from '@/components/layout/ScrollProgressButton'
 import { services } from '@/data/services'
-import '../globals.css'
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -39,7 +38,7 @@ export async function generateMetadata({
   return {
     title: dict.meta.siteTitle,
     description: dict.meta.siteDescription,
-    robots: 'noindex, nofollow',
+    robots: 'index, follow',
     icons: { icon: '/logo.svg' },
   }
 }
