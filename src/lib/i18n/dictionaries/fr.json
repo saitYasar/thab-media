@@ -1,0 +1,353 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Accueil",
+      "services": "Services",
+      "locations": "Emplacements",
+      "references": "Références",
+      "about": "À propos",
+      "blog": "Blog",
+      "adPreview": "Aperçu Pub",
+      "contact": "Contact"
+    },
+    "cta": {
+      "getQuote": "Demander un devis",
+      "contactUs": "Contactez-nous",
+      "viewDetails": "Voir les détails",
+      "learnMore": "En savoir plus",
+      "viewAll": "Tout voir",
+      "sendMessage": "Envoyer le message",
+      "exploreServices": "Découvrir nos services",
+      "readMore": "Lire la suite"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Votre partenaire professionnel en publicité extérieure",
+      "subtitle": "Nous connectons votre marque à des millions de personnes aux emplacements les plus stratégiques de la ville. Planification média, location d'espaces et gestion de campagne — tout en un seul endroit.",
+      "ctaPrimary": "Obtenir un devis gratuit",
+      "ctaSecondary": "Découvrir nos services",
+      "badge": "250+ espaces publicitaires en Turquie",
+      "altText": "Espace publicitaire extérieur",
+      "labels": {
+        "billboard": "Panneau d'affichage",
+        "billboardSub": "Méga panneau 12×4m",
+        "digitalScreen": "Écran numérique",
+        "metrobus": "Panneau métrobus",
+        "lightbox": "Lightbox",
+        "busStop": "Abribus"
+      }
+    },
+    "stats": {
+      "experience": { "value": "10+", "label": "Années d'expérience" },
+      "locations": { "value": "250+", "label": "Espaces publicitaires" },
+      "clients": { "value": "40+", "label": "Marques partenaires" },
+      "reach": { "value": "1M+", "label": "Portée mensuelle" }
+    },
+    "services": {
+      "title": "Nos services",
+      "description": "Nous proposons les solutions publicitaires extérieures les plus efficaces pour votre marque, dans tous les formats et emplacements."
+    },
+    "marquee": {
+      "title": "Où votre marque sera visible",
+      "description": "Des panneaux d'affichage aux écrans numériques, des arrêts de bus aux habillages de véhicules — votre marque dans toute la ville.",
+      "cards": [
+        { "title": "Panneau d'affichage", "label": "Méga panneau • Entrées de ville" },
+        { "title": "Panneau métrobus", "label": "Lignes de transport" },
+        { "title": "Écran numérique", "label": "LED / DOOH • Programmatique" },
+        { "title": "Lightbox", "label": "Centres commerciaux & Rues • 24h/24" },
+        { "title": "Bannières sur poteau", "label": "Axes principaux • Impact en série" },
+        { "title": "Publicité abribus", "label": "Trafic piéton • Urbain" },
+        { "title": "Habillage de bus", "label": "Couverture totale • Impact mobile" },
+        { "title": "Publicité totem", "label": "Zones commerciales" }
+      ],
+      "altSuffix": "espace publicitaire"
+    },
+    "gallery": {
+      "title": "Formats publicitaires",
+      "description": "Médias extérieurs à haute visibilité dans le format le mieux adapté à votre marque."
+    },
+    "whyUs": {
+      "title": "Pourquoi ThaB Media ?",
+      "subtitle": "Nous gérons la sélection, la planification et l'exécution des médias extérieurs depuis un point de contact unique.",
+      "items": [
+        { "title": "Planification média stratégique", "description": "Nous planifions les bons canaux de médias extérieurs en fonction de votre public cible, emplacement et objectifs de campagne." },
+        { "title": "Sélection d'emplacements axée sur la visibilité", "description": "Nous priorisons les zones à fort trafic piéton et véhicule pour maximiser la visibilité de votre marque." },
+        { "title": "Gestion centralisée du processus", "description": "Nous centralisons la planification, la sélection des médias, le suivi d'exécution et la gestion de campagne." },
+        { "title": "Solutions numériques et traditionnelles", "description": "Nous évaluons ensemble les panneaux, arrêts de bus, lightbox, écrans numériques et DOOH pour des plans média plus performants." }
+      ]
+    },
+    "locations": {
+      "title": "Nos emplacements",
+      "description": "Espaces publicitaires extérieurs aux points les plus stratégiques de Turquie.",
+      "cta": "Voir tous les emplacements",
+      "mapLabel": "Zone de couverture en Turquie",
+      "totalLabel": "Espaces publicitaires totaux",
+      "unit": "espaces",
+      "altSuffix": "espaces publicitaires"
+    },
+    "howItWorks": {
+      "title": "Comment ça marche ?",
+      "steps": [
+        { "title": "Comprendre vos besoins", "description": "Nous évaluons ensemble les objectifs, le budget et le public cible de votre marque." },
+        { "title": "Créer le bon plan", "description": "Nous préparons des recommandations de format, d'emplacement et de calendrier." },
+        { "title": "Lancement", "description": "Après approbation, nous donnons vie rapidement à votre campagne." }
+      ]
+    },
+    "references": {
+      "title": "Des marques leaders nous font confiance",
+      "subtitle": "Les marques leaders de l'industrie nous font confiance pour leur publicité extérieure."
+    },
+    "blog": {
+      "title": "Guide de la publicité extérieure",
+      "description": "Les sujets clés à connaître pour choisir le bon média pour votre marque.",
+      "cta": "Voir tous les articles",
+      "readTime": "min de lecture",
+      "readMore": "Lire la suite",
+      "posts": {
+        "oohTitle": "Qu'est-ce que la publicité extérieure ?",
+        "oohExcerpt": "La publicité extérieure est un puissant canal de visibilité qui connecte les marques avec leur public dans le monde physique via panneaux, arrêts de bus, écrans numériques et espaces médias urbains.",
+        "oohCategory": "Publicité extérieure",
+        "billboardTitle": "Que rapporte la publicité sur panneaux aux marques ?",
+        "billboardExcerpt": "La publicité sur panneaux augmente la notoriété de marque en offrant une visibilité continue dans les zones à fort trafic. Avec le bon emplacement, votre message atteint de larges audiences tout au long de la journée.",
+        "billboardCategory": "Panneaux d'affichage",
+        "doohTitle": "Pourquoi la publicité DOOH et écrans numériques est-elle importante ?",
+        "doohExcerpt": "La publicité extérieure numérique offre une alternative plus dynamique aux médias OOH traditionnels grâce au contenu animé, à la diffusion programmée et à l'utilisation captivante des écrans.",
+        "doohCategory": "DOOH",
+        "selectionTitle": "Comment choisir le bon espace publicitaire ?",
+        "selectionExcerpt": "Pour une campagne extérieure efficace, il ne suffit pas de choisir le type de média ; l'emplacement, le public cible, la densité du trafic, l'angle de visibilité et la durée doivent être évalués ensemble.",
+        "selectionCategory": "Planification média"
+      }
+    },
+    "adPreview": {
+      "title": "Visualisez votre publicité avant diffusion",
+      "description": "Prévisualisez votre logo ou visuel sur différents formats de médias extérieurs instantanément.",
+      "cta": "Ouvrir le studio de prévisualisation"
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        { "question": "Comment fonctionne le processus de location ?", "answer": "Nous déterminons ensemble le bon emplacement et le bon format, préparons une proposition et lançons votre campagne après approbation." },
+        { "question": "Quels formats proposez-vous ?", "answer": "Panneaux d'affichage, écrans numériques (DOOH), publicités métro, panneaux d'arrêts de bus, lightbox et bannières sur poteaux." },
+        { "question": "Quelle est la durée minimale ?", "answer": "Bien que cela varie, nous travaillons généralement par périodes minimales de 2 semaines." },
+        { "question": "Comment obtenir un devis ?", "answer": "Remplissez le formulaire sur notre page de contact ou envoyez-nous un e-mail. Nous vous répondrons rapidement." }
+      ]
+    },
+    "finalCta": {
+      "title": "Atteignez des millions avec votre marque",
+      "description": "Augmentez la visibilité de votre marque grâce à la bonne stratégie de publicité extérieure.",
+      "button": "Obtenir un devis maintenant"
+    }
+  },
+  "services": {
+    "billboard": { "title": "Panneaux d'affichage", "shortDescription": "Grands formats aux points les plus visibles de la ville." },
+    "dijital-ekran": { "title": "Écrans numériques / DOOH", "shortDescription": "Solutions publicitaires dynamiques et programmatiques avec écrans LED." },
+    "metro-reklam": { "title": "Publicité métro / métrobus", "shortDescription": "Portée haute fréquence en stations de métro et lignes de métrobus." },
+    "raket-reklam": { "title": "Publicité arrêts de bus", "shortDescription": "Touchez le trafic piéton avec les panneaux d'arrêts de bus et bord de route." },
+    "lightbox": { "title": "Publicité Lightbox", "shortDescription": "Visibilité 24h/24 avec panneaux vitrines rétroéclairés." },
+    "pole-banner": { "title": "Bannières sur poteaux", "shortDescription": "Visibilité en série sur les avenues principales avec bannières sur poteaux." }
+  },
+  "serviceDetail": {
+    "benefitsTitle": "Ce que ce format offre",
+    "useCasesTitle": "Pour qui est-ce adapté ?",
+    "processTitle": "Comment nous planifions",
+    "relatedTitle": "Services associés",
+    "faqTitle": "Questions fréquentes",
+    "billboard": {
+      "benefits": ["Portée haute fréquence vers de larges audiences", "Visibilité ininterrompue 24h/24", "Croissance rapide de la notoriété", "Positionnement aux points les plus fréquentés"],
+      "useCases": ["Lancements de produits/services", "Campagnes de notoriété de marque", "Annonces d'événements", "Stimulation du trafic retail"],
+      "process": ["Le public cible et les objectifs sont définis", "L'emplacement est recommandé selon les données de trafic", "Le processus de conception et production est géré", "L'espace est surveillé pendant la campagne"],
+      "faq": [
+        { "question": "Quelle est la durée de location ?", "answer": "Minimum 2 semaines en général, avec des durées flexibles selon vos objectifs." },
+        { "question": "Proposez-vous la conception ?", "answer": "Nous pouvons offrir un soutien créatif ou adapter votre design existant au format approprié." }
+      ]
+    },
+    "metro-reklam": {
+      "benefits": ["Accès au trafic quotidien élevé de passagers", "Captation d'attention pendant l'attente", "Planification ciblée par emplacement", "Renforcement des messages par visibilité répétée"],
+      "useCases": ["Campagnes urbaines", "Promotions d'applications et produits numériques", "Publicité pour l'éducation", "Directions vers les magasins"],
+      "process": ["Le ciblage par station et ligne est effectué", "Le profil passager et la densité sont analysés", "Le format est sélectionné", "L'implémentation et le suivi sont assurés"],
+      "faq": [
+        { "question": "Quelles lignes ont des espaces disponibles ?", "answer": "Nous proposons des espaces dans les grandes villes, principalement Istanbul. Contactez-nous pour les détails." },
+        { "question": "Quelle est la différence entre raket et CLP ?", "answer": "Les raket sont des panneaux compacts près des arrêts. Les CLP sont des panneaux vitrines rétroéclairés plus grands." }
+      ]
+    },
+    "dijital-ekran": {
+      "benefits": ["Affichage de contenu dynamique et captivant", "Programmation flexible par jour/heure", "Rotation de plusieurs marques/messages", "Mise à jour instantanée des campagnes"],
+      "useCases": ["Campagnes à contenu dynamique", "Offres et promotions temporelles", "Rotation multi-produits", "Stratégies DOOH programmatiques"],
+      "process": ["L'emplacement et la taille de l'écran sont déterminés", "Le format de contenu et le plan de diffusion sont créés", "La production créative numérique est réalisée", "La diffusion démarre et la performance est suivie"],
+      "faq": [
+        { "question": "Peut-on utiliser de la vidéo ?", "answer": "Oui, la plupart des écrans numériques supportent vidéo, animation et visuels statiques." },
+        { "question": "Qu'est-ce que le DOOH programmatique ?", "answer": "C'est la gestion des espaces numériques extérieurs via des systèmes d'achat automatisés pour une publicité ciblée." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["Visibilité éclairée 24h/24 y compris la nuit", "Impact dans les zones piétonnes fréquentées", "Perception premium en format compact", "Adapté aux campagnes longue durée"],
+      "useCases": ["Campagnes de marques premium", "Publicité en centres commerciaux", "Directions vers les magasins", "Campagnes de lancement et saisonnières"],
+      "process": ["Le trafic piéton et les angles de visibilité sont évalués", "La taille et la position du panneau sont déterminées", "L'impression et l'installation sont gérées", "L'éclairage et la maintenance sont suivis"],
+      "faq": [
+        { "question": "Combien de temps le lightbox est-il éclairé ?", "answer": "Généralement éclairé automatiquement du coucher au lever du soleil." },
+        { "question": "CLP et lightbox sont-ils identiques ?", "answer": "Le CLP est un sous-type de lightbox. Les deux sont rétroéclairés mais diffèrent en taille et placement." }
+      ]
+    },
+    "pole-banner": {
+      "benefits": ["Répétition en série sur les artères principales", "Impact sur les routes à fort trafic véhicule", "Rapport coût/fréquence avantageux", "Annonces d'événements régionaux"],
+      "useCases": ["Événements municipaux et publics", "Annonces de festivals", "Ouvertures de magasins régionaux", "Campagnes de visibilité en série"],
+      "process": ["L'itinéraire et le nombre de poteaux sont planifiés", "Les autorisations municipales sont gérées", "La production et l'installation sont effectuées", "Le contrôle est maintenu pendant la campagne"],
+      "faq": [
+        { "question": "Quelles rues ont des disponibilités ?", "answer": "Les artères principales des grandes villes sont disponibles. Nous recommandons des itinéraires adaptés à vos objectifs." },
+        { "question": "Combien de temps prend l'autorisation ?", "answer": "Les processus municipaux prennent généralement 1 à 2 semaines. Nous gérons cela pour vous." }
+      ]
+    },
+    "raket-reklam": {
+      "benefits": ["Communication de proximité avec les piétons", "Accès aux utilisateurs des transports en commun", "Large couverture en centre-ville", "Captation d'attention pendant les temps d'attente"],
+      "useCases": ["Publicité pour commerces locaux", "Campagnes de téléchargement d'apps", "Promotions du secteur des services", "Publicité pour universités et éducation"],
+      "process": ["La zone cible et la densité des arrêts sont analysées", "Le format est sélectionné", "La production d'impression et l'installation sont coordonnées", "Le suivi est assuré pendant la campagne"],
+      "faq": [
+        { "question": "Sur combien d'arrêts peut-on faire de la publicité ?", "answer": "Selon votre budget et zone cible, nous planifions d'un seul arrêt à des centaines." },
+        { "question": "Les panneaux sont-ils protégés contre le vandalisme ?", "answer": "La plupart des panneaux modernes sont en matériaux résistants. La maintenance est assurée en cas de dommage." }
+      ]
+    }
+  },
+  "locations": {
+    "title": "Nos emplacements publicitaires",
+    "description": "Espaces stratégiques dans les zones à fort trafic.",
+    "cta": "Demander un devis",
+    "unit": "espaces",
+    "altSuffix": "espaces publicitaires"
+  },
+  "about": {
+    "title": "À propos",
+    "subtitle": "Votre partenaire de confiance en publicité extérieure.",
+    "description": "Chez ThaB Media, nous aidons les marques à se connecter avec leurs publics cibles au bon moment, au bon endroit et avec le bon format. Nous fournissons des services professionnels en planification média, location d'espaces et gestion de campagne.",
+    "values": {
+      "title": "Nos valeurs",
+      "items": [
+        { "title": "Fiabilité", "description": "Communication transparente et livraison dans les délais." },
+        { "title": "Innovation", "description": "Solutions intégrant médias numériques et traditionnels." },
+        { "title": "Orientation client", "description": "Stratégie sur mesure et approche personnalisée pour chaque projet." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous pour vos projets.",
+    "info": {
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "address": "Adresse"
+    },
+    "form": {
+      "name": { "label": "Nom complet", "placeholder": "Votre nom complet" },
+      "company": { "label": "Entreprise", "placeholder": "Nom de votre entreprise (optionnel)" },
+      "phone": { "label": "Téléphone", "placeholder": "+90 5xx xxx xx xx" },
+      "email": { "label": "E-mail", "placeholder": "exemple@entreprise.com" },
+      "service": { "label": "Service souhaité", "placeholder": "Sélectionnez un service" },
+      "message": { "label": "Message", "placeholder": "Écrivez votre message..." },
+      "consent": { "label": "J'ai lu et accepté la Politique de confidentialité." },
+      "submit": "Envoyer le message",
+      "success": "Votre message a été envoyé avec succès. Nous vous répondrons rapidement.",
+      "error": "Une erreur est survenue. Veuillez réessayer plus tard.",
+      "mailtoNotice": "Votre demande sera envoyée par e-mail."
+    }
+  },
+  "blogArticles": {
+    "backToList": "← Tous les articles",
+    "relatedTitle": "Articles connexes",
+    "ctaTitle": "Choisissons ensemble le bon média pour votre marque",
+    "acik-hava-reklamciligi-nedir": {
+      "body": [
+        "La publicité extérieure (OOH - Out of Home) englobe tous les supports publicitaires permettant aux marques d'atteindre leur public cible en dehors des espaces clos, dans le monde physique. Les panneaux d'affichage, les abribus, les écrans numériques, les lightbox, l'habillage de bus et de nombreux autres formats entrent dans ce périmètre.",
+        "À une époque où la publicité numérique connaît une croissance rapide, l'importance des médias extérieurs augmente plutôt qu'elle ne diminue. La raison fondamentale est que l'interaction des consommateurs avec les espaces physiques dans leur vie quotidienne est inévitable.",
+        "L'un des aspects les plus puissants de la publicité extérieure est qu'elle ne peut pas être bloquée. Dans l'environnement numérique, un bloqueur de publicités peut être utilisé ou une annonce peut être ignorée ; cependant, il est beaucoup plus difficile d'ignorer un panneau d'affichage ou un abribus dans la ville.",
+        "La publicité extérieure moderne ne se limite pas aux panneaux statiques traditionnels. Grâce aux écrans numériques, le contenu dynamique, les campagnes basées sur le temps et les modèles d'achat programmatique sont entrés dans cet espace.",
+        "Les principaux avantages des médias extérieurs comprennent : une portée large et répétée, une haute visibilité, une capacité rapide de construction de notoriété de marque, un ciblage basé sur la localisation et une communication ininterrompue 24h/24.",
+        "Avec une bonne planification média, la publicité extérieure joue un rôle essentiel dans les stratégies médias des marques en tant que canal qui complète et renforce les campagnes numériques."
+      ]
+    },
+    "billboard-reklami-markalara-ne-kazandirir": {
+      "body": [
+        "La publicité sur panneaux d'affichage est l'un des formats les plus connus et les plus efficaces de la publicité extérieure. Positionnés aux carrefours les plus fréquentés, en bord d'autoroute et dans les zones à fort trafic, les panneaux offrent aux marques un avantage de visibilité unique.",
+        "L'avantage le plus important des panneaux pour les marques est la visibilité continue et répétée. Une publicité numérique s'affiche quelques secondes puis disparaît ; un panneau d'affichage atteint son public cible avec le même message, au même endroit, chaque jour pendant toute la durée de la campagne.",
+        "Le choix de l'emplacement est le facteur déterminant du succès d'une campagne d'affichage. Un panneau au bon emplacement peut toucher des dizaines de milliers de personnes par jour. La densité du trafic, l'angle de visibilité, les facteurs environnementaux et le profil du public cible doivent être évalués.",
+        "La publicité sur panneaux est particulièrement efficace pour : les lancements de nouveaux produits ou services, les campagnes de notoriété de marque, les annonces d'événements, l'augmentation du trafic en magasin et la construction d'image institutionnelle.",
+        "Avec la multiplication des panneaux numériques, le contenu dynamique et les capacités de diffusion temporisée se sont ajoutés aux avantages traditionnels. Des campagnes dynamiques comme l'affichage de messages différents jour et nuit sont devenues possibles.",
+        "Pour une campagne d'affichage efficace, un message clair et court, des visuels percutants, une typographie lisible et un choix stratégique d'emplacement doivent être considérés ensemble."
+      ]
+    },
+    "dooh-dijital-ekran-reklamciligi": {
+      "body": [
+        "Le DOOH (Digital Out of Home) est un modèle de publicité extérieure diffusé via des écrans numériques. Par rapport aux panneaux statiques traditionnels, il offre des avantages tels que l'affichage de contenu dynamique, la planification flexible et l'achat programmatique.",
+        "L'essor de la publicité sur écrans numériques est directement proportionnel au développement technologique. La baisse du coût des écrans LED, le renforcement des infrastructures logicielles et la connectivité Internet généralisée ont rendu le DOOH plus accessible et mesurable.",
+        "Les principaux avantages du DOOH par rapport à l'OOH traditionnel : affichage de contenu dynamique et captivant, planification flexible par jour/heure, possibilité pour plusieurs annonceurs de partager le même écran, modifications instantanées de campagne et collecte de données de performance.",
+        "Le DOOH programmatique permet de gérer les espaces d'écrans numériques via des plateformes d'achat automatisées. Cela permet des campagnes optimisées basées sur les données d'audience, de localisation et les créneaux horaires.",
+        "Les écrans numériques sont positionnés dans les points à fort trafic : centres commerciaux, stations de métro, aéroports, bords de route et véhicules de transport en commun. Chaque emplacement a un profil d'audience et une durée d'interaction différents.",
+        "Points clés pour les marques développant une stratégie DOOH : les itinéraires quotidiens du public cible, la conception créative adaptée à la taille et à la position de l'écran, la longueur du contenu compatible avec le temps de lecture, et la planification de diffusion alignée sur les objectifs de campagne."
+      ]
+    },
+    "dogru-reklam-alani-nasil-secilir": {
+      "body": [
+        "La première étape, et la plus critique, pour mener une campagne de publicité extérieure efficace est de choisir le bon espace publicitaire. Au-delà du type de média, l'emplacement, le public cible, la densité du trafic et les objectifs de campagne façonnent cette décision.",
+        "Les critères fondamentaux à évaluer dans la sélection d'un espace publicitaire : trafic piéton et véhiculaire quotidien, angle et distance de visibilité, situation concurrentielle environnante, alignement du profil du public cible avec l'emplacement, et équilibre budget-impact.",
+        "Chaque format extérieur sert un objectif de communication différent. Les panneaux d'affichage sont idéaux pour toucher un large public ; les abribus et arrêts offrent une communication de proximité avec les piétons ; les écrans numériques conviennent aux messages dynamiques ; les lightbox offrent une visibilité nocturne.",
+        "Erreurs courantes dans le choix d'emplacement : se concentrer uniquement sur le prix, ne pas évaluer l'angle de visibilité, ignorer les obstacles environnementaux (arbres, bâtiments, autres enseignes) et ne pas vérifier l'alignement entre public cible et emplacement.",
+        "Un accompagnement professionnel en planification média offre un avantage significatif. Grâce aux données de trafic, aux analyses démographiques et à l'expérience accumulée, l'objectif est d'utiliser le budget de campagne le plus efficacement possible.",
+        "En conclusion, choisir le bon espace publicitaire est un processus stratégique qui ne cherche pas seulement à répondre à 'où' mais aussi à 'qui', 'quand', 'dans quel format' et 'avec quel message'."
+      ]
+    }
+  },
+  "footer": {
+    "description": "Solutions professionnelles en publicité extérieure et planification média. Connectant votre marque à des millions sur plus de 250 emplacements en Turquie.",
+    "navTitle": "Pages",
+    "servicesTitle": "Nos services",
+    "contactTitle": "Contact",
+    "email": "info@thabmedia.com.tr",
+    "address": "Istanbul, Turquie",
+    "copyright": "© 2026 ThaB Media. Tous droits réservés.",
+    "kvkk": "Protection des données",
+    "privacy": "Politique de confidentialité",
+    "cookies": "Politique de cookies"
+  },
+  "meta": {
+    "siteTitle": "ThaB Media | Publicité extérieure et planification média",
+    "siteDescription": "Location d'espaces publicitaires, planification et achat média. Panneaux, écrans numériques, arrêts de bus et plus.",
+    "servicesTitle": "Services | ThaB Media",
+    "servicesDescription": "Solutions en panneaux d'affichage, écrans numériques, métro et autres formats publicitaires extérieurs.",
+    "locationsTitle": "Emplacements | ThaB Media",
+    "locationsDescription": "Espaces publicitaires aux points les plus stratégiques de Turquie.",
+    "aboutTitle": "À propos | ThaB Media",
+    "aboutDescription": "À propos de ThaB Media. Votre partenaire de confiance en publicité extérieure.",
+    "contactTitle": "Contact | ThaB Media",
+    "contactDescription": "Contactez ThaB Media. Obtenez un devis pour votre projet publicitaire extérieur."
+  },
+  "adPreviewPage": {
+    "meta": {
+      "title": "Studio de prévisualisation publicitaire",
+      "description": "Prévisualisez l'apparence de votre marque sur les formats publicitaires extérieurs. Panneaux, abribus, écrans numériques et plus."
+    },
+    "title": "Studio de prévisualisation",
+    "description": "Téléchargez votre logo ou visuel et découvrez instantanément son rendu sur différents formats de publicité extérieure.",
+    "selectFormat": "Choisir le format",
+    "uploadImage": "Télécharger une image",
+    "resetImage": "Réinitialiser",
+    "placeholder": "Votre marque ici",
+    "privacyNote": "Votre image est utilisée uniquement pour la prévisualisation dans votre navigateur — elle n'est jamais envoyée à un serveur.",
+    "cta": "Obtenir un devis pour ce format",
+    "formats": {
+      "billboard": "Panneau d'affichage",
+      "busStop": "Abribus",
+      "digitalScreen": "Écran numérique",
+      "busBack": "Arrière de bus",
+      "lightbox": "Lightbox"
+    },
+    "formatDescriptions": {
+      "billboard": "Grand panneau publicitaire en bord de route. Visibilité 24h/24 dans les zones à fort trafic.",
+      "busStop": "Panneau vertical à l'abribus. Atteint les piétons et les usagers des transports.",
+      "digitalScreen": "Écran LED numérique. Idéal pour le contenu animé et les campagnes dynamiques.",
+      "busBack": "Publicité à l'arrière du bus. Visibilité mobile dans la circulation urbaine.",
+      "lightbox": "Panneau vitrine rétroéclairé. Visibilité premium 24h/24 y compris la nuit."
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Contacter via WhatsApp"
+  }
+}

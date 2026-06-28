@@ -1,0 +1,353 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "services": "Services",
+      "locations": "Locations",
+      "references": "References",
+      "about": "About",
+      "blog": "Blog",
+      "adPreview": "Ad Preview",
+      "contact": "Contact"
+    },
+    "cta": {
+      "getQuote": "Get a Quote",
+      "contactUs": "Contact Us",
+      "viewDetails": "View Details",
+      "learnMore": "Learn More",
+      "viewAll": "View All",
+      "sendMessage": "Send Message",
+      "exploreServices": "Explore Services",
+      "readMore": "Read More"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Your Professional Partner in Outdoor Advertising",
+      "subtitle": "We connect your brand with millions at the most strategic locations in the city. Media planning, space rental, and campaign management — all in one place.",
+      "ctaPrimary": "Get a Free Quote",
+      "ctaSecondary": "Explore Our Services",
+      "badge": "250+ Ad Spaces Across Turkey",
+      "altText": "Outdoor advertising space",
+      "labels": {
+        "billboard": "Billboard",
+        "billboardSub": "12×4m Mega Panel",
+        "digitalScreen": "Digital Screen",
+        "metrobus": "Metrobus Panel",
+        "lightbox": "Lightbox",
+        "busStop": "Bus Stop"
+      }
+    },
+    "stats": {
+      "experience": { "value": "10+", "label": "Years of Experience" },
+      "locations": { "value": "250+", "label": "Ad Spaces" },
+      "clients": { "value": "40+", "label": "Brand Partners" },
+      "reach": { "value": "1M+", "label": "Monthly Reach" }
+    },
+    "services": {
+      "title": "Our Services",
+      "description": "We offer the most effective outdoor advertising solutions for your brand across all formats and locations."
+    },
+    "marquee": {
+      "title": "Where Your Brand Will Be Seen",
+      "description": "From billboards to digital screens, bus stops to vehicle wraps — your brand across the entire city.",
+      "cards": [
+        { "title": "Billboard", "label": "Mega Panel • City Entrances" },
+        { "title": "Metrobus Panel", "label": "Public Transit Lines" },
+        { "title": "Digital Screen", "label": "LED / DOOH • Programmatic" },
+        { "title": "Lightbox Panel", "label": "Malls & Streets • 24/7" },
+        { "title": "Pole Banners", "label": "Main Roads • Serial Impact" },
+        { "title": "Bus Stop Ads", "label": "Pedestrian Traffic • Urban" },
+        { "title": "Bus Wrapping", "label": "Full Wrap • Mobile Impact" },
+        { "title": "Totem Ads", "label": "Shopping Areas" }
+      ],
+      "altSuffix": "advertising space"
+    },
+    "gallery": {
+      "title": "Advertising Formats",
+      "description": "High-visibility outdoor media in the format that best suits your brand."
+    },
+    "whyUs": {
+      "title": "Why ThaB Media?",
+      "subtitle": "We manage media selection, planning, and execution for outdoor advertising from a single point of contact.",
+      "items": [
+        { "title": "Strategic Media Planning", "description": "We plan the right outdoor media channels based on your brand's target audience, location, and campaign goals." },
+        { "title": "Visibility-Focused Location Selection", "description": "We prioritize high pedestrian and vehicle traffic areas that maximize your brand visibility." },
+        { "title": "Single-Point Process Management", "description": "We centralize planning, media selection, execution tracking, and campaign management into one streamlined process." },
+        { "title": "Digital and Traditional OOH Solutions", "description": "We evaluate billboard, bus stop, lightbox, digital screen, and DOOH spaces together to build stronger media plans." }
+      ]
+    },
+    "locations": {
+      "title": "Our Advertising Locations",
+      "description": "Outdoor advertising spaces at the most strategic points across Turkey.",
+      "cta": "View All Locations",
+      "mapLabel": "Coverage Area Across Turkey",
+      "totalLabel": "Total Ad Spaces",
+      "unit": "spaces",
+      "altSuffix": "advertising spaces"
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": [
+        { "title": "Understand Your Needs", "description": "We evaluate your brand's goals, budget, and target audience together." },
+        { "title": "Create the Right Media Plan", "description": "We prepare format, location, and timing recommendations for you." },
+        { "title": "Go Live", "description": "After approval, we quickly bring your campaign to life." }
+      ]
+    },
+    "references": {
+      "title": "Trusted by Leading Brands",
+      "subtitle": "Industry-leading brands trust us for their outdoor advertising."
+    },
+    "blog": {
+      "title": "Outdoor Advertising Guide",
+      "description": "Key topics to know when choosing the right media for your brand.",
+      "cta": "View All Articles",
+      "readTime": "min read",
+      "readMore": "Read More",
+      "posts": {
+        "oohTitle": "What is Outdoor Advertising?",
+        "oohExcerpt": "Outdoor advertising is a powerful visibility channel that connects brands with their audiences in the physical world through billboards, bus stops, digital screens, lightboxes, and urban media spaces.",
+        "oohCategory": "Outdoor Advertising",
+        "billboardTitle": "What Does Billboard Advertising Offer Brands?",
+        "billboardExcerpt": "Billboard advertising increases brand awareness by providing continuous visibility in high-traffic areas. With the right location, your campaign message reaches wide audiences repeatedly throughout the day.",
+        "billboardCategory": "Billboard",
+        "doohTitle": "Why is DOOH and Digital Screen Advertising Important?",
+        "doohExcerpt": "Digital outdoor advertising offers a more dynamic alternative to traditional OOH media through motion content, time-based scheduling, and attention-grabbing screen usage.",
+        "doohCategory": "DOOH",
+        "selectionTitle": "How to Choose the Right Advertising Space?",
+        "selectionExcerpt": "For an effective outdoor campaign, not just the media type but also location, target audience, traffic density, visibility angle, and campaign duration must be evaluated together.",
+        "selectionCategory": "Media Planning"
+      }
+    },
+    "adPreview": {
+      "title": "See Your Ad Before It Goes Live",
+      "description": "Preview your logo or creative on different outdoor media formats instantly.",
+      "cta": "Open Preview Studio"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        { "question": "How does the outdoor ad space rental process work?", "answer": "We determine the right location and format together, prepare a proposal, and launch your campaign after approval." },
+        { "question": "What advertising formats do you offer?", "answer": "We offer a wide range including billboards, digital screens (DOOH), metro ads, bus stop panels, lightboxes, and pole banners." },
+        { "question": "What is the minimum rental period?", "answer": "While it varies by format and location, we typically work in minimum 2-week periods." },
+        { "question": "How can I get a quote?", "answer": "You can fill out the form on our contact page or email us directly. We'll get back to you as soon as possible." }
+      ]
+    },
+    "finalCta": {
+      "title": "Reach Millions with Your Brand",
+      "description": "Increase your brand's visibility with the right outdoor advertising strategy.",
+      "button": "Get a Quote Now"
+    }
+  },
+  "services": {
+    "billboard": { "title": "Billboard Advertising", "shortDescription": "Large format outdoor panels at the most visible points in the city." },
+    "dijital-ekran": { "title": "Digital Screens / DOOH", "shortDescription": "Dynamic, programmatic advertising solutions with LED screens and digital totems." },
+    "metro-reklam": { "title": "Metro / Metrobus Advertising", "shortDescription": "High-frequency reach with metro stations and metrobus lines." },
+    "raket-reklam": { "title": "Bus Stop Advertising", "shortDescription": "Reach pedestrian traffic with bus stop and roadside panels." },
+    "lightbox": { "title": "Lightbox Advertising", "shortDescription": "24/7 visibility with backlit showcase-style panels." },
+    "pole-banner": { "title": "Pole Banners", "shortDescription": "Serial visibility on main streets and boulevards with pole-mounted banners." }
+  },
+  "serviceDetail": {
+    "benefitsTitle": "What This Format Provides",
+    "useCasesTitle": "Who Is It For?",
+    "processTitle": "How We Plan It",
+    "relatedTitle": "Related Services",
+    "faqTitle": "Frequently Asked Questions",
+    "billboard": {
+      "benefits": ["High-frequency reach to wide audiences", "24/7 uninterrupted visibility", "Rapid brand awareness growth", "Positioning at the busiest city points"],
+      "useCases": ["New product/service launches", "Brand awareness campaigns", "Event and organization announcements", "Retail and mall traffic boosting"],
+      "process": ["Target audience and campaign goals are defined", "Location is recommended based on traffic data", "Design and production process is managed", "Ad space is monitored throughout the campaign"],
+      "faq": [
+        { "question": "How long is the billboard rental period?", "answer": "Typically a minimum of 2 weeks, with flexible durations based on your campaign goals." },
+        { "question": "Do you provide billboard design?", "answer": "We can offer design support or adapt your existing design to the appropriate format." }
+      ]
+    },
+    "metro-reklam": {
+      "benefits": ["Access to high daily passenger traffic", "Capturing attention during wait times", "Location-based targeted planning", "Reinforcing messages through repeated visibility"],
+      "useCases": ["Urban campaigns", "App and digital product promotions", "Education and course advertising", "Retail store directions"],
+      "process": ["Station and line-based targeting is done", "Passenger profile and density are analyzed", "Format selection (raket, CLP, digital) is determined", "Implementation and campaign tracking is provided"],
+      "faq": [
+        { "question": "Which metro/metrobus lines have available spaces?", "answer": "We provide spaces on metro and metrobus lines in major cities, primarily Istanbul. Contact us for details." },
+        { "question": "What's the difference between raket and CLP?", "answer": "Raket panels are smaller format bus stop-side panels. CLP are larger, backlit showcase-style panels." }
+      ]
+    },
+    "dijital-ekran": {
+      "benefits": ["Dynamic and attention-grabbing content display", "Flexible scheduling by day/hour", "Multiple brand/message rotation", "Instant campaign update capability"],
+      "useCases": ["Dynamic content campaigns", "Time-based offers and promotions", "Multi-product/message rotation", "Programmatic outdoor strategies"],
+      "process": ["Screen location and size are determined", "Content format and broadcast plan are created", "Digital creative production/adaptation is done", "Broadcasting starts and performance is tracked"],
+      "faq": [
+        { "question": "Can video content be used on digital screens?", "answer": "Yes, most digital screens support video, animation, and static visuals. Technical details vary by screen." },
+        { "question": "What is programmatic DOOH?", "answer": "It's managing digital outdoor spaces through automated buying systems for targeted and timed advertising." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["24/7 illuminated visibility including nights", "Impact in high pedestrian traffic streets and malls", "Premium brand perception in compact format", "Suitable for long-term campaigns"],
+      "useCases": ["Luxury and premium brand campaigns", "Mall and shopping area advertising", "Street store directions", "Launch and seasonal campaigns"],
+      "process": ["Pedestrian traffic and visibility angles are evaluated", "Panel size and position are determined", "Print and installation process is managed", "Lighting and maintenance tracking is provided"],
+      "faq": [
+        { "question": "How long is the lightbox illuminated?", "answer": "Generally illuminated automatically from sunset to sunrise for nighttime visibility." },
+        { "question": "Are CLP and lightbox the same thing?", "answer": "CLP (City Light Poster) is a subtype of lightbox. Both are backlit panels but may differ in size and placement." }
+      ]
+    },
+    "pole-banner": {
+      "benefits": ["Serial repetition on main streets and boulevards", "Impact on high vehicle traffic routes", "Low cost / high frequency ratio", "Regional event and campaign announcements"],
+      "useCases": ["Municipal and public events", "Festival and organization announcements", "Regional store/mall openings", "Serial brand visibility campaigns"],
+      "process": ["Route and pole count are planned", "Permit and municipality processes are managed", "Banner production and installation is done", "Area control is maintained during campaign"],
+      "faq": [
+        { "question": "Which streets have pole banner availability?", "answer": "Main arteries and boulevards of major cities have availability. We recommend suitable routes based on your campaign goals." },
+        { "question": "How long does the pole banner permit process take?", "answer": "Municipality permit processes typically take 1-2 weeks depending on the city. We manage this on your behalf." }
+      ]
+    },
+    "raket-reklam": {
+      "benefits": ["Close-range communication with pedestrian traffic", "Access to public transport users", "Wide city-center coverage network", "Capturing attention during long wait times"],
+      "useCases": ["Local business and store advertising", "Mobile app download campaigns", "Service sector promotions", "University and education advertising"],
+      "process": ["Target area and stop density are analyzed", "Format selection (raket, CLP, mini billboard) is made", "Print production and installation are coordinated", "Status tracking is maintained throughout campaign"],
+      "faq": [
+        { "question": "How many stops can I advertise on?", "answer": "Based on your campaign budget and target area, we can plan from a single stop to hundreds." },
+        { "question": "Are bus stop ads protected against vandalism?", "answer": "Most modern raket and CLP panels are made of durable materials. Maintenance is handled in case of damage." }
+      ]
+    }
+  },
+  "locations": {
+    "title": "Our Advertising Locations",
+    "description": "Strategic advertising spaces in high-traffic areas.",
+    "cta": "Request a Quote",
+    "unit": "spaces",
+    "altSuffix": "advertising spaces"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your trusted partner in outdoor advertising.",
+    "description": "At ThaB Media, we help brands connect with their target audiences at the right time, right place, and right format. We provide professional services in media planning, space rental, and campaign management.",
+    "values": {
+      "title": "Our Values",
+      "items": [
+        { "title": "Reliability", "description": "Transparent communication and timely delivery." },
+        { "title": "Innovation", "description": "Solutions that integrate digital and traditional media." },
+        { "title": "Customer Focus", "description": "Custom strategy and personalized approach for every project." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us for your projects.",
+    "info": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address"
+    },
+    "form": {
+      "name": { "label": "Full Name", "placeholder": "Your full name" },
+      "company": { "label": "Company", "placeholder": "Your company name (optional)" },
+      "phone": { "label": "Phone", "placeholder": "+90 5xx xxx xx xx" },
+      "email": { "label": "Email", "placeholder": "example@company.com" },
+      "service": { "label": "Service of Interest", "placeholder": "Select a service" },
+      "message": { "label": "Message", "placeholder": "Write your message..." },
+      "consent": { "label": "I have read and agree to the Privacy Policy." },
+      "submit": "Send Message",
+      "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
+      "error": "An error occurred. Please try again later.",
+      "mailtoNotice": "Your request will be sent via email."
+    }
+  },
+  "blogArticles": {
+    "backToList": "← All Articles",
+    "relatedTitle": "Related Articles",
+    "ctaTitle": "Let's choose the right media for your brand together",
+    "acik-hava-reklamciligi-nedir": {
+      "body": [
+        "Outdoor advertising (OOH - Out of Home) encompasses all advertising media that allow brands to reach their target audiences outside of enclosed spaces, in the physical world. Billboards, bus shelters, digital screens, lightboxes, bus wraps, and many other formats fall within this scope.",
+        "In an era where digital advertising is growing rapidly, the importance of outdoor media is increasing rather than diminishing. The fundamental reason is that consumer interaction with physical spaces in their daily lives is unavoidable. People constantly encounter outdoor media while commuting, shopping, or engaging in social activities.",
+        "One of the strongest aspects of outdoor advertising is that it cannot be blocked. In the digital environment, an ad blocker can be used or an ad can be skipped; however, it is much harder to ignore a billboard or bus shelter panel in the city.",
+        "Modern outdoor advertising is not limited to traditional static panels. Thanks to digital screens, dynamic content, time-based campaigns, and programmatic buying models have also entered this space. These developments make outdoor advertising a more measurable and flexible channel.",
+        "The key advantages of outdoor media include: broad and repeated audience reach, high visibility, rapid brand awareness building capacity, location-based targeting capability, and 24/7 uninterrupted communication.",
+        "With proper media planning, outdoor advertising plays a critical role in brands' media strategies as a channel that complements and strengthens digital campaigns."
+      ]
+    },
+    "billboard-reklami-markalara-ne-kazandirir": {
+      "body": [
+        "Billboard advertising is one of the most well-known and effective formats of outdoor advertising. Positioned at the busiest intersections, highway sides, and high-traffic areas of cities, billboards offer brands a unique visibility advantage.",
+        "The most important benefit billboards provide to brands is continuous and repeated visibility. A digital ad is displayed for a few seconds and passes; however, a billboard reaches its target audience with the same message, in the same location, every day throughout the campaign period. This repetition strengthens brand awareness.",
+        "Location selection is the determining factor in billboard campaign success. A billboard in the right location can reach tens of thousands of people daily. Traffic density, visibility angle, environmental factors, and target audience profile are elements that must be evaluated in location decisions.",
+        "Billboard advertising is particularly effective for: new product or service launches, brand awareness campaigns, event announcements, increasing retail traffic, and corporate image building.",
+        "With the proliferation of digital billboards, dynamic content and time-based broadcasting capabilities have been added to traditional billboard advantages. Dynamic campaigns such as showing different messages during day and night, or changing creatives based on weather conditions have become possible.",
+        "For an effective billboard campaign, a clear and short message, strong visuals, readable typography, and strategic location selection must be considered together."
+      ]
+    },
+    "dooh-dijital-ekran-reklamciligi": {
+      "body": [
+        "DOOH (Digital Out of Home) is an outdoor advertising model delivered through digital screens. Compared to traditional static panels, it offers advantages such as dynamic content display, flexible scheduling, and programmatic buying.",
+        "The rise of digital screen advertising is directly proportional to technological development. The decreasing cost of LED screens, strengthening software infrastructure, and widespread internet connectivity have made DOOH a more accessible and measurable channel.",
+        "The main advantages of DOOH over traditional OOH include: dynamic and attention-grabbing content display, day/time-based flexible broadcast planning, ability for multiple advertisers to share the same screen, instant campaign changes, and performance data collection.",
+        "Programmatic DOOH enables digital screen spaces to be managed through automated buying platforms. This allows optimized campaigns based on audience data, location data, and time periods.",
+        "Digital screens are positioned at high-traffic points such as shopping malls, metro stations, airports, roadsides, and public transportation vehicles. Each location has a different audience profile and interaction duration.",
+        "Key points brands should consider when developing a DOOH strategy: the daily routes of their target audience, creative design suited to screen size and position, content length compatible with message reading time, and broadcast planning aligned with campaign objectives."
+      ]
+    },
+    "dogru-reklam-alani-nasil-secilir": {
+      "body": [
+        "The first and most critical step in running an effective outdoor advertising campaign is choosing the right advertising space. Beyond the media type, location, target audience, traffic density, and campaign objectives all shape this decision.",
+        "The fundamental criteria to evaluate in advertising space selection include: daily pedestrian and vehicle traffic, visibility angle and distance, competitive situation in the surroundings, alignment of target audience profile with the location, and budget-impact balance.",
+        "Each outdoor format serves a different communication purpose. Billboards are ideal for reaching wide audiences; bus shelter and stop ads provide close communication with pedestrian traffic; digital screens are suitable for dynamic messages; lightbox panels offer night visibility advantages.",
+        "Common mistakes in location selection include focusing only on price, not evaluating the visibility angle, ignoring environmental obstacles (trees, buildings, other signs), and not checking the alignment between target audience and location.",
+        "Professional media planning support provides a significant advantage in choosing the right space. Through traffic data, demographic analysis, and accumulated experience, the goal is to use the campaign budget most efficiently.",
+        "In conclusion, choosing the right advertising space is a strategic process that seeks answers not just to 'where' but to 'who', 'when', 'in what format', and 'with what message' together."
+      ]
+    }
+  },
+  "footer": {
+    "description": "Professional solutions in outdoor advertising and media planning. Connecting your brand with millions across 250+ locations in Turkey.",
+    "navTitle": "Pages",
+    "servicesTitle": "Our Services",
+    "contactTitle": "Contact",
+    "email": "info@thabmedia.com.tr",
+    "address": "Istanbul, Turkey",
+    "copyright": "© 2026 ThaB Media. All rights reserved.",
+    "kvkk": "Data Protection Policy",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  },
+  "meta": {
+    "siteTitle": "ThaB Media | Outdoor Advertising & Media Planning",
+    "siteDescription": "Outdoor ad space rental, media planning, and buying services. Billboards, digital screens, bus stops, and more.",
+    "servicesTitle": "Services | ThaB Media",
+    "servicesDescription": "Professional solutions in billboard, digital screen, metro, bus stop, and more outdoor advertising formats.",
+    "locationsTitle": "Locations | ThaB Media",
+    "locationsDescription": "Outdoor advertising spaces at the most strategic points across Turkey.",
+    "aboutTitle": "About Us | ThaB Media",
+    "aboutDescription": "About ThaB Media. Your trusted partner in outdoor advertising and media planning.",
+    "contactTitle": "Contact | ThaB Media",
+    "contactDescription": "Get in touch with ThaB Media. Get a quote for your outdoor advertising project."
+  },
+  "adPreviewPage": {
+    "meta": {
+      "title": "Ad Preview Studio",
+      "description": "Preview how your brand will look on outdoor advertising formats. Billboard, bus stop, digital screen and more."
+    },
+    "title": "Ad Preview Studio",
+    "description": "Upload your logo or creative and see how it looks on different outdoor advertising formats instantly.",
+    "selectFormat": "Select Format",
+    "uploadImage": "Upload Image",
+    "resetImage": "Reset",
+    "placeholder": "Your Brand Here",
+    "privacyNote": "Your image is used for preview only in your browser — it is never uploaded to any server.",
+    "cta": "Get a quote for this format",
+    "formats": {
+      "billboard": "Billboard",
+      "busStop": "Bus Stop Panel",
+      "digitalScreen": "Digital Screen",
+      "busBack": "Bus Back",
+      "lightbox": "Lightbox"
+    },
+    "formatDescriptions": {
+      "billboard": "Roadside large format advertising panel. Provides 24/7 visibility in high-traffic areas.",
+      "busStop": "Vertical poster panel at bus stop shelters. Reaches pedestrians and transit passengers.",
+      "digitalScreen": "LED digital display. Ideal for motion content and dynamic campaigns.",
+      "busBack": "Bus rear panel advertising. Moving visibility throughout city traffic.",
+      "lightbox": "Backlit display panel. Premium 24/7 visibility including nighttime."
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "Contact via WhatsApp"
+  }
+}

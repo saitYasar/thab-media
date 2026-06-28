@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="currentColor">
+  <!-- Ram horns simplified -->
+  <path d="M20,35 C20,20 30,12 40,12 C45,12 48,15 48,15 M48,15 C48,15 45,18 45,22 C45,28 50,35 50,35" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M80,35 C80,20 70,12 60,12 C55,12 52,15 52,15 M52,15 C52,15 55,18 55,22 C55,28 50,35 50,35" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Wordmark -->
+  <text x="140" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" letter-spacing="2">KOÇ</text>
+  <text x="140" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="9" font-weight="400" letter-spacing="3">HOLDING</text>
+</svg>

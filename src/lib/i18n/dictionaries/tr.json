@@ -1,0 +1,353 @@
+{
+  "common": {
+    "navigation": {
+      "home": "Ana Sayfa",
+      "services": "Hizmetlerimiz",
+      "locations": "Lokasyonlar",
+      "references": "Referanslar",
+      "about": "Hakkımızda",
+      "blog": "Blog",
+      "adPreview": "Reklam Önizleme",
+      "contact": "İletişim"
+    },
+    "cta": {
+      "getQuote": "Teklif Alın",
+      "contactUs": "İletişime Geçin",
+      "viewDetails": "Detayları İncele",
+      "learnMore": "Daha Fazla",
+      "viewAll": "Tümünü Görün",
+      "sendMessage": "Mesaj Gönder",
+      "exploreServices": "Hizmetleri Keşfedin",
+      "readMore": "Devamını Oku"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Açık Hava Reklamcılığında Profesyonel Çözüm Ortağınız",
+      "subtitle": "Markanızı şehrin en stratejik noktalarında milyonlara ulaştırıyoruz. Medya planlama, alan kiralama ve kampanya yönetimi tek elden.",
+      "ctaPrimary": "Ücretsiz Teklif Alın",
+      "ctaSecondary": "Hizmetlerimizi Keşfedin",
+      "badge": "Türkiye Genelinde 250+ Reklam Alanı",
+      "altText": "Açık hava reklam alanı",
+      "labels": {
+        "billboard": "Billboard",
+        "billboardSub": "12×4m Mega Panel",
+        "digitalScreen": "Dijital Ekran",
+        "metrobus": "Metrobüs Raket",
+        "lightbox": "Lightbox",
+        "busStop": "Raket"
+      }
+    },
+    "stats": {
+      "experience": { "value": "10+", "label": "Yıllık Deneyim" },
+      "locations": { "value": "250+", "label": "Reklam Alanı" },
+      "clients": { "value": "40+", "label": "Marka İş Birliği" },
+      "reach": { "value": "1M+", "label": "Aylık Erişim" }
+    },
+    "services": {
+      "title": "Hizmetlerimiz",
+      "description": "Her format ve lokasyonda markanız için en etkili açık hava reklam çözümlerini sunuyoruz."
+    },
+    "marquee": {
+      "title": "Şehirde Görünür Olacağınız Alanlar",
+      "description": "Billboard'dan dijital ekrana, durak reklamından araç giydirmeye — markanız şehrin her köşesinde.",
+      "cards": [
+        { "title": "Billboard", "label": "Mega Panel • Şehir Girişleri" },
+        { "title": "Metrobüs Raket", "label": "Toplu Ulaşım Hatları" },
+        { "title": "Dijital Ekran", "label": "LED / DOOH • Programatik" },
+        { "title": "Lightbox Pano", "label": "AVM & Cadde • 7/24" },
+        { "title": "Elektrik Direkleri", "label": "Ana Arterler • Seri Etki" },
+        { "title": "Durak Reklamları", "label": "Yaya Trafiği • Şehir İçi" },
+        { "title": "Otobüs Giydirme", "label": "Tam Kaplama • Mobil Etki" },
+        { "title": "Totem Reklamları", "label": "Alışveriş Alanları" }
+      ],
+      "altSuffix": "reklam alanı"
+    },
+    "gallery": {
+      "title": "Reklam Formatlarımız",
+      "description": "Markanıza uygun formatta, yüksek görünürlüklü açık hava mecraları."
+    },
+    "whyUs": {
+      "title": "Neden ThaB Media?",
+      "subtitle": "Açık hava reklamcılığında doğru mecra seçimi, planlama ve uygulama süreçlerini tek merkezden yönetiyoruz.",
+      "items": [
+        { "title": "Stratejik Mecra Planlama", "description": "Markanızın hedef kitlesine, lokasyonuna ve kampanya amacına göre doğru açık hava mecralarını planlarız." },
+        { "title": "Görünürlük Odaklı Lokasyon Seçimi", "description": "Yaya ve araç trafiği yüksek, marka görünürlüğünü artıracak alanları önceliklendiririz." },
+        { "title": "Tek Noktadan Süreç Yönetimi", "description": "Planlama, mecra seçimi, uygulama takibi ve kampanya sürecini tek merkezden yönetilebilir hale getiririz." },
+        { "title": "Dijital ve Geleneksel Açık Hava Çözümleri", "description": "Billboard, raket, lightbox, dijital ekran ve DOOH alanlarını birlikte değerlendirerek daha güçlü medya planları oluştururuz." }
+      ]
+    },
+    "locations": {
+      "title": "Reklam Lokasyonlarımız",
+      "description": "Türkiye'nin en stratejik noktalarında açık hava reklam alanları.",
+      "cta": "Tüm Lokasyonları Görün",
+      "mapLabel": "Türkiye Geneli Kapsama Alanı",
+      "totalLabel": "Toplam Reklam Alanı",
+      "unit": "alan",
+      "altSuffix": "reklam alanları"
+    },
+    "howItWorks": {
+      "title": "Nasıl Çalışır?",
+      "steps": [
+        { "title": "İhtiyacı Anlayalım", "description": "Markanızın hedeflerini, bütçenizi ve hedef kitlenizi birlikte değerlendiriyoruz." },
+        { "title": "Doğru Mecra Planını Çıkaralım", "description": "Format, lokasyon ve zamanlama önerisini sizin için hazırlıyoruz." },
+        { "title": "Yayına Alalım", "description": "Onay sonrası kampanyanızı hızla hayata geçiriyoruz." }
+      ]
+    },
+    "references": {
+      "title": "Markaların Tercih Ettiği Mecra Deneyimi",
+      "subtitle": "Sektörün önde gelen markaları açık hava reklamcılığında bize güveniyor."
+    },
+    "blog": {
+      "title": "Açık Hava Reklamcılığı Rehberi",
+      "description": "Markanız için doğru mecrayı seçerken bilmeniz gereken temel konular.",
+      "cta": "Tüm Yazıları Görün",
+      "readTime": "dk okuma",
+      "readMore": "Devamını Oku",
+      "posts": {
+        "oohTitle": "Açık Hava Reklamcılığı Nedir?",
+        "oohExcerpt": "Açık hava reklamcılığı; markaların billboard, raket, dijital ekran, lightbox ve şehir içi medya alanlarıyla hedef kitlelerine fiziksel dünyada ulaşmasını sağlayan güçlü bir görünürlük kanalıdır.",
+        "oohCategory": "Açık Hava Reklamcılığı",
+        "billboardTitle": "Billboard Reklamları Markalara Ne Kazandırır?",
+        "billboardExcerpt": "Billboard reklamları, yüksek trafik alanlarında sürekli görünürlük sağlayarak marka bilinirliğini artırır. Doğru lokasyon seçimiyle kampanya mesajı gün boyunca geniş kitlelere tekrar tekrar ulaşır.",
+        "billboardCategory": "Billboard",
+        "doohTitle": "DOOH ve Dijital Ekran Reklamcılığı Neden Önemli?",
+        "doohExcerpt": "Dijital açık hava reklamları, hareketli içerik, zaman bazlı yayın ve dikkat çekici ekran kullanımıyla geleneksel açık hava mecralarına daha dinamik bir alternatif sunar.",
+        "doohCategory": "DOOH",
+        "selectionTitle": "Doğru Reklam Alanı Nasıl Seçilir?",
+        "selectionExcerpt": "Etkili bir açık hava kampanyası için yalnızca mecra tipi değil; lokasyon, hedef kitle, trafik yoğunluğu, görünürlük açısı ve kampanya süresi birlikte değerlendirilmelidir.",
+        "selectionCategory": "Medya Planlama"
+      }
+    },
+    "adPreview": {
+      "title": "Reklamınızı Yayına Çıkmadan Önce Görün",
+      "description": "Logonuzu veya kreatif görselinizi farklı açık hava mecralarında anında önizleyin.",
+      "cta": "Önizleme Stüdyosunu Aç"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "items": [
+        { "question": "Açık hava reklam alanı kiralama süreci nasıl işler?", "answer": "İhtiyacınıza uygun lokasyon ve formatı birlikte belirleriz, teklif hazırlar ve onay sonrası kampanyanızı başlatırız." },
+        { "question": "Hangi reklam formatlarını sunuyorsunuz?", "answer": "Billboard, dijital ekran (DOOH), metro reklamları, raket/durak panelleri, lightbox ve direk pankartları dahil geniş bir yelpaze sunuyoruz." },
+        { "question": "Minimum kiralama süresi ne kadardır?", "answer": "Format ve lokasyona göre değişmekle birlikte genellikle minimum 2 haftalık dönemler halinde çalışıyoruz." },
+        { "question": "Teklif almak için ne yapmalıyım?", "answer": "İletişim sayfamızdaki formu doldurabilir veya doğrudan bize e-posta gönderebilirsiniz. En kısa sürede size dönüş yapacağız." }
+      ]
+    },
+    "finalCta": {
+      "title": "Markanızı Milyonlara Ulaştırın",
+      "description": "Açık hava reklamcılığında doğru strateji ile markanızın görünürlüğünü artırın.",
+      "button": "Hemen Teklif Alın"
+    }
+  },
+  "services": {
+    "billboard": { "title": "Billboard Reklamları", "shortDescription": "Şehrin en görünür noktalarında büyük format açık hava panoları." },
+    "dijital-ekran": { "title": "Dijital Ekran / DOOH", "shortDescription": "LED ekranlar ve dijital totemlerle dinamik, programatik reklam çözümleri." },
+    "metro-reklam": { "title": "Metro / Metrobüs Raket", "shortDescription": "Metro istasyonları ve metrobüs hatlarında yüksek frekanslı erişim." },
+    "raket-reklam": { "title": "Durak / Raket Reklamları", "shortDescription": "Otobüs durakları ve yol kenarı panellerle yaya trafiğine ulaşın." },
+    "lightbox": { "title": "Lightbox Reklamları", "shortDescription": "Arka aydınlatmalı vitrin tipi panellerle 7/24 görünürlük." },
+    "pole-banner": { "title": "Elektrik Direkleri / Pole Banner", "shortDescription": "Ana cadde ve bulvarlarda direk pankartlarıyla seri görünürlük." }
+  },
+  "serviceDetail": {
+    "benefitsTitle": "Bu Mecra Ne Sağlar?",
+    "useCasesTitle": "Kimler İçin Uygun?",
+    "processTitle": "Nasıl Planlıyoruz?",
+    "relatedTitle": "İlgili Hizmetler",
+    "faqTitle": "Sık Sorulan Sorular",
+    "billboard": {
+      "benefits": ["Geniş kitlelere yüksek frekansla ulaşım", "7/24 kesintisiz görünürlük", "Marka bilinirliğini hızla artırma", "Şehrin en işlek noktalarında konumlanma"],
+      "useCases": ["Yeni ürün/hizmet lansmanları", "Marka bilinirliği kampanyaları", "Etkinlik ve organizasyon duyuruları", "Perakende ve AVM trafiği artırma"],
+      "process": ["Hedef kitle ve kampanya amacı belirlenir", "Trafik verileriyle lokasyon önerilir", "Tasarım ve üretim süreci yönetilir", "Kampanya süresince alan takibi yapılır"],
+      "faq": [
+        { "question": "Billboard kiralama süresi ne kadardır?", "answer": "Genellikle minimum 2 hafta olmak üzere, kampanya hedeflerinize göre esnek süreler belirliyoruz." },
+        { "question": "Billboard tasarımı da yapıyor musunuz?", "answer": "Tasarım desteği sunabiliyoruz veya mevcut tasarımınızı uygun formata adapte edebiliriz." }
+      ]
+    },
+    "metro-reklam": {
+      "benefits": ["Günlük yüksek yolcu trafiğine erişim", "Bekleme süresinde dikkat çekme", "Hedefli lokasyon bazlı planlama", "Tekrarlayan görünürlük ile mesaj pekiştirme"],
+      "useCases": ["Şehir içi kampanyalar", "Uygulama ve dijital ürün tanıtımları", "Eğitim ve kurs reklamları", "Perakende mağaza yönlendirmeleri"],
+      "process": ["İstasyon ve hat bazlı hedefleme yapılır", "Yolcu profili ve yoğunluk analizi değerlendirilir", "Format seçimi (raket, CLP, dijital) belirlenir", "Uygulama ve kampanya takibi sağlanır"],
+      "faq": [
+        { "question": "Hangi metro/metrobüs hatlarında alan var?", "answer": "İstanbul başta olmak üzere büyükşehirlerdeki metro ve metrobüs hatlarında alan sağlıyoruz. Detaylar için iletişime geçin." },
+        { "question": "Raket ve CLP arasındaki fark nedir?", "answer": "Raket daha küçük formatta durak kenarı panellerdir. CLP ise arka aydınlatmalı, daha büyük vitrin tipi panellerdir." }
+      ]
+    },
+    "dijital-ekran": {
+      "benefits": ["Hareketli ve dikkat çekici içerik gösterimi", "Gün/saat bazlı esnek yayın planlama", "Birden fazla marka/mesaj rotasyonu", "Anlık kampanya güncellemesi imkanı"],
+      "useCases": ["Dinamik içerikli kampanyalar", "Zaman bazlı teklifler ve promosyonlar", "Birden fazla ürün/mesaj döndürme", "Programatik açık hava stratejileri"],
+      "process": ["Ekran lokasyonu ve boyutu belirlenir", "İçerik formatı ve yayın planı oluşturulur", "Dijital kreatif üretim/adaptasyon yapılır", "Yayın başlatılır ve performans takip edilir"],
+      "faq": [
+        { "question": "Dijital ekranlarda video içerik kullanılabilir mi?", "answer": "Evet, çoğu dijital ekran video, animasyon ve statik görselleri destekler. Teknik detaylar ekrana göre değişir." },
+        { "question": "Programatik DOOH nedir?", "answer": "Dijital açık hava alanlarının otomatik satın alma sistemleri ile hedefli ve zamanlı şekilde yönetilmesidir." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["Gece dahil 7/24 aydınlatmalı görünürlük", "Yaya yoğunluğu yüksek cadde ve AVM'lerde etki", "Kompakt formatta premium marka algısı", "Uzun süreli kampanyalara uygunluk"],
+      "useCases": ["Lüks ve premium marka kampanyaları", "AVM ve alışveriş bölgesi reklamları", "Cadde mağaza yönlendirmeleri", "Lansman ve sezonluk kampanyalar"],
+      "process": ["Yaya trafiği ve görünürlük açısı değerlendirilir", "Panel boyutu ve konumu belirlenir", "Baskı ve montaj süreci yönetilir", "Aydınlatma ve bakım takibi yapılır"],
+      "faq": [
+        { "question": "Lightbox ne kadar süre aydınlatılır?", "answer": "Genellikle gün batımından gün doğumuna kadar otomatik olarak aydınlatılır, böylece gece görünürlüğü sağlanır." },
+        { "question": "CLP ile lightbox aynı şey mi?", "answer": "CLP (City Light Poster) lightbox kategorisinin bir alt türüdür. İkisi de arka aydınlatmalı panellerdir ancak boyut ve konumlanma farklılıkları olabilir." }
+      ]
+    },
+    "pole-banner": {
+      "benefits": ["Ana arter ve bulvarlarda seri tekrar", "Araç trafiği yüksek güzergahlarda etki", "Düşük maliyet / yüksek frekans oranı", "Bölgesel etkinlik ve kampanya duyuruları"],
+      "useCases": ["Belediye ve kamu etkinlikleri", "Festival ve organizasyon duyuruları", "Bölgesel mağaza/AVM açılışları", "Seri marka görünürlüğü kampanyaları"],
+      "process": ["Güzergah ve direk sayısı planlanır", "İzin ve belediye süreçleri yönetilir", "Bayrak üretimi ve montajı yapılır", "Kampanya süresince alan kontrolü sağlanır"],
+      "faq": [
+        { "question": "Hangi caddelerde pole banner uygulaması yapılıyor?", "answer": "Büyükşehirlerin ana arterleri ve bulvarlarında uygulamalar mevcuttur. Kampanya hedefinize göre uygun güzergahları öneriyoruz." },
+        { "question": "Pole banner izin süreci ne kadar sürer?", "answer": "Belediye izin süreçleri şehre göre değişmekle birlikte genellikle 1-2 hafta sürer. Bu süreyi sizin adınıza yönetiyoruz." }
+      ]
+    },
+    "raket-reklam": {
+      "benefits": ["Yaya trafiğine yakın mesafede iletişim", "Toplu taşıma kullanıcılarına erişim", "Şehir içi yaygın kapsama ağı", "Uzun bekleme sürelerinde dikkat çekme"],
+      "useCases": ["Yerel işletme ve mağaza reklamları", "Mobil uygulama indirme kampanyaları", "Hizmet sektörü tanıtımları", "Üniversite ve eğitim reklamları"],
+      "process": ["Hedef bölge ve durak yoğunluğu analiz edilir", "Format seçimi (raket, CLP, mini billboard) yapılır", "Baskı üretimi ve montaj koordine edilir", "Kampanya boyunca durum takibi sağlanır"],
+      "faq": [
+        { "question": "Kaç durakta reklam verilebilir?", "answer": "Kampanya bütçenize ve hedef bölgenize göre tek bir duraktan yüzlerce durağa kadar planlama yapabiliriz." },
+        { "question": "Durak reklamları vandalizme karşı korumalı mı?", "answer": "Modern raket ve CLP panellerinin çoğu dayanıklı malzeme ile korunmaktadır. Hasar durumunda bakım süreci yürütülür." }
+      ]
+    }
+  },
+  "locations": {
+    "title": "Reklam Lokasyonlarımız",
+    "description": "Yüksek trafikli bölgelerde stratejik reklam alanları.",
+    "cta": "Teklif İsteyin",
+    "unit": "alan",
+    "altSuffix": "reklam alanları"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Açık hava reklamcılığında güvenilir çözüm ortağınız.",
+    "description": "ThaB Media olarak, markaların doğru zamanda, doğru yerde ve doğru formatta hedef kitleleriyle buluşmasını sağlıyoruz. Medya planlama, alan kiralama ve kampanya yönetimi konularında profesyonel hizmet sunuyoruz.",
+    "values": {
+      "title": "Değerlerimiz",
+      "items": [
+        { "title": "Güvenilirlik", "description": "Şeffaf iletişim ve zamanında teslimat." },
+        { "title": "Yenilikçilik", "description": "Dijital ve geleneksel mecraları entegre eden çözümler." },
+        { "title": "Müşteri Odaklılık", "description": "Her projeye özel strateji ve kişiselleştirilmiş yaklaşım." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Projeleriniz için bizimle iletişime geçin.",
+    "info": {
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres"
+    },
+    "form": {
+      "name": { "label": "Ad Soyad", "placeholder": "Adınız ve soyadınız" },
+      "company": { "label": "Firma", "placeholder": "Firma adınız (opsiyonel)" },
+      "phone": { "label": "Telefon", "placeholder": "+90 5xx xxx xx xx" },
+      "email": { "label": "E-posta", "placeholder": "ornek@firma.com" },
+      "service": { "label": "İlgilenilen Hizmet", "placeholder": "Bir hizmet seçin" },
+      "message": { "label": "Mesaj", "placeholder": "Mesajınızı yazın..." },
+      "consent": { "label": "KVKK Aydınlatma Metni'ni okudum ve onaylıyorum." },
+      "submit": "Mesaj Gönder",
+      "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
+      "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "mailtoNotice": "Talebiniz e-posta olarak iletilecektir."
+    }
+  },
+  "blogArticles": {
+    "backToList": "← Tüm Yazılar",
+    "relatedTitle": "İlgili Yazılar",
+    "ctaTitle": "Markanız için doğru mecrayı birlikte seçelim",
+    "acik-hava-reklamciligi-nedir": {
+      "body": [
+        "Açık hava reklamcılığı (OOH - Out of Home), markaların hedef kitlelerine kapalı alan dışında, fiziksel dünyada ulaşmasını sağlayan reklam mecraları bütünüdür. Billboard, raket, dijital ekran, lightbox, otobüs giydirme ve daha birçok format bu kapsamda değerlendirilir.",
+        "Dijital reklamcılığın hızla büyüdüğü bir dönemde açık hava mecralarının önemi azalmak yerine artmaktadır. Bunun temel nedeni, tüketicilerin günlük yaşamlarında fiziksel alanlarla etkileşiminin kaçınılmaz olmasıdır. İnsanlar işe giderken, alışveriş yaparken veya sosyal aktivitelerde bulunurken sürekli olarak açık hava mecralarıyla karşılaşır.",
+        "Açık hava reklamcılığının en güçlü yönlerinden biri, engellenemez olmasıdır. Dijital ortamda bir reklam engelleyici kullanılabilir veya reklam atlanabilir; ancak şehir içinde bir billboardı veya metrobüs raketini görmezden gelmek çok daha zordur.",
+        "Modern açık hava reklamcılığı geleneksel statik panolarla sınırlı değildir. Dijital ekranlar sayesinde hareketli içerikler, zaman bazlı kampanyalar ve programatik satın alma modelleri de bu alana dahil olmuştur. Bu gelişmeler, açık hava reklamcılığını daha ölçülebilir ve esnek bir kanal haline getirmektedir.",
+        "Açık hava mecralarının temel avantajları şunlardır: geniş kitleye tekrarlayan erişim, yüksek görünürlük, marka bilinirliğini hızla artırma kapasitesi, lokasyon bazlı hedefleme imkanı ve 7/24 kesintisiz iletişim.",
+        "Doğru mecra planlaması ile açık hava reklamcılığı, dijital kampanyaları tamamlayan ve güçlendiren bir kanal olarak markaların medya stratejisinde kritik bir rol oynar."
+      ]
+    },
+    "billboard-reklami-markalara-ne-kazandirir": {
+      "body": [
+        "Billboard reklamcılığı, açık hava reklamcılığının en bilinen ve en etkili formatlarından biridir. Şehirlerin en işlek kavşaklarında, otoyol kenarlarında ve yüksek trafik alanlarında konumlanan billboardlar, markalara benzersiz bir görünürlük avantajı sunar.",
+        "Billboard'un markalara sağladığı en önemli kazanım, sürekli ve tekrarlayan görünürlüktür. Bir dijital reklam birkaç saniyeliğine görüntülenir ve geçer; ancak bir billboard, kampanya süresi boyunca her gün aynı konumda, aynı mesajla hedef kitlesine ulaşır. Bu tekrar, marka bilinirliğini güçlendirir.",
+        "Lokasyon seçimi billboard kampanyalarının başarısında belirleyici faktördür. Doğru lokasyonda bir billboard, günde on binlerce kişiye ulaşabilir. Trafik yoğunluğu, görünürlük açısı, çevresel faktörler ve hedef kitle profili lokasyon kararında değerlendirilmesi gereken unsurlardır.",
+        "Billboard reklamları özellikle şu amaçlar için etkilidir: yeni ürün veya hizmet lansmanları, marka bilinirliği kampanyaları, etkinlik ve organizasyon duyuruları, perakende trafiğini artırma ve kurumsal imaj çalışmaları.",
+        "Dijital billboard'ların yaygınlaşmasıyla birlikte, hareketli içerik ve zaman bazlı yayın imkanları da geleneksel billboard avantajlarına eklenmiştir. Gündüz ve gece farklı mesajlar göstermek, hava durumuna göre kreatif değiştirmek gibi dinamik kampanyalar mümkün hale gelmiştir.",
+        "Etkili bir billboard kampanyası için net ve kısa mesaj, güçlü görsel, okunabilir tipografi ve stratejik lokasyon seçimi bir arada düşünülmelidir."
+      ]
+    },
+    "dooh-dijital-ekran-reklamciligi": {
+      "body": [
+        "DOOH (Digital Out of Home), dijital ekranlar aracılığıyla gerçekleştirilen açık hava reklamcılığı modelidir. Geleneksel statik panolara kıyasla dinamik içerik gösterimi, esnek zamanlama ve programatik satın alma gibi avantajlar sunar.",
+        "Dijital ekran reklamcılığının yükselişi, teknolojinin gelişmesiyle doğru orantılıdır. LED ekranların maliyetinin düşmesi, yazılım altyapılarının güçlenmesi ve internet bağlantısının yaygınlaşması, DOOH'u daha erişilebilir ve ölçülebilir bir kanal haline getirmiştir.",
+        "DOOH'un geleneksel OOH'a göre başlıca avantajları şunlardır: hareketli ve dikkat çekici içerik gösterimi, gün/saat bazlı esnek yayın planlaması, birden fazla reklamverenin aynı ekranı paylaşabilmesi, anlık kampanya değişikliği yapabilme ve performans verisi elde etme imkanı.",
+        "Programatik DOOH, dijital ekran alanlarının otomatik satın alma platformları üzerinden yönetilmesini sağlar. Bu sayede hedef kitle verilerine, lokasyon verilerine ve zaman dilimlerine göre optimize edilmiş kampanyalar yürütülebilir.",
+        "Dijital ekranlar AVM'ler, metro istasyonları, havalimanları, cadde kenarları ve toplu taşıma araçları gibi yüksek trafik noktalarında konumlanır. Her lokasyon farklı bir kitle profiline ve etkileşim süresine sahiptir.",
+        "Markaların DOOH stratejisi oluştururken dikkat etmesi gereken temel noktalar: hedef kitlenin günlük güzergahları, ekran boyutu ve konumuna uygun kreatif tasarım, mesajın okunma süresiyle uyumlu içerik uzunluğu ve kampanya hedeflerine uygun yayın planlamasıdır."
+      ]
+    },
+    "dogru-reklam-alani-nasil-secilir": {
+      "body": [
+        "Etkili bir açık hava reklam kampanyası yürütmenin ilk ve en kritik adımı, doğru reklam alanını seçmektir. Mecra tipi kadar lokasyon, hedef kitle, trafik yoğunluğu ve kampanya hedefi de bu kararı şekillendiren unsurlardır.",
+        "Reklam alanı seçiminde değerlendirilmesi gereken temel kriterler şunlardır: günlük yaya ve araç trafiği, görünürlük açısı ve mesafesi, çevredeki rekabet durumu, hedef kitle profili ile lokasyonun uyumu ve bütçe-etki dengesi.",
+        "Her açık hava formatı farklı bir iletişim amacına hizmet eder. Billboard geniş kitleye ulaşım için idealdir; raket ve durak reklamları yaya trafiğine yakın iletişim sağlar; dijital ekranlar dinamik mesajlar için uygundur; lightbox paneller gece görünürlüğü için avantajlıdır.",
+        "Lokasyon seçiminde sıkça yapılan hatalar arasında yalnızca fiyata odaklanmak, görünürlük açısını değerlendirmemek, çevresel engelleri (ağaç, yapı, diğer tabelalar) göz ardı etmek ve hedef kitle ile lokasyon uyumunu kontrol etmemek yer alır.",
+        "Profesyonel medya planlama desteği, doğru alan seçiminde önemli bir avantaj sağlar. Trafik verileri, demografik analizler ve deneyim birikimi sayesinde kampanya bütçesinin en verimli şekilde kullanılması hedeflenir.",
+        "Sonuç olarak, doğru reklam alanı seçimi sadece 'nerede' sorusuna değil; 'kime', 'ne zaman', 'hangi formatta' ve 'hangi mesajla' sorularına da birlikte yanıt arayan stratejik bir süreçtir."
+      ]
+    }
+  },
+  "footer": {
+    "description": "Açık hava reklamcılığı ve medya planlama alanında profesyonel çözümler. Türkiye genelinde 250+ lokasyonda markanızı milyonlara ulaştırıyoruz.",
+    "navTitle": "Sayfalar",
+    "servicesTitle": "Hizmetlerimiz",
+    "contactTitle": "İletişim",
+    "email": "info@thabmedia.com.tr",
+    "address": "İstanbul, Türkiye",
+    "copyright": "© 2026 ThaB Media. Tüm hakları saklıdır.",
+    "kvkk": "KVKK Politikası",
+    "privacy": "Gizlilik Politikası",
+    "cookies": "Çerez Politikası"
+  },
+  "meta": {
+    "siteTitle": "ThaB Media | Açık Hava Reklamcılığı ve Medya Planlama",
+    "siteDescription": "Açık hava reklam alanı kiralama, medya planlama ve satın alma hizmetleri. Billboard, dijital ekran, raket ve daha fazlası.",
+    "servicesTitle": "Hizmetlerimiz | ThaB Media",
+    "servicesDescription": "Billboard, dijital ekran, metro, raket ve daha fazla açık hava reklam formatında profesyonel çözümler.",
+    "locationsTitle": "Lokasyonlar | ThaB Media",
+    "locationsDescription": "Türkiye'nin en stratejik noktalarında açık hava reklam alanları.",
+    "aboutTitle": "Hakkımızda | ThaB Media",
+    "aboutDescription": "ThaB Media hakkında. Açık hava reklamcılığı ve medya planlama alanında güvenilir çözüm ortağınız.",
+    "contactTitle": "İletişim | ThaB Media",
+    "contactDescription": "ThaB Media ile iletişime geçin. Açık hava reklam projeniz için teklif alın."
+  },
+  "adPreviewPage": {
+    "meta": {
+      "title": "Reklam Önizleme Stüdyosu",
+      "description": "Markanızın açık hava mecralarında nasıl görüneceğini anında önizleyin. Billboard, raket, dijital ekran ve daha fazlası."
+    },
+    "title": "Reklam Önizleme Stüdyosu",
+    "description": "Logonuzu veya kreatif görselinizi yükleyin, farklı açık hava mecralarında nasıl göründüğünü hemen keşfedin.",
+    "selectFormat": "Mecra Seçin",
+    "uploadImage": "Görsel Yükleyin",
+    "resetImage": "Sıfırla",
+    "placeholder": "Markanız Burada",
+    "privacyNote": "Görsel yalnızca tarayıcınızda önizleme için kullanılır, sunucuya yüklenmez.",
+    "cta": "Bu mecra için teklif al",
+    "formats": {
+      "billboard": "Billboard",
+      "busStop": "Durak Raket",
+      "digitalScreen": "Dijital Ekran",
+      "busBack": "Otobüs Arkası",
+      "lightbox": "Lightbox"
+    },
+    "formatDescriptions": {
+      "billboard": "Yol kenarı büyük boy reklam panosu. Yüksek trafik alanlarında 7/24 görünürlük sağlar.",
+      "busStop": "Otobüs durağı yanı dikey raket panosu. Yaya ve toplu taşıma yolcularına ulaşır.",
+      "digitalScreen": "LED dijital ekran. Hareketli içerik ve dinamik kampanyalar için ideal.",
+      "busBack": "Otobüs arka cephesi reklamı. Şehir trafiğinde sürekli hareket halinde görünürlük.",
+      "lightbox": "Arka aydınlatmalı vitrin paneli. Gece dahil 7/24 premium görünüm."
+    }
+  },
+  "whatsapp": {
+    "ariaLabel": "WhatsApp ile iletişim"
+  }
+}

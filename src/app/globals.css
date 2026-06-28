@@ -1,6 +1,62 @@
 @import "tailwindcss";
 
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --color-primary: #112866;
+  --color-primary-light: #1a3a8a;
+  --color-accent: #FF0A0A;
+  --color-accent-hover: #E00909;
+
+  --color-bg-default: #FFFFFF;
+  --color-bg-subtle: #F8F9FC;
+  --color-bg-muted: #F1F3F8;
+  --color-bg-dark: #0D1F4E;
+
+  --color-text-primary: #1A1A2E;
+  --color-text-heading: #112866;
+  --color-text-muted: #64748B;
+  --color-text-inverse: #FFFFFF;
+
+  --color-border-default: #E2E8F0;
+  --color-border-focus: #112866;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+  background-color: #112866;
+  color: #fff;
+}
+
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Marquee animations for media slider */
+@keyframes marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+@keyframes marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.animate-marquee-left {
+  animation: marquee-left 40s linear infinite;
+}
+.animate-marquee-right {
+  animation: marquee-right 45s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee-left,
+  .animate-marquee-right {
+    animation: none;
+  }
 }
