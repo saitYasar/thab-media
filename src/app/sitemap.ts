@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { services } from '@/data/services'
 import { blogPosts } from '@/data/blogPosts'
 
-const baseUrl = 'https://thubmedya.com'
+const baseUrl = 'https://thabmedya.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const locales = ['tr', 'en', 'fr'] as const
