@@ -30,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/blog',
     '/iletisim',
     '/reklam-onizleme',
+    '/gizlilik-politikasi',
   ]
 
   const servicePages = services.map((s) => `/hizmetler/${s.slug}`)

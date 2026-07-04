@@ -245,9 +245,15 @@
       "message": { "label": "Message", "placeholder": "Écrivez votre message..." },
       "consent": { "label": "J'ai lu et accepté la Politique de confidentialité." },
       "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
       "success": "Votre message a été envoyé avec succès. Nous vous répondrons rapidement.",
       "error": "Une erreur est survenue. Veuillez réessayer plus tard.",
-      "mailtoNotice": "Votre demande sera envoyée par e-mail."
+      "validation": {
+        "nameRequired": "Le nom complet est requis.",
+        "emailRequired": "L'adresse e-mail est requise.",
+        "messageRequired": "Le message est requis.",
+        "consentRequired": "Vous devez accepter pour continuer."
+      }
     }
   },
   "blogArticles": {
@@ -349,5 +355,45 @@
   },
   "whatsapp": {
     "ariaLabel": "Contacter via WhatsApp"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'accueil"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "subtitle": "Informations sur la protection de vos données personnelles",
+    "lastUpdated": "Dernière mise à jour : 4 juillet 2026",
+    "sections": [
+      {
+        "heading": "1. Responsable du traitement",
+        "content": "En tant que ThaB Media, nous traitons vos données personnelles en qualité de responsable du traitement dans le cadre de la réglementation applicable en matière de protection des données, aux fins décrites ci-dessous."
+      },
+      {
+        "heading": "2. Données personnelles collectées",
+        "content": "Via le formulaire de contact de notre site web, vos nom, adresse e-mail, numéro de téléphone, nom d'entreprise et contenu du message sont collectés. De plus, des statistiques de visite anonymes peuvent être collectées via des cookies."
+      },
+      {
+        "heading": "3. Finalité du traitement",
+        "content": "Les données personnelles collectées sont traitées afin de répondre à vos demandes de devis, de vous informer sur nos services, de répondre aux demandes de contact et de remplir nos obligations légales."
+      },
+      {
+        "heading": "4. Partage des données",
+        "content": "Vos données personnelles ne sont pas partagées avec des tiers sauf obligation légale. Les données soumises via le formulaire de contact nous sont transmises via l'infrastructure Web3Forms."
+      },
+      {
+        "heading": "5. Durée de conservation",
+        "content": "Vos données personnelles sont conservées pendant la durée nécessaire aux finalités du traitement et dans le cadre des obligations légales."
+      },
+      {
+        "heading": "6. Vos droits",
+        "content": "En vertu de la législation applicable en matière de protection des données, vous avez le droit de savoir si vos données personnelles sont traitées, de demander des informations, de connaître la finalité du traitement, de connaître les tiers auxquels elles sont transférées, de demander la rectification si elles sont incomplètes ou inexactes, et de demander leur suppression ou destruction."
+      },
+      {
+        "heading": "7. Contact",
+        "content": "Vous pouvez adresser vos demandes concernant vos données personnelles à info@thabmedya.com."
+      }
+    ]
   }
 }

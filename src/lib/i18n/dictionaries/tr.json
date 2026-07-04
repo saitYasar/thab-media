@@ -245,9 +245,15 @@
       "message": { "label": "Mesaj", "placeholder": "Mesajınızı yazın..." },
       "consent": { "label": "KVKK Aydınlatma Metni'ni okudum ve onaylıyorum." },
       "submit": "Mesaj Gönder",
+      "submitting": "Gönderiliyor...",
       "success": "Mesajınız başarıyla gönderildi. En kısa sürede size dönüş yapacağız.",
       "error": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
-      "mailtoNotice": "Talebiniz e-posta olarak iletilecektir."
+      "validation": {
+        "nameRequired": "Ad soyad alanı zorunludur.",
+        "emailRequired": "E-posta adresi zorunludur.",
+        "messageRequired": "Mesaj alanı zorunludur.",
+        "consentRequired": "Devam etmek için onay vermeniz gerekmektedir."
+      }
     }
   },
   "blogArticles": {
@@ -349,5 +355,45 @@
   },
   "whatsapp": {
     "ariaLabel": "WhatsApp ile iletişim"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Aradığınız sayfa mevcut değil veya taşınmış olabilir.",
+    "backHome": "Ana Sayfaya Dön"
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası ve KVKK Aydınlatma Metni",
+    "subtitle": "Kişisel verilerinizin korunması hakkında bilgilendirme",
+    "lastUpdated": "Son güncelleme: 4 Temmuz 2026",
+    "sections": [
+      {
+        "heading": "1. Veri Sorumlusu",
+        "content": "ThaB Media olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında veri sorumlusu sıfatıyla kişisel verilerinizi aşağıda açıklanan amaçlar doğrultusunda işlemekteyiz."
+      },
+      {
+        "heading": "2. Toplanan Kişisel Veriler",
+        "content": "Web sitemiz üzerinden iletişim formu aracılığıyla ad-soyad, e-posta adresi, telefon numarası, firma adı ve mesaj içeriği bilgileriniz toplanmaktadır. Bunun dışında çerezler aracılığıyla anonim ziyaret istatistikleri toplanabilir."
+      },
+      {
+        "heading": "3. Verilerin İşlenme Amacı",
+        "content": "Toplanan kişisel veriler; teklif taleplerinize yanıt verilmesi, hizmetlerimiz hakkında bilgilendirme yapılması, iletişim taleplerinin karşılanması ve yasal yükümlülüklerin yerine getirilmesi amacıyla işlenmektedir."
+      },
+      {
+        "heading": "4. Verilerin Aktarımı",
+        "content": "Kişisel verileriniz, yasal zorunluluklar dışında üçüncü taraflarla paylaşılmamaktadır. İletişim formundan gönderilen veriler Web3Forms altyapısı üzerinden tarafımıza iletilmektedir."
+      },
+      {
+        "heading": "5. Veri Saklama Süresi",
+        "content": "Kişisel verileriniz, işlenme amaçlarının gerektirdiği süre boyunca ve yasal yükümlülükler çerçevesinde saklanmaktadır."
+      },
+      {
+        "heading": "6. Haklarınız",
+        "content": "KVKK kapsamında; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, silinmesini veya yok edilmesini isteme haklarına sahipsiniz."
+      },
+      {
+        "heading": "7. İletişim",
+        "content": "Kişisel verilerinizle ilgili taleplerinizi info@thabmedya.com adresine iletebilirsiniz."
+      }
+    ]
   }
 }

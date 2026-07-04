@@ -245,9 +245,15 @@
       "message": { "label": "Message", "placeholder": "Write your message..." },
       "consent": { "label": "I have read and agree to the Privacy Policy." },
       "submit": "Send Message",
+      "submitting": "Sending...",
       "success": "Your message has been sent successfully. We will get back to you as soon as possible.",
       "error": "An error occurred. Please try again later.",
-      "mailtoNotice": "Your request will be sent via email."
+      "validation": {
+        "nameRequired": "Full name is required.",
+        "emailRequired": "Email address is required.",
+        "messageRequired": "Message is required.",
+        "consentRequired": "You must agree to continue."
+      }
     }
   },
   "blogArticles": {
@@ -349,5 +355,45 @@
   },
   "whatsapp": {
     "ariaLabel": "Contact via WhatsApp"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you are looking for does not exist or may have been moved.",
+    "backHome": "Back to Home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "subtitle": "Information about the protection of your personal data",
+    "lastUpdated": "Last updated: July 4, 2026",
+    "sections": [
+      {
+        "heading": "1. Data Controller",
+        "content": "As ThaB Media, we process your personal data as data controller within the scope of the applicable data protection regulations for the purposes explained below."
+      },
+      {
+        "heading": "2. Personal Data Collected",
+        "content": "Through the contact form on our website, your name, email address, phone number, company name, and message content are collected. Additionally, anonymous visit statistics may be collected through cookies."
+      },
+      {
+        "heading": "3. Purpose of Data Processing",
+        "content": "Personal data collected is processed for the purposes of responding to your quote requests, providing information about our services, fulfilling communication requests, and meeting legal obligations."
+      },
+      {
+        "heading": "4. Data Sharing",
+        "content": "Your personal data is not shared with third parties except as required by law. Data submitted through the contact form is transmitted to us via the Web3Forms infrastructure."
+      },
+      {
+        "heading": "5. Data Retention Period",
+        "content": "Your personal data is retained for the duration required by the processing purposes and within the framework of legal obligations."
+      },
+      {
+        "heading": "6. Your Rights",
+        "content": "Under applicable data protection laws, you have the right to know whether your personal data is being processed, to request information if it has been processed, to learn the purpose of processing, to know the third parties to whom it is transferred, to request correction if incomplete or inaccurate, and to request deletion or destruction."
+      },
+      {
+        "heading": "7. Contact",
+        "content": "You can submit your requests regarding your personal data to info@thabmedya.com."
+      }
+    ]
   }
 }

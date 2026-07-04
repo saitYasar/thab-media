@@ -36,9 +36,9 @@ export function Footer({ locale, dictionary, footerDict, serviceNames }: FooterP
   ]
 
   const legalLinks = [
-    { label: footerDict.kvkk },
-    { label: footerDict.privacy },
-    { label: footerDict.cookies },
+    { href: `${prefix}/gizlilik-politikasi`, label: footerDict.kvkk },
+    { href: `${prefix}/gizlilik-politikasi`, label: footerDict.privacy },
+    { href: `${prefix}/gizlilik-politikasi`, label: footerDict.cookies },
   ]
 
   return (
@@ -138,9 +138,9 @@ export function Footer({ locale, dictionary, footerDict, serviceNames }: FooterP
             </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               {legalLinks.map((link) => (
-                <span key={link.label} className="text-xs text-white/30">
+                <Link key={link.label} href={link.href} className="text-xs text-white/30 hover:text-white/60 transition-colors">
                   {link.label}
-                </span>
+                </Link>
               ))}
             </div>
           </div>

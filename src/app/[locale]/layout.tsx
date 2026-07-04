@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Script from 'next/script'
 import { notFound } from 'next/navigation'
 import { Playfair_Display, Inter } from 'next/font/google'
 import { hasLocale } from '@/lib/i18n/dictionaries'
@@ -9,6 +10,8 @@ import { WhatsAppFloatingButton } from '@/components/layout/WhatsAppFloatingButt
 import { StickyMobileCTA } from '@/components/layout/StickyMobileCTA'
 import { ScrollProgressButton } from '@/components/layout/ScrollProgressButton'
 import { services } from '@/data/services'
+
+const GA_ID = 'G-GE2VJ22FQE'
 
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
@@ -35,11 +38,29 @@ export async function generateMetadata({
 
   const dict = await getDictionary(locale)
 
+  const baseUrl = 'https://thabmedya.com'
+  const prefix = locale === 'tr' ? '' : `/${locale}`
+
   return {
     title: dict.meta.siteTitle,
     description: dict.meta.siteDescription,
     robots: 'index, follow',
-    icons: { icon: '/logo.svg' },
+    icons: { icon: '/icon.png', apple: '/apple-icon.png' },
+    openGraph: {
+      title: dict.meta.siteTitle,
+      description: dict.meta.siteDescription,
+      siteName: 'ThaB Media',
+      locale: locale === 'tr' ? 'tr_TR' : locale === 'fr' ? 'fr_FR' : 'en_US',
+      type: 'website',
+    },
+    alternates: {
+      canonical: `${baseUrl}${prefix}`,
+      languages: {
+        tr: `${baseUrl}/`,
+        en: `${baseUrl}/en`,
+        fr: `${baseUrl}/fr`,
+      },
+    },
   }
 }
 
@@ -68,6 +89,12 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${playfairDisplay.variable} ${inter.variable}`}>
+      <head>
+        <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_ID}');`}
+        </Script>
+      </head>
       <body className="min-h-dvh flex flex-col bg-bg-default text-text-primary font-body antialiased pb-[70px] sm:pb-0">
         <Header locale={locale} dictionary={dict.common} />
         <main className="flex-1">{children}</main>
