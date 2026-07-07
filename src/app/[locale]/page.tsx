@@ -5,7 +5,7 @@ import { StatsSection } from '@/components/sections/StatsSection'
 import { MediaMarqueeSection } from '@/components/sections/MediaMarqueeSection'
 import { ServicesPreviewSection } from '@/components/sections/ServicesPreviewSection'
 import { WhyChooseUsSection } from '@/components/sections/WhyChooseUsSection'
-import { LocationsPreviewSection } from '@/components/sections/LocationsPreviewSection'
+import { LocationsMapSection } from '@/components/sections/LocationsMapSection'
 import { HowItWorksSection } from '@/components/sections/HowItWorksSection'
 import { AdPreviewTeaserSection } from '@/components/sections/AdPreviewTeaserSection'
 import { ReferencesSection } from '@/components/sections/ReferencesSection'
@@ -50,12 +50,14 @@ export default async function HomePage({
         description={dict.home.marquee.description}
         cards={dict.home.marquee.cards}
         altSuffix={dict.home.marquee.altSuffix}
+        locale={locale}
+        ctaLabel={dict.common.cta.seeMore}
       />
       <ServicesPreviewSection
         title={dict.home.services.title}
         description={dict.home.services.description}
         serviceTexts={dict.services}
-        ctaLabel={dict.common.cta.viewAll}
+        ctaLabel={dict.common.cta.seeMore}
         locale={locale}
       />
       <WhyChooseUsSection
@@ -63,14 +65,9 @@ export default async function HomePage({
         subtitle={dict.home.whyUs.subtitle}
         items={dict.home.whyUs.items}
       />
-      <LocationsPreviewSection
+      <LocationsMapSection
         title={dict.home.locations.title}
         description={dict.home.locations.description}
-        ctaLabel={dict.home.locations.cta}
-        mapLabel={dict.home.locations.mapLabel}
-        totalLabel={dict.home.locations.totalLabel}
-        unit={dict.home.locations.unit}
-        altSuffix={dict.home.locations.altSuffix}
         locale={locale}
       />
       <HowItWorksSection

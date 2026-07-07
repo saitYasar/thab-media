@@ -16,6 +16,7 @@
       "viewDetails": "Voir les détails",
       "learnMore": "En savoir plus",
       "viewAll": "Tout voir",
+      "seeMore": "Voir plus",
       "sendMessage": "Envoyer le message",
       "exploreServices": "Découvrir nos services",
       "readMore": "Lire la suite"
@@ -71,10 +72,10 @@
       "title": "Pourquoi ThaB Media ?",
       "subtitle": "Nous gérons la sélection, la planification et l'exécution des médias extérieurs depuis un point de contact unique.",
       "items": [
-        { "title": "Planification média stratégique", "description": "Nous planifions les bons canaux de médias extérieurs en fonction de votre public cible, emplacement et objectifs de campagne." },
-        { "title": "Sélection d'emplacements axée sur la visibilité", "description": "Nous priorisons les zones à fort trafic piéton et véhicule pour maximiser la visibilité de votre marque." },
-        { "title": "Gestion centralisée du processus", "description": "Nous centralisons la planification, la sélection des médias, le suivi d'exécution et la gestion de campagne." },
-        { "title": "Solutions numériques et traditionnelles", "description": "Nous évaluons ensemble les panneaux, arrêts de bus, lightbox, écrans numériques et DOOH pour des plans média plus performants." }
+        { "title": "Planification média stratégique", "description": "Chaque campagne est unique. Nous analysons en détail le public cible de votre marque, votre secteur d'activité, votre budget et vos objectifs de campagne pour créer la combinaison de médias offrant le meilleur retour sur investissement. Nous prenons des décisions basées sur les données tout en tenant compte de l'analyse concurrentielle et des dynamiques du marché." },
+        { "title": "Sélection d'emplacements axée sur la visibilité", "description": "Le choix de l'emplacement impacte directement le succès de votre campagne. Nous évaluons des critères tels que la densité du trafic piéton et véhicule, les angles de visibilité, les obstructions environnementales et les profils du public cible pour identifier les points les plus impactants pour votre marque." },
+        { "title": "Gestion centralisée du processus", "description": "De la recherche de médias à la préparation des propositions, du contrôle de conformité créative au suivi d'installation — nous gérons l'ensemble du processus depuis un point de contact unique. Pendant que vous vous concentrez sur votre activité, nous suivons chaque étape de votre campagne et fournissons des rapports d'avancement réguliers." },
+        { "title": "Solutions numériques et traditionnelles", "description": "Nous proposons aussi bien les formats traditionnels — panneaux d'affichage, abribus, lightbox, habillage de bus — que les solutions numériques comme les écrans LED et le DOOH, le tout sous un même toit. Nous déterminons le mix de formats optimal pour votre campagne, garantissant un impact maximal grâce à une stratégie intégrée." }
       ]
     },
     "locations": {
@@ -129,7 +130,7 @@
       "items": [
         { "question": "Comment fonctionne le processus de location ?", "answer": "Nous déterminons ensemble le bon emplacement et le bon format, préparons une proposition et lançons votre campagne après approbation." },
         { "question": "Quels formats proposez-vous ?", "answer": "Panneaux d'affichage, écrans numériques (DOOH), publicités métro, panneaux d'arrêts de bus, lightbox et bannières sur poteaux." },
-        { "question": "Quelle est la durée minimale ?", "answer": "Bien que cela varie, nous travaillons généralement par périodes minimales de 2 semaines." },
+        { "question": "Quelle est la durée minimale ?", "answer": "Bien que cela varie, nous travaillons généralement par périodes minimales d'1 semaine." },
         { "question": "Comment obtenir un devis ?", "answer": "Remplissez le formulaire sur notre page de contact ou envoyez-nous un e-mail. Nous vous répondrons rapidement." }
       ]
     },
@@ -158,7 +159,7 @@
       "useCases": ["Lancements de produits/services", "Campagnes de notoriété de marque", "Annonces d'événements", "Stimulation du trafic retail"],
       "process": ["Le public cible et les objectifs sont définis", "L'emplacement est recommandé selon les données de trafic", "Le processus de conception et production est géré", "L'espace est surveillé pendant la campagne"],
       "faq": [
-        { "question": "Quelle est la durée de location ?", "answer": "Minimum 2 semaines en général, avec des durées flexibles selon vos objectifs." },
+        { "question": "Quelle est la durée de location ?", "answer": "Minimum 1 semaine en général, avec des durées flexibles selon vos objectifs." },
         { "question": "Proposez-vous la conception ?", "answer": "Nous pouvons offrir un soutien créatif ou adapter votre design existant au format approprié." }
       ]
     },
@@ -306,7 +307,7 @@
     "navTitle": "Pages",
     "servicesTitle": "Nos services",
     "contactTitle": "Contact",
-    "email": "info@thabmedya.com",
+    "email": "info@thabmedia.com.tr",
     "address": "Istanbul, Turquie",
     "copyright": "© 2026 ThaB Media. Tous droits réservés.",
     "kvkk": "Protection des données",
@@ -392,7 +393,7 @@
       },
       {
         "heading": "7. Contact",
-        "content": "Vous pouvez adresser vos demandes concernant vos données personnelles à info@thabmedya.com."
+        "content": "Vous pouvez adresser vos demandes concernant vos données personnelles à info@thabmedia.com.tr."
       }
     ]
   }

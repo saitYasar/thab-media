@@ -2,6 +2,7 @@
 
 import { useState, useSyncExternalStore } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Container } from '@/components/ui/Container'
 
 interface MarqueeCardData {
@@ -14,6 +15,8 @@ interface MediaMarqueeSectionProps {
   description: string
   cards: MarqueeCardData[]
   altSuffix: string
+  locale: string
+  ctaLabel: string
 }
 
 const cardImages = [
@@ -39,7 +42,8 @@ function useReducedMotion() {
   )
 }
 
-export function MediaMarqueeSection({ title, description, cards, altSuffix }: MediaMarqueeSectionProps) {
+export function MediaMarqueeSection({ title, description, cards, altSuffix, locale, ctaLabel }: MediaMarqueeSectionProps) {
+  const servicesHref = locale === 'tr' ? '/hizmetler' : `/${locale}/services`
   const [isPaused, setIsPaused] = useState(false)
   const prefersReducedMotion = useReducedMotion()
 
@@ -76,7 +80,7 @@ export function MediaMarqueeSection({ title, description, cards, altSuffix }: Me
           style={{ width: 'max-content' }}
         >
           {[...marqueeCards, ...marqueeCards].map((card, i) => (
-            <MarqueeCardItem key={`${card.title}-${i}`} card={card} altSuffix={altSuffix} />
+            <MarqueeCardItem key={`${card.title}-${i}`} card={card} altSuffix={altSuffix} href={servicesHref} />
           ))}
         </div>
       </div>
@@ -94,17 +98,31 @@ export function MediaMarqueeSection({ title, description, cards, altSuffix }: Me
           style={{ width: 'max-content' }}
         >
           {[...marqueeCards.slice(4), ...marqueeCards.slice(0, 4), ...marqueeCards.slice(4), ...marqueeCards.slice(0, 4)].map((card, i) => (
-            <MarqueeCardItem key={`r2-${card.title}-${i}`} card={card} altSuffix={altSuffix} />
+            <MarqueeCardItem key={`r2-${card.title}-${i}`} card={card} altSuffix={altSuffix} href={servicesHref} />
           ))}
         </div>
       </div>
+
+      <Container>
+        <div className="mt-8 md:mt-10 flex justify-end">
+          <Link
+            href={servicesHref}
+            className="text-sm font-medium text-white/60 hover:text-accent transition-colors flex items-center gap-1.5"
+          >
+            {ctaLabel}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+              <path fillRule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638l-3.96-3.96a.75.75 0 1 1 1.06-1.06l5.25 5.25a.75.75 0 0 1 0 1.06l-5.25 5.25a.75.75 0 1 1-1.06-1.06l3.96-3.96H3.75A.75.75 0 0 1 3 10Z" clipRule="evenodd" />
+            </svg>
+          </Link>
+        </div>
+      </Container>
     </section>
   )
 }
 
-function MarqueeCardItem({ card, altSuffix }: { card: { title: string; label: string; image: string }; altSuffix: string }) {
+function MarqueeCardItem({ card, altSuffix, href }: { card: { title: string; label: string; image: string }; altSuffix: string; href: string }) {
   return (
-    <div className="relative flex-shrink-0 w-[280px] sm:w-[320px] md:w-[380px] h-[180px] sm:h-[200px] md:h-[240px] rounded-2xl overflow-hidden group">
+    <Link href={href} className="relative flex-shrink-0 w-[280px] sm:w-[320px] md:w-[380px] h-[180px] sm:h-[200px] md:h-[240px] rounded-2xl overflow-hidden group block">
       <Image
         src={card.image}
         alt={`${card.title} ${altSuffix} | ThaB Media`}
@@ -121,6 +139,6 @@ function MarqueeCardItem({ card, altSuffix }: { card: { title: string; label: st
         </h3>
         <p className="text-xs md:text-sm text-white/50 mt-0.5">{card.label}</p>
       </div>
-    </div>
+    </Link>
   )
 }

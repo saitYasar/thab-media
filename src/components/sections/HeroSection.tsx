@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/Button'
 import { Container } from '@/components/ui/Container'
 
@@ -24,6 +25,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, altText, labels, locale }: HeroSectionProps) {
   const contactHref = locale === 'tr' ? '/iletisim' : `/${locale}/contact`
+  const servicesHref = locale === 'tr' ? '/hizmetler' : `/${locale}/services`
 
   return (
     <section className="relative overflow-hidden bg-[#060e24] min-h-[600px] lg:min-h-[680px]">
@@ -77,59 +79,59 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
           </div>
 
           {/* Right — visual composition with real images */}
-          <div className="order-1 lg:order-2" aria-hidden="true">
+          <div className="order-1 lg:order-2">
             <div className="relative max-w-md mx-auto lg:max-w-none">
               <div className="grid grid-cols-12 grid-rows-6 gap-2.5 sm:gap-3 h-[300px] sm:h-[360px] lg:h-[440px]">
                 {/* Billboard — large panel */}
-                <div className="col-span-7 row-span-4 rounded-2xl overflow-hidden relative border border-white/[0.08]">
-                  <Image src="/images/billboard.jpg" alt="" fill className="object-cover" sizes="300px" />
+                <Link href={servicesHref} className="col-span-7 row-span-4 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
+                  <Image src="/images/billboard.jpg" alt={`${labels.billboard} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="300px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-4 sm:p-5">
                     <div className="w-7 h-[3px] bg-accent rounded-full mb-2" />
                     <span className="text-white/90 text-sm font-semibold tracking-wide">{labels.billboard}</span>
                     <div className="text-white/40 text-xs mt-0.5">{labels.billboardSub}</div>
                   </div>
-                </div>
+                </Link>
 
                 {/* DOOH — vertical */}
-                <div className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08]">
-                  <Image src="/images/dijital-ekran.jpg" alt="" fill className="object-cover" sizes="200px" />
+                <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
+                  <Image src="/images/dijital-ekran.jpg" alt={`${labels.digitalScreen} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
                     <span className="text-white/90 text-xs font-semibold">{labels.digitalScreen}</span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Metro raket */}
-                <div className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08]">
-                  <Image src="/images/metrobus-raket.jpg" alt="" fill className="object-cover" sizes="200px" />
+                <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
+                  <Image src="/images/metrobus-raket.jpg" alt={`${labels.metrobus} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
                     <span className="text-white/90 text-xs font-semibold">{labels.metrobus}</span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Lightbox */}
-                <div className="col-span-4 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08]">
-                  <Image src="/images/lightbox.jpg" alt="" fill className="object-cover" sizes="150px" />
+                <Link href={servicesHref} className="col-span-4 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
+                  <Image src="/images/lightbox.jpg" alt={`${labels.lightbox} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="150px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-2.5 sm:p-3">
                     <div className="w-4 h-[2px] bg-accent/70 rounded-full mb-1" />
                     <span className="text-white/80 text-[10px] sm:text-[11px] font-medium">{labels.lightbox}</span>
                   </div>
-                </div>
+                </Link>
 
                 {/* Durak/Raket */}
-                <div className="col-span-3 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08]">
-                  <Image src="/images/durak-reklam.jpg" alt="" fill className="object-cover" sizes="120px" />
+                <Link href={servicesHref} className="col-span-3 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
+                  <Image src="/images/durak-reklam.jpg" alt={`${labels.busStop} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="120px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-2 sm:p-2.5">
                     <div className="w-3.5 h-[2px] bg-accent/60 rounded-full mb-1" />
                     <span className="text-white/70 text-[9px] sm:text-[10px] font-medium">{labels.busStop}</span>
                   </div>
-                </div>
+                </Link>
               </div>
             </div>
           </div>

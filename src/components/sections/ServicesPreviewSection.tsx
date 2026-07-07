@@ -1,8 +1,8 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import { Section } from '@/components/ui/Section'
 import { Container } from '@/components/ui/Container'
 import { SectionHeader } from '@/components/ui/SectionHeader'
-import { Button } from '@/components/ui/Button'
 import { services } from '@/data/services'
 
 interface ServiceDict {
@@ -47,11 +47,11 @@ export function ServicesPreviewSection({
             if (!text) return null
             const image = serviceImages[service.slug]
             return (
-              <div
+              <Link
                 key={service.slug}
-                className="group relative rounded-2xl overflow-hidden min-h-[220px] sm:min-h-[260px] lg:min-h-[280px] transition-all duration-300 hover:scale-[1.015] hover:shadow-2xl"
+                href={servicesHref}
+                className="group relative rounded-2xl overflow-hidden min-h-[220px] sm:min-h-[260px] lg:min-h-[280px] transition-all duration-300 hover:scale-[1.015] hover:shadow-2xl block"
               >
-                {/* Background image */}
                 {image && (
                   <Image
                     src={image}
@@ -61,19 +61,15 @@ export function ServicesPreviewSection({
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 )}
-                {/* Fallback gradient if no image */}
                 {!image && (
                   <div className={`absolute inset-0 bg-gradient-to-br ${service.bgStyle}`} />
                 )}
-                {/* Dark overlay */}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/10 group-hover:from-black/85 transition-colors duration-300" />
 
-                {/* Accent line */}
                 <div className={`absolute ${service.accentPosition === 'top-left' ? 'top-5 left-6' : service.accentPosition === 'top-right' ? 'top-5 right-6' : 'bottom-20 right-6'}`}>
                   <div className="w-8 h-[3px] bg-accent rounded-full" />
                 </div>
 
-                {/* Content */}
                 <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
                   <h3 className="font-heading text-lg md:text-xl font-bold text-white leading-snug">
                     {text.title}
@@ -82,14 +78,20 @@ export function ServicesPreviewSection({
                     {text.shortDescription}
                   </p>
                 </div>
-              </div>
+              </Link>
             )
           })}
         </div>
-        <div className="mt-12 md:mt-14 text-center">
-          <Button variant="secondary" href={servicesHref}>
+        <div className="mt-8 md:mt-10 flex justify-end">
+          <Link
+            href={servicesHref}
+            className="text-sm font-medium text-white/60 hover:text-accent transition-colors flex items-center gap-1.5"
+          >
             {ctaLabel}
-          </Button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+              <path fillRule="evenodd" d="M3 10a.75.75 0 0 1 .75-.75h10.638l-3.96-3.96a.75.75 0 1 1 1.06-1.06l5.25 5.25a.75.75 0 0 1 0 1.06l-5.25 5.25a.75.75 0 1 1-1.06-1.06l3.96-3.96H3.75A.75.75 0 0 1 3 10Z" clipRule="evenodd" />
+            </svg>
+          </Link>
         </div>
       </Container>
     </Section>

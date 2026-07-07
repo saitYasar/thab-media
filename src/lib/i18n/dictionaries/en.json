@@ -16,6 +16,7 @@
       "viewDetails": "View Details",
       "learnMore": "Learn More",
       "viewAll": "View All",
+      "seeMore": "See More",
       "sendMessage": "Send Message",
       "exploreServices": "Explore Services",
       "readMore": "Read More"
@@ -71,10 +72,10 @@
       "title": "Why ThaB Media?",
       "subtitle": "We manage media selection, planning, and execution for outdoor advertising from a single point of contact.",
       "items": [
-        { "title": "Strategic Media Planning", "description": "We plan the right outdoor media channels based on your brand's target audience, location, and campaign goals." },
-        { "title": "Visibility-Focused Location Selection", "description": "We prioritize high pedestrian and vehicle traffic areas that maximize your brand visibility." },
-        { "title": "Single-Point Process Management", "description": "We centralize planning, media selection, execution tracking, and campaign management into one streamlined process." },
-        { "title": "Digital and Traditional OOH Solutions", "description": "We evaluate billboard, bus stop, lightbox, digital screen, and DOOH spaces together to build stronger media plans." }
+        { "title": "Strategic Media Planning", "description": "Every campaign is unique. We analyze your brand's target audience, industry, budget range, and campaign objectives in detail to create the media combination that delivers the highest return. We make data-driven decisions while considering competitor analysis and market dynamics." },
+        { "title": "Visibility-Focused Location Selection", "description": "Location selection directly impacts your campaign's success. We evaluate criteria such as pedestrian and vehicle traffic density, visibility angles, environmental obstructions, and target audience profiles to identify the most impactful spots for your brand." },
+        { "title": "Single-Point Process Management", "description": "From media research to proposal preparation, from creative compliance checks to installation tracking — we manage the entire process from a single point of contact. While you focus on your business, we monitor every stage of your campaign and provide regular progress reports." },
+        { "title": "Digital and Traditional OOH Solutions", "description": "We offer everything from traditional formats like billboards, bus shelters, lightboxes, and bus wraps to digital solutions like LED screens and DOOH — all under one roof. We determine the optimal format mix for your campaign, ensuring maximum impact through an integrated strategy." }
       ]
     },
     "locations": {
@@ -129,7 +130,7 @@
       "items": [
         { "question": "How does the outdoor ad space rental process work?", "answer": "We determine the right location and format together, prepare a proposal, and launch your campaign after approval." },
         { "question": "What advertising formats do you offer?", "answer": "We offer a wide range including billboards, digital screens (DOOH), metro ads, bus stop panels, lightboxes, and pole banners." },
-        { "question": "What is the minimum rental period?", "answer": "While it varies by format and location, we typically work in minimum 2-week periods." },
+        { "question": "What is the minimum rental period?", "answer": "While it varies by format and location, we typically work in minimum 1-week periods." },
         { "question": "How can I get a quote?", "answer": "You can fill out the form on our contact page or email us directly. We'll get back to you as soon as possible." }
       ]
     },
@@ -158,7 +159,7 @@
       "useCases": ["New product/service launches", "Brand awareness campaigns", "Event and organization announcements", "Retail and mall traffic boosting"],
       "process": ["Target audience and campaign goals are defined", "Location is recommended based on traffic data", "Design and production process is managed", "Ad space is monitored throughout the campaign"],
       "faq": [
-        { "question": "How long is the billboard rental period?", "answer": "Typically a minimum of 2 weeks, with flexible durations based on your campaign goals." },
+        { "question": "How long is the billboard rental period?", "answer": "Typically a minimum of 1 week, with flexible durations based on your campaign goals." },
         { "question": "Do you provide billboard design?", "answer": "We can offer design support or adapt your existing design to the appropriate format." }
       ]
     },
@@ -306,7 +307,7 @@
     "navTitle": "Pages",
     "servicesTitle": "Our Services",
     "contactTitle": "Contact",
-    "email": "info@thabmedya.com",
+    "email": "info@thabmedia.com.tr",
     "address": "Istanbul, Turkey",
     "copyright": "© 2026 ThaB Media. All rights reserved.",
     "kvkk": "Data Protection Policy",
@@ -392,7 +393,7 @@
       },
       {
         "heading": "7. Contact",
-        "content": "You can submit your requests regarding your personal data to info@thabmedya.com."
+        "content": "You can submit your requests regarding your personal data to info@thabmedia.com.tr."
       }
     ]
   }

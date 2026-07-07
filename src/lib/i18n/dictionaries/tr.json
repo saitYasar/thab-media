@@ -16,6 +16,7 @@
       "viewDetails": "Detayları İncele",
       "learnMore": "Daha Fazla",
       "viewAll": "Tümünü Görün",
+      "seeMore": "Daha Fazlası",
       "sendMessage": "Mesaj Gönder",
       "exploreServices": "Hizmetleri Keşfedin",
       "readMore": "Devamını Oku"
@@ -71,10 +72,10 @@
       "title": "Neden ThaB Media?",
       "subtitle": "Açık hava reklamcılığında doğru mecra seçimi, planlama ve uygulama süreçlerini tek merkezden yönetiyoruz.",
       "items": [
-        { "title": "Stratejik Mecra Planlama", "description": "Markanızın hedef kitlesine, lokasyonuna ve kampanya amacına göre doğru açık hava mecralarını planlarız." },
-        { "title": "Görünürlük Odaklı Lokasyon Seçimi", "description": "Yaya ve araç trafiği yüksek, marka görünürlüğünü artıracak alanları önceliklendiririz." },
-        { "title": "Tek Noktadan Süreç Yönetimi", "description": "Planlama, mecra seçimi, uygulama takibi ve kampanya sürecini tek merkezden yönetilebilir hale getiririz." },
-        { "title": "Dijital ve Geleneksel Açık Hava Çözümleri", "description": "Billboard, raket, lightbox, dijital ekran ve DOOH alanlarını birlikte değerlendirerek daha güçlü medya planları oluştururuz." }
+        { "title": "Stratejik Mecra Planlama", "description": "Her kampanya farklıdır. Markanızın hedef kitlesini, sektörünü, bütçe aralığını ve kampanya hedeflerini detaylı analiz ederek en yüksek geri dönüşü sağlayacak mecra kombinasyonunu oluştururuz. Rakip analizi ve pazar dinamiklerini de göz önünde bulundurarak veriye dayalı kararlar alırız." },
+        { "title": "Görünürlük Odaklı Lokasyon Seçimi", "description": "Lokasyon seçimi kampanyanızın başarısını doğrudan etkiler. Yaya ve araç trafiği yoğunluğu, görünürlük açısı, çevresel engeller ve hedef kitle profili gibi kriterleri birlikte değerlendirerek markanızın en etkili şekilde görüneceği noktaları belirleriz." },
+        { "title": "Tek Noktadan Süreç Yönetimi", "description": "Mecra araştırmasından teklif hazırlamaya, yaratıcı uyum kontrolünden montaj takibine kadar tüm süreci tek bir iletişim noktasından yönetiriz. Siz işinize odaklanırken biz kampanyanızın her aşamasını takip eder, düzenli ilerleme raporları sunarız." },
+        { "title": "Dijital ve Geleneksel Açık Hava Çözümleri", "description": "Billboard, raket, lightbox, otobüs giydirme gibi geleneksel mecralardan LED ekran ve DOOH gibi dijital çözümlere kadar tüm formatları tek çatı altında sunarız. Kampanyanız için en uygun format karmasını belirler, bütünleşik bir strateji ile maksimum etki elde edersiniz." }
       ]
     },
     "locations": {
@@ -129,7 +130,7 @@
       "items": [
         { "question": "Açık hava reklam alanı kiralama süreci nasıl işler?", "answer": "İhtiyacınıza uygun lokasyon ve formatı birlikte belirleriz, teklif hazırlar ve onay sonrası kampanyanızı başlatırız." },
         { "question": "Hangi reklam formatlarını sunuyorsunuz?", "answer": "Billboard, dijital ekran (DOOH), metro reklamları, raket/durak panelleri, lightbox ve direk pankartları dahil geniş bir yelpaze sunuyoruz." },
-        { "question": "Minimum kiralama süresi ne kadardır?", "answer": "Format ve lokasyona göre değişmekle birlikte genellikle minimum 2 haftalık dönemler halinde çalışıyoruz." },
+        { "question": "Minimum kiralama süresi ne kadardır?", "answer": "Format ve lokasyona göre değişmekle birlikte genellikle minimum 1 haftalık dönemler halinde çalışıyoruz." },
         { "question": "Teklif almak için ne yapmalıyım?", "answer": "İletişim sayfamızdaki formu doldurabilir veya doğrudan bize e-posta gönderebilirsiniz. En kısa sürede size dönüş yapacağız." }
       ]
     },
@@ -158,7 +159,7 @@
       "useCases": ["Yeni ürün/hizmet lansmanları", "Marka bilinirliği kampanyaları", "Etkinlik ve organizasyon duyuruları", "Perakende ve AVM trafiği artırma"],
       "process": ["Hedef kitle ve kampanya amacı belirlenir", "Trafik verileriyle lokasyon önerilir", "Tasarım ve üretim süreci yönetilir", "Kampanya süresince alan takibi yapılır"],
       "faq": [
-        { "question": "Billboard kiralama süresi ne kadardır?", "answer": "Genellikle minimum 2 hafta olmak üzere, kampanya hedeflerinize göre esnek süreler belirliyoruz." },
+        { "question": "Billboard kiralama süresi ne kadardır?", "answer": "Genellikle minimum 1 hafta olmak üzere, kampanya hedeflerinize göre esnek süreler belirliyoruz." },
         { "question": "Billboard tasarımı da yapıyor musunuz?", "answer": "Tasarım desteği sunabiliyoruz veya mevcut tasarımınızı uygun formata adapte edebiliriz." }
       ]
     },
@@ -306,7 +307,7 @@
     "navTitle": "Sayfalar",
     "servicesTitle": "Hizmetlerimiz",
     "contactTitle": "İletişim",
-    "email": "info@thabmedya.com",
+    "email": "info@thabmedia.com.tr",
     "address": "İstanbul, Türkiye",
     "copyright": "© 2026 ThaB Media. Tüm hakları saklıdır.",
     "kvkk": "KVKK Politikası",
@@ -392,7 +393,7 @@
       },
       {
         "heading": "7. İletişim",
-        "content": "Kişisel verilerinizle ilgili taleplerinizi info@thabmedya.com adresine iletebilirsiniz."
+        "content": "Kişisel verilerinizle ilgili taleplerinizi info@thabmedia.com.tr adresine iletebilirsiniz."
       }
     ]
   }

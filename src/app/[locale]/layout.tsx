@@ -9,6 +9,7 @@ import { Footer } from '@/components/layout/Footer'
 import { WhatsAppFloatingButton } from '@/components/layout/WhatsAppFloatingButton'
 import { StickyMobileCTA } from '@/components/layout/StickyMobileCTA'
 import { ScrollProgressButton } from '@/components/layout/ScrollProgressButton'
+import { SplashScreen } from '@/components/layout/SplashScreen'
 import { services } from '@/data/services'
 
 const GA_ID = 'G-GE2VJ22FQE'
@@ -96,6 +97,7 @@ export default async function LocaleLayout({
         </Script>
       </head>
       <body className="min-h-dvh flex flex-col bg-bg-default text-text-primary font-body antialiased pb-[70px] sm:pb-0">
+        <SplashScreen />
         <Header locale={locale} dictionary={dict.common} />
         <main className="flex-1">{children}</main>
         <Footer locale={locale} dictionary={dict.common} footerDict={dict.footer} serviceNames={serviceNames} />
