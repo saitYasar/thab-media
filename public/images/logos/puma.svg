@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="currentColor">
-  <!-- Puma cat silhouette simplified -->
-  <path d="M25,45 C25,45 28,35 35,30 C40,27 43,28 45,25 C47,22 46,18 48,15 C50,12 55,10 55,10 C55,10 52,15 53,18 C54,20 57,20 58,18 C60,15 58,12 60,10 C62,8 65,9 65,9 C65,9 62,13 63,16 C64,19 67,19 67,19 C67,19 65,22 62,24 C59,26 56,27 53,30 C50,33 48,38 48,45 Z"/>
-  <!-- Wordmark -->
-  <text x="80" y="42" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" letter-spacing="1">PUMA</text>
-</svg>

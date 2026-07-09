@@ -1,20 +1,15 @@
-// MOCK DATA — These brand names are temporary placeholders for design review only.
-// They are NOT confirmed real ThaB Media clients.
-// Replace with confirmed client references before launch.
-// Do NOT use in SEO metadata, JSON-LD, case studies, or production claims.
-// TODO: Replace mock brand references with approved real references before launch.
-
-export const mockReferences = [
-  { name: 'Nike', slug: 'nike', logo: '/images/logos/nike.svg' },
-  { name: 'Adidas', slug: 'adidas', logo: '/images/logos/adidas.svg' },
-  { name: 'Puma', slug: 'puma', logo: '/images/logos/puma.svg' },
-  { name: 'Samsung', slug: 'samsung', logo: '/images/logos/samsung.svg' },
-  { name: 'Mercedes-Benz', slug: 'mercedes-benz', logo: '/images/logos/mercedes-benz.svg' },
-  { name: 'Apple', slug: 'apple', logo: '/images/logos/apple.svg' },
-  { name: 'MediaMarkt', slug: 'mediamarkt', logo: '/images/logos/mediamarkt.svg' },
-  { name: 'LC Waikiki', slug: 'lc-waikiki', logo: '/images/logos/lc-waikiki.svg' },
-  { name: 'Mavi', slug: 'mavi', logo: '/images/logos/mavi.svg' },
-  { name: 'Garanti BBVA', slug: 'garanti-bbva', logo: '/images/logos/garanti-bbva.svg' },
-  { name: 'Koç Holding', slug: 'koc-holding', logo: '/images/logos/koc-holding.svg' },
-  { name: 'Dyson', slug: 'dyson', logo: '/images/logos/dyson.svg' },
+export const references = [
+  { name: 'Taşpınar', slug: 'taspinar', logo: '/images/logos/taspinar.svg' },
+  { name: 'Şani İnşaat', slug: 'sani-insaat', logo: '/images/logos/sani-insaat.svg' },
+  { name: 'Yunus Marketler', slug: 'yunus-marketler', logo: '/images/logos/yunus-marketler.svg' },
+  { name: 'Criter İnşaat', slug: 'criter-insaat', logo: '/images/logos/criter-insaat.svg' },
+  { name: 'Peçenek Döner', slug: 'pecenek-doner', logo: '/images/logos/pecenek-doner.svg' },
+  { name: 'Ned Projeler', slug: 'ned-projeler', logo: '/images/logos/ned-projeler.svg' },
+  { name: 'Liv Koleji', slug: 'liv-koleji', logo: '/images/logos/liv-koleji.svg' },
+  { name: 'Sınav', slug: 'sinav', logo: '/images/logos/sinav.svg' },
+  { name: 'İpekyol', slug: 'ipekyol', logo: '/images/logos/ipekyol.svg' },
+  { name: 'Kiğılı', slug: 'kigili', logo: '/images/logos/kigili.svg' },
+  { name: 'Pin', slug: 'pin', logo: '/images/logos/pin.svg' },
+  { name: 'CapySun', slug: 'capysun', logo: '/images/logos/capysun.svg' },
+  { name: 'Reis Gıda', slug: 'reis-gida', logo: '/images/logos/reis-gida.svg' },
 ]
