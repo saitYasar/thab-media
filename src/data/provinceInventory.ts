@@ -16,6 +16,8 @@ export interface ProvinceInventory {
 
 export const provinceInventory: Record<string, ProvinceInventory> = {
   istanbul: { billboard: 5000, giantboard: 400, kopruAlinlik: 300, clpRaket: 15000, poleBanner: 12000, ledEkran: 150, lightbox: 110, megaboard: 400, megalight: 200, totemYolPanolari: 800, metrobusTamKaplama: 200, otobusTamKaplama: 700, otobusSuperback: 700 },
+  'istanbul-asya': { billboard: 5000, giantboard: 400, kopruAlinlik: 300, clpRaket: 15000, poleBanner: 12000, ledEkran: 150, lightbox: 110, megaboard: 400, megalight: 200, totemYolPanolari: 800, metrobusTamKaplama: 200, otobusTamKaplama: 700, otobusSuperback: 700 },
+  'istanbul-avrupa': { billboard: 5000, giantboard: 400, kopruAlinlik: 300, clpRaket: 15000, poleBanner: 12000, ledEkran: 150, lightbox: 110, megaboard: 400, megalight: 200, totemYolPanolari: 800, metrobusTamKaplama: 200, otobusTamKaplama: 700, otobusSuperback: 700 },
   ankara: { billboard: 3000, giantboard: 140, kopruAlinlik: 210, clpRaket: 6000, poleBanner: 0, ledEkran: 30, lightbox: 0, megaboard: 250, megalight: 150, totemYolPanolari: 280, metrobusTamKaplama: 0, otobusTamKaplama: 800, otobusSuperback: 800 },
   izmir: { billboard: 2000, giantboard: 120, kopruAlinlik: 180, clpRaket: 5000, poleBanner: 6000, ledEkran: 30, lightbox: 0, megaboard: 200, megalight: 150, totemYolPanolari: 240, metrobusTamKaplama: 0, otobusTamKaplama: 600, otobusSuperback: 600 },
   bursa: { billboard: 2000, giantboard: 60, kopruAlinlik: 90, clpRaket: 4000, poleBanner: 0, ledEkran: 20, lightbox: 0, megaboard: 80, megalight: 50, totemYolPanolari: 120, metrobusTamKaplama: 0, otobusTamKaplama: 0, otobusSuperback: 0 },

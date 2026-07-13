@@ -40,10 +40,10 @@
       }
     },
     "stats": {
-      "experience": { "value": "10+", "label": "Années d'expérience" },
-      "locations": { "value": "250+", "label": "Espaces publicitaires" },
+      "experience": { "value": "15+", "label": "Années d'expérience" },
+      "locations": { "value": "10 000+", "label": "Espaces publicitaires" },
       "clients": { "value": "40+", "label": "Marques partenaires" },
-      "reach": { "value": "1M+", "label": "Portée mensuelle" }
+      "reach": { "value": "5M+", "label": "Portée mensuelle" }
     },
     "services": {
       "title": "Nos services",

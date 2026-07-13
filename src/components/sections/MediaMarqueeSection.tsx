@@ -126,7 +126,7 @@ export function MediaMarqueeSection({ title, description, cards, altSuffix, loca
 
 function MarqueeCardItem({ card, altSuffix, href }: { card: { title: string; label: string; image: string }; altSuffix: string; href: string }) {
   return (
-    <Link href={href} className="relative flex-shrink-0 w-[280px] sm:w-[320px] md:w-[380px] h-[180px] sm:h-[200px] md:h-[240px] rounded-2xl overflow-hidden group block">
+    <Link href={href} className="relative flex-shrink-0 w-[280px] sm:w-[320px] md:w-[380px] h-[200px] sm:h-[220px] md:h-[260px] rounded-2xl overflow-hidden group block">
       <Image
         src={card.image}
         alt={`${card.title} ${altSuffix} | ThaB Media`}

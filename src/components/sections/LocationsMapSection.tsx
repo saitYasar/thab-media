@@ -133,7 +133,8 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
 
     const path = target as SVGPathElement
     const id = path.getAttribute('data-province-id') || ''
-    const name = path.getAttribute('data-province-name') || id
+    const rawName = path.getAttribute('data-province-name') || id
+    const name = id.startsWith('istanbul') ? 'İstanbul' : rawName
     const inventory = provinceInventory[id] || null
 
     const containerRect = svgContainerRef.current?.getBoundingClientRect()
