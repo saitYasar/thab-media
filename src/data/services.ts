@@ -1,41 +1,19 @@
-// Service format definitions for ThaB Media
-// Visual placeholders use CSS gradients until real photography is available
-
 export interface ServiceFormat {
   slug: string
-  bgStyle: string
-  accentPosition: 'top-left' | 'bottom-right' | 'top-right'
+  image: string
 }
 
 export const services: ServiceFormat[] = [
-  {
-    slug: 'billboard',
-    bgStyle: 'from-[#0a1628] via-[#122044] to-[#1a3060]',
-    accentPosition: 'top-left',
-  },
-  {
-    slug: 'metro-reklam',
-    bgStyle: 'from-[#1a1a2e] via-[#16213e] to-[#0f3460]',
-    accentPosition: 'bottom-right',
-  },
-  {
-    slug: 'dijital-ekran',
-    bgStyle: 'from-[#0d1b2a] via-[#1b2838] to-[#2d3a4a]',
-    accentPosition: 'top-right',
-  },
-  {
-    slug: 'lightbox',
-    bgStyle: 'from-[#1a1a2e] via-[#262640] to-[#3d3050]',
-    accentPosition: 'top-left',
-  },
-  {
-    slug: 'pole-banner',
-    bgStyle: 'from-[#0a1628] via-[#0f2035] to-[#1a3048]',
-    accentPosition: 'bottom-right',
-  },
-  {
-    slug: 'raket-reklam',
-    bgStyle: 'from-[#1a1a2e] via-[#1f2940] to-[#243448]',
-    accentPosition: 'top-right',
-  },
+  { slug: 'billboard', image: '/images/billboard.jpg' },
+  { slug: 'giantboard', image: '/images/giantboard.jpg' },
+  { slug: 'kopru-alinlik', image: '/images/kopru-alinlik.jpg' },
+  { slug: 'clp-raket', image: '/images/clp-raket.jpg' },
+  { slug: 'pole-banner', image: '/images/pole-banner.jpg' },
+  { slug: 'led-ekranlar', image: '/images/led-ekranlar.jpg' },
+  { slug: 'lightbox', image: '/images/lightbox.jpg' },
+  { slug: 'megaboard', image: '/images/megaboard.jpg' },
+  { slug: 'totem-yol-panolari', image: '/images/totem-yol-panolari.jpg' },
+  { slug: 'metrobus-tam-kaplama', image: '/images/metrobus-tam-kaplama.jpg' },
+  { slug: 'otobus-tam-kaplama', image: '/images/otobus-tam-kaplama.jpg' },
+  { slug: 'otobus-superback', image: '/images/otobus-superback.jpg' },
 ]

@@ -21,13 +21,17 @@ interface MediaMarqueeSectionProps {
 
 const cardImages = [
   '/images/billboard.jpg',
-  '/images/metrobus-raket.jpg',
-  '/images/dijital-ekran.jpg',
-  '/images/lightbox.jpg',
+  '/images/giantboard.jpg',
+  '/images/kopru-alinlik.jpg',
+  '/images/clp-raket.jpg',
   '/images/pole-banner.jpg',
-  '/images/durak-reklam.jpg',
-  '/images/otobus-giydirme.jpg',
-  '/images/totem.jpg',
+  '/images/led-ekranlar.jpg',
+  '/images/lightbox.jpg',
+  '/images/megaboard.jpg',
+  '/images/totem-yol-panolari.jpg',
+  '/images/metrobus-tam-kaplama.jpg',
+  '/images/otobus-tam-kaplama.jpg',
+  '/images/otobus-superback.jpg',
 ]
 
 function useReducedMotion() {

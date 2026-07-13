@@ -1,6 +1,3 @@
-// Service detail page data — describes benefits, use cases, and process
-// Content is initial copy for design/development. Not fake claims.
-
 export interface ServiceDetail {
   slug: string
   image: string
@@ -11,31 +8,61 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: 'billboard',
     image: '/images/billboard.jpg',
-    relatedSlugs: ['dijital-ekran', 'lightbox', 'pole-banner'],
+    relatedSlugs: ['giantboard', 'megaboard', 'lightbox'],
   },
   {
-    slug: 'metro-reklam',
-    image: '/images/metrobus-raket.jpg',
-    relatedSlugs: ['raket-reklam', 'dijital-ekran', 'billboard'],
+    slug: 'giantboard',
+    image: '/images/giantboard.jpg',
+    relatedSlugs: ['billboard', 'megaboard', 'kopru-alinlik'],
   },
   {
-    slug: 'dijital-ekran',
-    image: '/images/dijital-ekran.jpg',
-    relatedSlugs: ['billboard', 'lightbox', 'metro-reklam'],
+    slug: 'kopru-alinlik',
+    image: '/images/kopru-alinlik.jpg',
+    relatedSlugs: ['giantboard', 'totem-yol-panolari', 'billboard'],
   },
   {
-    slug: 'lightbox',
-    image: '/images/lightbox.jpg',
-    relatedSlugs: ['dijital-ekran', 'raket-reklam', 'billboard'],
+    slug: 'clp-raket',
+    image: '/images/clp-raket.jpg',
+    relatedSlugs: ['pole-banner', 'lightbox', 'led-ekranlar'],
   },
   {
     slug: 'pole-banner',
     image: '/images/pole-banner.jpg',
-    relatedSlugs: ['billboard', 'raket-reklam', 'lightbox'],
+    relatedSlugs: ['clp-raket', 'billboard', 'totem-yol-panolari'],
   },
   {
-    slug: 'raket-reklam',
-    image: '/images/durak-reklam.jpg',
-    relatedSlugs: ['metro-reklam', 'pole-banner', 'lightbox'],
+    slug: 'led-ekranlar',
+    image: '/images/led-ekranlar.jpg',
+    relatedSlugs: ['megaboard', 'lightbox', 'metrobus-tam-kaplama'],
+  },
+  {
+    slug: 'lightbox',
+    image: '/images/lightbox.jpg',
+    relatedSlugs: ['led-ekranlar', 'billboard', 'clp-raket'],
+  },
+  {
+    slug: 'megaboard',
+    image: '/images/megaboard.jpg',
+    relatedSlugs: ['billboard', 'giantboard', 'led-ekranlar'],
+  },
+  {
+    slug: 'totem-yol-panolari',
+    image: '/images/totem-yol-panolari.jpg',
+    relatedSlugs: ['kopru-alinlik', 'billboard', 'pole-banner'],
+  },
+  {
+    slug: 'metrobus-tam-kaplama',
+    image: '/images/metrobus-tam-kaplama.jpg',
+    relatedSlugs: ['otobus-tam-kaplama', 'otobus-superback', 'led-ekranlar'],
+  },
+  {
+    slug: 'otobus-tam-kaplama',
+    image: '/images/otobus-tam-kaplama.jpg',
+    relatedSlugs: ['metrobus-tam-kaplama', 'otobus-superback', 'billboard'],
+  },
+  {
+    slug: 'otobus-superback',
+    image: '/images/otobus-superback.jpg',
+    relatedSlugs: ['otobus-tam-kaplama', 'metrobus-tam-kaplama', 'clp-raket'],
   },
 ]

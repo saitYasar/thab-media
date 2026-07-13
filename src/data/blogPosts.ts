@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
     titleKey: 'billboardTitle',
     excerptKey: 'billboardExcerpt',
     categoryKey: 'billboardCategory',
-    image: '/images/metrobus-raket.jpg',
+    image: '/images/megaboard.jpg',
     readTime: 4,
   },
   {
@@ -33,7 +33,7 @@ export const blogPosts: BlogPost[] = [
     titleKey: 'doohTitle',
     excerptKey: 'doohExcerpt',
     categoryKey: 'doohCategory',
-    image: '/images/dijital-ekran.jpg',
+    image: '/images/led-ekranlar.jpg',
     readTime: 6,
   },
   {

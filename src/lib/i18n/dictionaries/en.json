@@ -51,16 +51,20 @@
     },
     "marquee": {
       "title": "Where Your Brand Will Be Seen",
-      "description": "From billboards to digital screens, bus stops to vehicle wraps — your brand across the entire city.",
+      "description": "From billboards to LED screens, bridge panels to vehicle wraps — your brand across the entire city.",
       "cards": [
-        { "title": "Billboard", "label": "Mega Panel • City Entrances" },
-        { "title": "Metrobus Panel", "label": "Public Transit Lines" },
-        { "title": "Digital Screen", "label": "LED / DOOH • Programmatic" },
-        { "title": "Lightbox Panel", "label": "Malls & Streets • 24/7" },
-        { "title": "Pole Banners", "label": "Main Roads • Serial Impact" },
-        { "title": "Bus Stop Ads", "label": "Pedestrian Traffic • Urban" },
-        { "title": "Bus Wrapping", "label": "Full Wrap • Mobile Impact" },
-        { "title": "Totem Ads", "label": "Shopping Areas" }
+        { "title": "Billboard", "label": "Urban • Roadside" },
+        { "title": "Giantboard", "label": "Giant Panel • Highway" },
+        { "title": "Bridge Panel", "label": "Overpass • Highway" },
+        { "title": "CLP Raket", "label": "Bus Stop • Backlit" },
+        { "title": "Pole Banner", "label": "Main Roads • Serial Impact" },
+        { "title": "LED Screens", "label": "Digital • Dynamic Content" },
+        { "title": "Lightbox", "label": "Backlit • Premium" },
+        { "title": "Megaboard", "label": "City Center • Mega Format" },
+        { "title": "Totem Road Panels", "label": "Intersection • Roadside" },
+        { "title": "Metrobus Full Wrap", "label": "Mobile • Citywide" },
+        { "title": "Bus Full Wrap", "label": "Full Wrap • Wide Route" },
+        { "title": "Bus Superback", "label": "Rear Panel • Traffic Impact" }
       ],
       "altSuffix": "advertising space"
     },
@@ -141,12 +145,18 @@
     }
   },
   "services": {
-    "billboard": { "title": "Billboard Advertising", "shortDescription": "Large format outdoor panels at the most visible points in the city." },
-    "dijital-ekran": { "title": "Digital Screens / DOOH", "shortDescription": "Dynamic, programmatic advertising solutions with LED screens and digital totems." },
-    "metro-reklam": { "title": "Metro / Metrobus Advertising", "shortDescription": "High-frequency reach with metro stations and metrobus lines." },
-    "raket-reklam": { "title": "Bus Stop Advertising", "shortDescription": "Reach pedestrian traffic with bus stop and roadside panels." },
-    "lightbox": { "title": "Lightbox Advertising", "shortDescription": "24/7 visibility with backlit showcase-style panels." },
-    "pole-banner": { "title": "Pole Banners", "shortDescription": "Serial visibility on main streets and boulevards with pole-mounted banners." }
+    "billboard": { "title": "Billboard", "shortDescription": "Large format outdoor panels at the most visible points in the city." },
+    "giantboard": { "title": "Giantboard", "shortDescription": "Giant-sized panels providing unmatched brand visibility on high-traffic routes." },
+    "kopru-alinlik": { "title": "Bridge Panel", "shortDescription": "Continuous messaging on overpasses and bridges reaching highway traffic." },
+    "clp-raket": { "title": "CLP Raket", "shortDescription": "Backlit showcase panels close to pedestrian and vehicle traffic." },
+    "pole-banner": { "title": "Pole Banner", "shortDescription": "Serial brand visibility on main streets and boulevards with pole-mounted banners." },
+    "led-ekranlar": { "title": "LED Screens", "shortDescription": "Dynamic, attention-grabbing and programmable advertising with digital LED screens." },
+    "lightbox": { "title": "Lightbox", "shortDescription": "Premium day-and-night visibility with large-format backlit panels." },
+    "megaboard": { "title": "Megaboard", "shortDescription": "Maximum brand impact with mega-sized panels in city centers." },
+    "totem-yol-panolari": { "title": "Totem Road Panels", "shortDescription": "Strong messaging to drivers and passengers with roadside totem structures." },
+    "metrobus-tam-kaplama": { "title": "Metrobus Full Wrap", "shortDescription": "Citywide mobile advertising with full vehicle wrapping of metrobuses." },
+    "otobus-tam-kaplama": { "title": "Bus Full Wrap", "shortDescription": "Continuous visibility across wide routes with full bus wrapping." },
+    "otobus-superback": { "title": "Bus Superback", "shortDescription": "Large format rear panel advertising impacting following traffic." }
   },
   "serviceDetail": {
     "benefitsTitle": "What This Format Provides",
@@ -163,31 +173,31 @@
         { "question": "Do you provide billboard design?", "answer": "We can offer design support or adapt your existing design to the appropriate format." }
       ]
     },
-    "metro-reklam": {
-      "benefits": ["Access to high daily passenger traffic", "Capturing attention during wait times", "Location-based targeted planning", "Reinforcing messages through repeated visibility"],
-      "useCases": ["Urban campaigns", "App and digital product promotions", "Education and course advertising", "Retail store directions"],
-      "process": ["Station and line-based targeting is done", "Passenger profile and density are analyzed", "Format selection (raket, CLP, digital) is determined", "Implementation and campaign tracking is provided"],
+    "giantboard": {
+      "benefits": ["Unmatched visibility with giant dimensions", "Readable from long distances", "Brand dominance on high-traffic routes", "Suitable for long-term campaigns"],
+      "useCases": ["Large-scale brand awareness campaigns", "Product launches", "Highway route advertising", "Mall and large store announcements"],
+      "process": ["Route and visibility analysis is conducted", "Panel size and location are determined", "Design and printing process is managed", "Installation and campaign tracking is provided"],
       "faq": [
-        { "question": "Which metro/metrobus lines have available spaces?", "answer": "We provide spaces on metro and metrobus lines in major cities, primarily Istanbul. Contact us for details." },
-        { "question": "What's the difference between raket and CLP?", "answer": "Raket panels are smaller format bus stop-side panels. CLP are larger, backlit showcase-style panels." }
+        { "question": "What's the difference between giantboard and billboard?", "answer": "Giantboards are larger formats than standard billboards, typically placed on highways or high-traffic arterial routes." },
+        { "question": "How long can a giantboard be rented?", "answer": "Minimum 2 weeks, with flexible durations based on your campaign needs." }
       ]
     },
-    "dijital-ekran": {
-      "benefits": ["Dynamic and attention-grabbing content display", "Flexible scheduling by day/hour", "Multiple brand/message rotation", "Instant campaign update capability"],
-      "useCases": ["Dynamic content campaigns", "Time-based offers and promotions", "Multi-product/message rotation", "Programmatic outdoor strategies"],
-      "process": ["Screen location and size are determined", "Content format and broadcast plan are created", "Digital creative production/adaptation is done", "Broadcasting starts and performance is tracked"],
+    "kopru-alinlik": {
+      "benefits": ["Uninterrupted access to highway traffic", "Mandatory visibility at high-speed crossing points", "Effective messaging with wide surface area", "24/7 visibility"],
+      "useCases": ["Intercity campaigns", "Large brand awareness projects", "Highway route advertising strategies", "Event and festival announcements"],
+      "process": ["Bridge and overpass locations are evaluated", "Traffic density and speed data are analyzed", "Permit processes and design are coordinated", "Installation and maintenance tracking is provided"],
       "faq": [
-        { "question": "Can video content be used on digital screens?", "answer": "Yes, most digital screens support video, animation, and static visuals. Technical details vary by screen." },
-        { "question": "What is programmatic DOOH?", "answer": "It's managing digital outdoor spaces through automated buying systems for targeted and timed advertising." }
+        { "question": "In which cities are bridge panels available?", "answer": "Available on highway bridges primarily in Istanbul and Ankara, as well as other major cities." },
+        { "question": "How long does bridge panel installation take?", "answer": "Depending on location and permits, installation is typically completed within 3-5 days." }
       ]
     },
-    "lightbox": {
-      "benefits": ["24/7 illuminated visibility including nights", "Impact in high pedestrian traffic streets and malls", "Premium brand perception in compact format", "Suitable for long-term campaigns"],
-      "useCases": ["Luxury and premium brand campaigns", "Mall and shopping area advertising", "Street store directions", "Launch and seasonal campaigns"],
-      "process": ["Pedestrian traffic and visibility angles are evaluated", "Panel size and position are determined", "Print and installation process is managed", "Lighting and maintenance tracking is provided"],
+    "clp-raket": {
+      "benefits": ["Close-range communication with pedestrian and vehicle traffic", "Night visibility with backlighting", "Effective advertising in compact format", "Access to public transport users"],
+      "useCases": ["Local business and store advertising", "Mobile app promotions", "Service sector campaigns", "University and education advertising"],
+      "process": ["Target area and stop density are analyzed", "Panel format and location are determined", "Print production and installation are coordinated", "Status tracking is maintained throughout campaign"],
       "faq": [
-        { "question": "How long is the lightbox illuminated?", "answer": "Generally illuminated automatically from sunset to sunrise for nighttime visibility." },
-        { "question": "Are CLP and lightbox the same thing?", "answer": "CLP (City Light Poster) is a subtype of lightbox. Both are backlit panels but may differ in size and placement." }
+        { "question": "What is CLP Raket?", "answer": "City Light Poster (CLP) Raket are backlit, showcase-style advertising panels located near bus stops and roadsides." },
+        { "question": "How many CLP Raket locations are available?", "answer": "Thousands of CLP Raket locations are available in major cities. We provide package recommendations based on your goals." }
       ]
     },
     "pole-banner": {
@@ -199,13 +209,67 @@
         { "question": "How long does the pole banner permit process take?", "answer": "Municipality permit processes typically take 1-2 weeks depending on the city. We manage this on your behalf." }
       ]
     },
-    "raket-reklam": {
-      "benefits": ["Close-range communication with pedestrian traffic", "Access to public transport users", "Wide city-center coverage network", "Capturing attention during long wait times"],
-      "useCases": ["Local business and store advertising", "Mobile app download campaigns", "Service sector promotions", "University and education advertising"],
-      "process": ["Target area and stop density are analyzed", "Format selection (raket, CLP, mini billboard) is made", "Print production and installation are coordinated", "Status tracking is maintained throughout campaign"],
+    "led-ekranlar": {
+      "benefits": ["Dynamic and attention-grabbing content display", "Flexible scheduling by day/hour", "Multiple brand/message rotation", "Instant campaign update capability"],
+      "useCases": ["Dynamic content campaigns", "Time-based offers and promotions", "Multi-product/message rotation", "Programmatic outdoor strategies"],
+      "process": ["Screen location and size are determined", "Content format and broadcast plan are created", "Digital creative production/adaptation is done", "Broadcasting starts and performance is tracked"],
       "faq": [
-        { "question": "How many stops can I advertise on?", "answer": "Based on your campaign budget and target area, we can plan from a single stop to hundreds." },
-        { "question": "Are bus stop ads protected against vandalism?", "answer": "Most modern raket and CLP panels are made of durable materials. Maintenance is handled in case of damage." }
+        { "question": "Can video content be used on LED screens?", "answer": "Yes, most LED screens support video, animation, and static visuals. Technical details vary by screen." },
+        { "question": "What is the broadcast duration?", "answer": "Typically 10-15 second spots in rotation throughout the day. Details vary by screen and package." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["24/7 illuminated visibility including nights", "Impact at high-traffic streets and intersections", "Premium brand perception in large format", "Suitable for long-term campaigns"],
+      "useCases": ["Premium brand campaigns", "Highway and intersection advertising", "Launch and seasonal campaigns", "City entry/exit points"],
+      "process": ["Visibility and traffic angles are evaluated", "Panel size and position are determined", "Print and installation process is managed", "Lighting and maintenance tracking is provided"],
+      "faq": [
+        { "question": "How long is the lightbox illuminated?", "answer": "Generally illuminated automatically from sunset to sunrise for nighttime visibility." },
+        { "question": "What sizes do lightboxes come in?", "answer": "Various sizes are available depending on location. We recommend the most suitable format for your needs." }
+      ]
+    },
+    "megaboard": {
+      "benefits": ["Attention-grabbing with giant dimensions in city centers", "Reaching both pedestrian and vehicle traffic simultaneously", "Premium positioning enhancing brand prestige", "Eye-catching visibility that differentiates from competitors"],
+      "useCases": ["Major brand campaigns", "Product and service launches", "Luxury segment advertising", "City center event announcements"],
+      "process": ["City center locations are evaluated", "Panel size and installation plan are prepared", "Design and production are coordinated", "Installation and campaign tracking is provided"],
+      "faq": [
+        { "question": "What's the difference between megaboard and billboard?", "answer": "Megaboards are much larger than standard billboards and are positioned at the most prestigious points in city centers." },
+        { "question": "What is the megaboard campaign duration?", "answer": "Minimum 2 weeks, ideal for long-term campaigns." }
+      ]
+    },
+    "totem-yol-panolari": {
+      "benefits": ["High-visibility roadside structure", "Reaching both drivers and pedestrians", "Long-lasting with durable construction", "Impact at strategic intersections and junctions"],
+      "useCases": ["Mall and retail directions", "City entry point advertising", "Industrial zone and business center promotions", "Chain store announcements"],
+      "process": ["Intersection and junction points are identified", "Totem structure size and design are planned", "Permit and installation process is managed", "Campaign and maintenance tracking is provided"],
+      "faq": [
+        { "question": "What is a totem road panel?", "answer": "Free-standing, usually double-sided vertical structures positioned at roadsides. Visible to both pedestrians and drivers." },
+        { "question": "Where are totem panels located?", "answer": "Available at city entry/exit points, main intersections, and commercial zones." }
+      ]
+    },
+    "metrobus-tam-kaplama": {
+      "benefits": ["Citywide mobile advertising space", "Reaching hundreds of thousands daily", "Repeated visibility on busy route corridors", "Eye-catching design with large surface area"],
+      "useCases": ["Citywide brand awareness campaigns", "Product launches", "App and digital service promotions", "Seasonal high-budget campaigns"],
+      "process": ["Route and corridor analysis is conducted", "Vehicle selection and design adaptation are planned", "Wrap production and application is done", "Vehicle tracking is maintained throughout campaign"],
+      "faq": [
+        { "question": "How long does a metrobus full wrap last?", "answer": "Typically a minimum of 1 month, with flexible durations based on your campaign budget and goals." },
+        { "question": "Are there design limitations?", "answer": "All surfaces except windows, doors, and safety areas can be used. We provide the technical template." }
+      ]
+    },
+    "otobus-tam-kaplama": {
+      "benefits": ["Continuous visibility across wide route networks", "Mobile advertising reaching different neighborhoods", "Impressive design potential with large surface area", "Reaching both pedestrian and vehicle traffic simultaneously"],
+      "useCases": ["Citywide brand campaigns", "Retail store and mall announcements", "Municipal and public service promotions", "Educational institution advertising"],
+      "process": ["Route and line analysis is conducted", "Vehicle count and wrap area are determined", "Design adaptation and production are coordinated", "Application and campaign tracking is provided"],
+      "faq": [
+        { "question": "How many buses can be wrapped simultaneously?", "answer": "From a single bus to fleet wrapping, we can plan based on your budget and goals." },
+        { "question": "How long does the bus wrapping process take?", "answer": "A single bus wrap is typically completed within 2-3 days." }
+      ]
+    },
+    "otobus-superback": {
+      "benefits": ["Direct messaging to following traffic flow", "Maximum impact during high-traffic hours", "High visibility at affordable cost", "Wide city coverage"],
+      "useCases": ["Quick awareness campaigns", "Local business and service promotions", "App download campaigns", "QR code and digital interaction campaigns"],
+      "process": ["Target area and route analysis is done", "Vehicle count and duration are determined", "Rear panel design and printing are produced", "Application and campaign tracking is provided"],
+      "faq": [
+        { "question": "What is bus superback?", "answer": "A large-format advertising space on the rear panel of buses. Easily visible to following vehicle traffic." },
+        { "question": "What's the difference between superback and full wrap?", "answer": "Superback covers only the rear panel of the bus, while full wrap uses the entire exterior surface. Superback is more cost-effective." }
       ]
     }
   },
@@ -336,6 +400,7 @@
     "selectFormat": "Select Format",
     "uploadImage": "Upload Image",
     "resetImage": "Reset",
+    "changeBackground": "Change Background",
     "placeholder": "Your Brand Here",
     "privacyNote": "Your image is used for preview only in your browser — it is never uploaded to any server.",
     "cta": "Get a quote for this format",
@@ -344,6 +409,7 @@
       "busStop": "Bus Stop Panel",
       "digitalScreen": "Digital Screen",
       "busBack": "Bus Back",
+      "poleBanner": "Pole Banner",
       "lightbox": "Lightbox"
     },
     "formatDescriptions": {
@@ -351,6 +417,7 @@
       "busStop": "Vertical poster panel at bus stop shelters. Reaches pedestrians and transit passengers.",
       "digitalScreen": "LED digital display. Ideal for motion content and dynamic campaigns.",
       "busBack": "Bus rear panel advertising. Moving visibility throughout city traffic.",
+      "poleBanner": "Vertical banner mounted on street light poles. High visibility on main roads.",
       "lightbox": "Backlit display panel. Premium 24/7 visibility including nighttime."
     }
   },

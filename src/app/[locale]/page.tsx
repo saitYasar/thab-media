@@ -57,7 +57,7 @@ export default async function HomePage({
         title={dict.home.services.title}
         description={dict.home.services.description}
         serviceTexts={dict.services}
-        ctaLabel={dict.common.cta.seeMore}
+        ctaLabel={dict.common.cta.viewAll}
         locale={locale}
       />
       <WhyChooseUsSection

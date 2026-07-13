@@ -10,5 +10,6 @@ export const adPreviewFormats: AdPreviewFormat[] = [
   { id: 'busStop' },
   { id: 'digitalScreen' },
   { id: 'busBack' },
+  { id: 'poleBanner' },
   { id: 'lightbox' },
 ]

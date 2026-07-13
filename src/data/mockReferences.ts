@@ -11,5 +11,4 @@ export const references = [
   { name: 'Kiğılı', slug: 'kigili', logo: '/images/logos/kigili.svg' },
   { name: 'Pin', slug: 'pin', logo: '/images/logos/pin.svg' },
   { name: 'CapySun', slug: 'capysun', logo: '/images/logos/capysun.svg' },
-  { name: 'Reis Gıda', slug: 'reis-gida', logo: '/images/logos/reis-gida.svg' },
 ]

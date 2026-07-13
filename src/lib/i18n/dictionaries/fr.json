@@ -51,16 +51,20 @@
     },
     "marquee": {
       "title": "Où votre marque sera visible",
-      "description": "Des panneaux d'affichage aux écrans numériques, des arrêts de bus aux habillages de véhicules — votre marque dans toute la ville.",
+      "description": "Des panneaux d'affichage aux écrans LED, des ponts aux habillages de véhicules — votre marque dans toute la ville.",
       "cards": [
-        { "title": "Panneau d'affichage", "label": "Méga panneau • Entrées de ville" },
-        { "title": "Panneau métrobus", "label": "Lignes de transport" },
-        { "title": "Écran numérique", "label": "LED / DOOH • Programmatique" },
-        { "title": "Lightbox", "label": "Centres commerciaux & Rues • 24h/24" },
-        { "title": "Bannières sur poteau", "label": "Axes principaux • Impact en série" },
-        { "title": "Publicité abribus", "label": "Trafic piéton • Urbain" },
-        { "title": "Habillage de bus", "label": "Couverture totale • Impact mobile" },
-        { "title": "Publicité totem", "label": "Zones commerciales" }
+        { "title": "Billboard", "label": "Urbain • Bord de route" },
+        { "title": "Giantboard", "label": "Panneau géant • Autoroute" },
+        { "title": "Panneau de pont", "label": "Passerelle • Autoroute" },
+        { "title": "CLP Raket", "label": "Abribus • Rétroéclairé" },
+        { "title": "Pole Banner", "label": "Axes principaux • Impact en série" },
+        { "title": "Écrans LED", "label": "Numérique • Contenu dynamique" },
+        { "title": "Lightbox", "label": "Rétroéclairé • Premium" },
+        { "title": "Megaboard", "label": "Centre-ville • Méga format" },
+        { "title": "Totems routiers", "label": "Carrefour • Bord de route" },
+        { "title": "Métrobus couverture totale", "label": "Mobile • Toute la ville" },
+        { "title": "Bus couverture totale", "label": "Habillage total • Large itinéraire" },
+        { "title": "Bus Superback", "label": "Panneau arrière • Impact trafic" }
       ],
       "altSuffix": "espace publicitaire"
     },
@@ -141,12 +145,18 @@
     }
   },
   "services": {
-    "billboard": { "title": "Panneaux d'affichage", "shortDescription": "Grands formats aux points les plus visibles de la ville." },
-    "dijital-ekran": { "title": "Écrans numériques / DOOH", "shortDescription": "Solutions publicitaires dynamiques et programmatiques avec écrans LED." },
-    "metro-reklam": { "title": "Publicité métro / métrobus", "shortDescription": "Portée haute fréquence en stations de métro et lignes de métrobus." },
-    "raket-reklam": { "title": "Publicité arrêts de bus", "shortDescription": "Touchez le trafic piéton avec les panneaux d'arrêts de bus et bord de route." },
-    "lightbox": { "title": "Publicité Lightbox", "shortDescription": "Visibilité 24h/24 avec panneaux vitrines rétroéclairés." },
-    "pole-banner": { "title": "Bannières sur poteaux", "shortDescription": "Visibilité en série sur les avenues principales avec bannières sur poteaux." }
+    "billboard": { "title": "Billboard", "shortDescription": "Grands formats aux points les plus visibles de la ville." },
+    "giantboard": { "title": "Giantboard", "shortDescription": "Panneaux géants offrant une visibilité inégalée sur les axes à fort trafic." },
+    "kopru-alinlik": { "title": "Panneau de pont", "shortDescription": "Communication continue sur les passerelles et ponts vers le trafic autoroutier." },
+    "clp-raket": { "title": "CLP Raket", "shortDescription": "Panneaux vitrines rétroéclairés proches du trafic piéton et véhicule." },
+    "pole-banner": { "title": "Pole Banner", "shortDescription": "Visibilité en série sur les avenues principales avec bannières sur poteaux." },
+    "led-ekranlar": { "title": "Écrans LED", "shortDescription": "Solutions publicitaires dynamiques et programmables avec écrans LED numériques." },
+    "lightbox": { "title": "Lightbox", "shortDescription": "Visibilité premium jour et nuit avec panneaux rétroéclairés grand format." },
+    "megaboard": { "title": "Megaboard", "shortDescription": "Impact maximum avec panneaux méga format en centre-ville." },
+    "totem-yol-panolari": { "title": "Totems routiers", "shortDescription": "Communication forte vers les conducteurs et passagers avec structures totem en bord de route." },
+    "metrobus-tam-kaplama": { "title": "Métrobus couverture totale", "shortDescription": "Publicité mobile sur toute la ville avec habillage complet de métrobus." },
+    "otobus-tam-kaplama": { "title": "Bus couverture totale", "shortDescription": "Visibilité continue sur de larges itinéraires avec habillage complet de bus." },
+    "otobus-superback": { "title": "Bus Superback", "shortDescription": "Publicité grand format sur le panneau arrière impactant le trafic suivant." }
   },
   "serviceDetail": {
     "benefitsTitle": "Ce que ce format offre",
@@ -163,31 +173,31 @@
         { "question": "Proposez-vous la conception ?", "answer": "Nous pouvons offrir un soutien créatif ou adapter votre design existant au format approprié." }
       ]
     },
-    "metro-reklam": {
-      "benefits": ["Accès au trafic quotidien élevé de passagers", "Captation d'attention pendant l'attente", "Planification ciblée par emplacement", "Renforcement des messages par visibilité répétée"],
-      "useCases": ["Campagnes urbaines", "Promotions d'applications et produits numériques", "Publicité pour l'éducation", "Directions vers les magasins"],
-      "process": ["Le ciblage par station et ligne est effectué", "Le profil passager et la densité sont analysés", "Le format est sélectionné", "L'implémentation et le suivi sont assurés"],
+    "giantboard": {
+      "benefits": ["Visibilité inégalée avec dimensions géantes", "Lisible à longue distance", "Dominance de marque sur les axes à fort trafic", "Adapté aux campagnes longue durée"],
+      "useCases": ["Campagnes de notoriété à grande échelle", "Lancements de produits", "Publicité sur les itinéraires autoroutiers", "Annonces de centres commerciaux"],
+      "process": ["L'analyse de l'itinéraire et de la visibilité est effectuée", "La taille et l'emplacement du panneau sont déterminés", "Le processus de conception et d'impression est géré", "L'installation et le suivi de campagne sont assurés"],
       "faq": [
-        { "question": "Quelles lignes ont des espaces disponibles ?", "answer": "Nous proposons des espaces dans les grandes villes, principalement Istanbul. Contactez-nous pour les détails." },
-        { "question": "Quelle est la différence entre raket et CLP ?", "answer": "Les raket sont des panneaux compacts près des arrêts. Les CLP sont des panneaux vitrines rétroéclairés plus grands." }
+        { "question": "Quelle est la différence entre giantboard et billboard ?", "answer": "Les giantboards sont de plus grand format que les billboards standard, généralement placés sur les autoroutes ou axes à fort trafic." },
+        { "question": "Quelle est la durée de location ?", "answer": "Minimum 2 semaines, avec des durées flexibles selon vos besoins de campagne." }
       ]
     },
-    "dijital-ekran": {
-      "benefits": ["Affichage de contenu dynamique et captivant", "Programmation flexible par jour/heure", "Rotation de plusieurs marques/messages", "Mise à jour instantanée des campagnes"],
-      "useCases": ["Campagnes à contenu dynamique", "Offres et promotions temporelles", "Rotation multi-produits", "Stratégies DOOH programmatiques"],
-      "process": ["L'emplacement et la taille de l'écran sont déterminés", "Le format de contenu et le plan de diffusion sont créés", "La production créative numérique est réalisée", "La diffusion démarre et la performance est suivie"],
+    "kopru-alinlik": {
+      "benefits": ["Accès ininterrompu au trafic autoroutier", "Visibilité obligatoire aux points de passage à grande vitesse", "Communication efficace avec une large surface", "Visibilité 24h/24"],
+      "useCases": ["Campagnes intercités", "Grands projets de notoriété de marque", "Stratégies publicitaires autoroutières", "Annonces d'événements et festivals"],
+      "process": ["Les emplacements de ponts et passerelles sont évalués", "La densité de trafic et les données de vitesse sont analysées", "Les autorisations et la conception sont coordonnées", "L'installation et la maintenance sont assurées"],
       "faq": [
-        { "question": "Peut-on utiliser de la vidéo ?", "answer": "Oui, la plupart des écrans numériques supportent vidéo, animation et visuels statiques." },
-        { "question": "Qu'est-ce que le DOOH programmatique ?", "answer": "C'est la gestion des espaces numériques extérieurs via des systèmes d'achat automatisés pour une publicité ciblée." }
+        { "question": "Dans quelles villes les panneaux de pont sont-ils disponibles ?", "answer": "Disponibles sur les ponts autoroutiers principalement à Istanbul et Ankara, ainsi que dans d'autres grandes villes." },
+        { "question": "Combien de temps prend l'installation ?", "answer": "Selon l'emplacement et les autorisations, l'installation est généralement terminée en 3 à 5 jours." }
       ]
     },
-    "lightbox": {
-      "benefits": ["Visibilité éclairée 24h/24 y compris la nuit", "Impact dans les zones piétonnes fréquentées", "Perception premium en format compact", "Adapté aux campagnes longue durée"],
-      "useCases": ["Campagnes de marques premium", "Publicité en centres commerciaux", "Directions vers les magasins", "Campagnes de lancement et saisonnières"],
-      "process": ["Le trafic piéton et les angles de visibilité sont évalués", "La taille et la position du panneau sont déterminées", "L'impression et l'installation sont gérées", "L'éclairage et la maintenance sont suivis"],
+    "clp-raket": {
+      "benefits": ["Communication de proximité avec le trafic piéton et véhicule", "Visibilité nocturne avec rétroéclairage", "Espace publicitaire efficace en format compact", "Accès aux utilisateurs des transports en commun"],
+      "useCases": ["Publicité pour commerces locaux", "Promotions d'applications mobiles", "Campagnes du secteur des services", "Publicité pour universités et éducation"],
+      "process": ["La zone cible et la densité des arrêts sont analysées", "Le format et l'emplacement du panneau sont déterminés", "La production d'impression et l'installation sont coordonnées", "Le suivi est assuré pendant la campagne"],
       "faq": [
-        { "question": "Combien de temps le lightbox est-il éclairé ?", "answer": "Généralement éclairé automatiquement du coucher au lever du soleil." },
-        { "question": "CLP et lightbox sont-ils identiques ?", "answer": "Le CLP est un sous-type de lightbox. Les deux sont rétroéclairés mais diffèrent en taille et placement." }
+        { "question": "Qu'est-ce que le CLP Raket ?", "answer": "Le CLP (City Light Poster) Raket est un panneau vitrine rétroéclairé, situé près des arrêts de bus et en bord de route." },
+        { "question": "Combien d'emplacements CLP Raket sont disponibles ?", "answer": "Des milliers d'emplacements sont disponibles dans les grandes villes. Nous proposons des recommandations de packages selon vos objectifs." }
       ]
     },
     "pole-banner": {
@@ -199,13 +209,67 @@
         { "question": "Combien de temps prend l'autorisation ?", "answer": "Les processus municipaux prennent généralement 1 à 2 semaines. Nous gérons cela pour vous." }
       ]
     },
-    "raket-reklam": {
-      "benefits": ["Communication de proximité avec les piétons", "Accès aux utilisateurs des transports en commun", "Large couverture en centre-ville", "Captation d'attention pendant les temps d'attente"],
-      "useCases": ["Publicité pour commerces locaux", "Campagnes de téléchargement d'apps", "Promotions du secteur des services", "Publicité pour universités et éducation"],
-      "process": ["La zone cible et la densité des arrêts sont analysées", "Le format est sélectionné", "La production d'impression et l'installation sont coordonnées", "Le suivi est assuré pendant la campagne"],
+    "led-ekranlar": {
+      "benefits": ["Affichage de contenu dynamique et captivant", "Programmation flexible par jour/heure", "Rotation de plusieurs marques/messages", "Mise à jour instantanée des campagnes"],
+      "useCases": ["Campagnes à contenu dynamique", "Offres et promotions temporelles", "Rotation multi-produits", "Stratégies DOOH programmatiques"],
+      "process": ["L'emplacement et la taille de l'écran sont déterminés", "Le format de contenu et le plan de diffusion sont créés", "La production créative numérique est réalisée", "La diffusion démarre et la performance est suivie"],
       "faq": [
-        { "question": "Sur combien d'arrêts peut-on faire de la publicité ?", "answer": "Selon votre budget et zone cible, nous planifions d'un seul arrêt à des centaines." },
-        { "question": "Les panneaux sont-ils protégés contre le vandalisme ?", "answer": "La plupart des panneaux modernes sont en matériaux résistants. La maintenance est assurée en cas de dommage." }
+        { "question": "Peut-on utiliser de la vidéo sur les écrans LED ?", "answer": "Oui, la plupart des écrans LED supportent vidéo, animation et visuels statiques." },
+        { "question": "Quelle est la durée de diffusion ?", "answer": "Généralement des spots de 10 à 15 secondes en rotation tout au long de la journée. Les détails varient selon l'écran et le forfait." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["Visibilité éclairée 24h/24 y compris la nuit", "Impact aux carrefours et rues à fort trafic", "Perception premium en grand format", "Adapté aux campagnes longue durée"],
+      "useCases": ["Campagnes de marques premium", "Publicité en bord d'autoroute et carrefours", "Campagnes de lancement et saisonnières", "Points d'entrée/sortie de ville"],
+      "process": ["La visibilité et les angles de trafic sont évalués", "La taille et la position du panneau sont déterminées", "L'impression et l'installation sont gérées", "L'éclairage et la maintenance sont suivis"],
+      "faq": [
+        { "question": "Combien de temps le lightbox est-il éclairé ?", "answer": "Généralement éclairé automatiquement du coucher au lever du soleil." },
+        { "question": "Quelles tailles de lightbox sont disponibles ?", "answer": "Différentes tailles sont disponibles selon l'emplacement. Nous recommandons le format le plus adapté à vos besoins." }
+      ]
+    },
+    "megaboard": {
+      "benefits": ["Captation d'attention avec dimensions géantes en centre-ville", "Atteinte simultanée du trafic piéton et véhicule", "Positionnement premium renforçant le prestige de marque", "Visibilité remarquable qui différencie des concurrents"],
+      "useCases": ["Grandes campagnes de marque", "Lancements de produits et services", "Publicité segment luxe", "Annonces d'événements en centre-ville"],
+      "process": ["Les emplacements en centre-ville sont évalués", "La taille du panneau et le plan d'installation sont préparés", "La conception et la production sont coordonnées", "L'installation et le suivi de campagne sont assurés"],
+      "faq": [
+        { "question": "Quelle est la différence entre megaboard et billboard ?", "answer": "Les megaboards sont beaucoup plus grands que les billboards standard et sont positionnés aux points les plus prestigieux des centres-villes." },
+        { "question": "Quelle est la durée de campagne ?", "answer": "Minimum 2 semaines, idéal pour les campagnes longue durée." }
+      ]
+    },
+    "totem-yol-panolari": {
+      "benefits": ["Structure routière à haute visibilité", "Atteinte des conducteurs et piétons", "Utilisation durable avec construction solide", "Impact aux carrefours et embranchements stratégiques"],
+      "useCases": ["Directions vers centres commerciaux", "Publicité aux points d'entrée de ville", "Promotions de zones industrielles et centres d'affaires", "Annonces de chaînes de magasins"],
+      "process": ["Les points de carrefour et d'embranchement sont identifiés", "La taille et le design de la structure totem sont planifiés", "Les autorisations et l'installation sont gérées", "Le suivi de campagne et la maintenance sont assurés"],
+      "faq": [
+        { "question": "Qu'est-ce qu'un totem routier ?", "answer": "Structures verticales indépendantes, généralement double face, positionnées en bord de route. Visibles par les piétons et conducteurs." },
+        { "question": "Où sont situés les totems ?", "answer": "Disponibles aux entrées/sorties de ville, carrefours principaux et zones commerciales." }
+      ]
+    },
+    "metrobus-tam-kaplama": {
+      "benefits": ["Espace publicitaire mobile sur toute la ville", "Atteinte de centaines de milliers de personnes quotidiennement", "Visibilité répétée sur les couloirs d'itinéraires fréquentés", "Design captivant avec grande surface"],
+      "useCases": ["Campagnes de notoriété à l'échelle de la ville", "Lancements de produits", "Promotions d'applications et services numériques", "Campagnes saisonnières à gros budget"],
+      "process": ["L'analyse de l'itinéraire et du couloir est effectuée", "La sélection du véhicule et l'adaptation du design sont planifiées", "La production et l'application de l'habillage sont réalisées", "Le suivi du véhicule est assuré pendant la campagne"],
+      "faq": [
+        { "question": "Quelle est la durée d'un habillage complet de métrobus ?", "answer": "Généralement minimum 1 mois, avec des durées flexibles selon votre budget et objectifs de campagne." },
+        { "question": "Y a-t-il des limitations de design ?", "answer": "Toutes les surfaces sauf fenêtres, portes et zones de sécurité peuvent être utilisées. Nous fournissons le gabarit technique." }
+      ]
+    },
+    "otobus-tam-kaplama": {
+      "benefits": ["Visibilité continue sur un large réseau d'itinéraires", "Publicité mobile atteignant différents quartiers", "Potentiel de design impressionnant avec grande surface", "Atteinte simultanée du trafic piéton et véhicule"],
+      "useCases": ["Campagnes de marque à l'échelle de la ville", "Annonces de magasins et centres commerciaux", "Promotions de services publics et municipaux", "Publicité d'établissements éducatifs"],
+      "process": ["L'analyse de l'itinéraire et de la ligne est effectuée", "Le nombre de véhicules et la surface d'habillage sont déterminés", "L'adaptation du design et la production sont coordonnées", "L'application et le suivi de campagne sont assurés"],
+      "faq": [
+        { "question": "Combien de bus peuvent être habillés simultanément ?", "answer": "D'un seul bus à une flotte entière, nous planifions selon votre budget et vos objectifs." },
+        { "question": "Combien de temps prend l'habillage ?", "answer": "L'habillage d'un bus est généralement terminé en 2 à 3 jours." }
+      ]
+    },
+    "otobus-superback": {
+      "benefits": ["Message direct vers le flux de trafic suivant", "Impact maximum aux heures de pointe", "Haute visibilité à coût abordable", "Large couverture urbaine"],
+      "useCases": ["Campagnes de sensibilisation rapide", "Promotions de commerces et services locaux", "Campagnes de téléchargement d'applications", "Campagnes d'interaction numérique avec QR code"],
+      "process": ["La zone cible et l'analyse d'itinéraire sont effectuées", "Le nombre de véhicules et la durée sont déterminés", "Le design et l'impression du panneau arrière sont produits", "L'application et le suivi de campagne sont assurés"],
+      "faq": [
+        { "question": "Qu'est-ce que le bus superback ?", "answer": "Un espace publicitaire grand format sur le panneau arrière des bus. Facilement visible par le trafic véhicule suivant." },
+        { "question": "Quelle est la différence entre superback et couverture totale ?", "answer": "Le superback ne couvre que le panneau arrière, tandis que la couverture totale utilise toute la surface extérieure. Le superback est plus économique." }
       ]
     }
   },
@@ -336,6 +400,7 @@
     "selectFormat": "Choisir le format",
     "uploadImage": "Télécharger une image",
     "resetImage": "Réinitialiser",
+    "changeBackground": "Changer le fond",
     "placeholder": "Votre marque ici",
     "privacyNote": "Votre image est utilisée uniquement pour la prévisualisation dans votre navigateur — elle n'est jamais envoyée à un serveur.",
     "cta": "Obtenir un devis pour ce format",
@@ -344,6 +409,7 @@
       "busStop": "Abribus",
       "digitalScreen": "Écran numérique",
       "busBack": "Arrière de bus",
+      "poleBanner": "Bannière sur poteau",
       "lightbox": "Lightbox"
     },
     "formatDescriptions": {
@@ -351,6 +417,7 @@
       "busStop": "Panneau vertical à l'abribus. Atteint les piétons et les usagers des transports.",
       "digitalScreen": "Écran LED numérique. Idéal pour le contenu animé et les campagnes dynamiques.",
       "busBack": "Publicité à l'arrière du bus. Visibilité mobile dans la circulation urbaine.",
+      "poleBanner": "Bannière verticale sur poteaux d'éclairage. Haute visibilité sur les grandes artères.",
       "lightbox": "Panneau vitrine rétroéclairé. Visibilité premium 24h/24 y compris la nuit."
     }
   },

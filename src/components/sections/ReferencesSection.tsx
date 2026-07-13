@@ -24,14 +24,14 @@ export function ReferencesSection({ title, subtitle }: ReferencesSectionProps) {
           {references.map((brand) => (
             <div
               key={brand.slug}
-              className="flex items-center justify-center h-[68px] md:h-[76px] rounded-xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm transition-all duration-200 hover:border-white/20 hover:bg-white/[0.06] px-4"
+              className="flex items-center justify-center h-[80px] md:h-[90px] rounded-xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm transition-all duration-200 hover:border-white/20 hover:bg-white/[0.06] px-4"
             >
               <Image
                 src={brand.logo}
                 alt={`${brand.name} | ThaB Media`}
-                width={140}
-                height={40}
-                className="w-auto h-6 md:h-7 opacity-60 hover:opacity-90 transition-opacity invert"
+                width={160}
+                height={50}
+                className="w-auto h-8 md:h-10 opacity-70 hover:opacity-95 transition-opacity invert"
               />
             </div>
           ))}

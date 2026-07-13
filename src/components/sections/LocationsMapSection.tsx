@@ -19,31 +19,23 @@ interface PopupState {
   y: number
 }
 
-const comingSoonLabels: Record<string, string> = {
-  tr: 'Yakında hizmet verilecek',
-  en: 'Coming soon',
-  fr: 'Bientôt disponible',
+const legendLabels: Record<string, string> = {
+  tr: 'Aktif İller',
+  en: 'Active Cities',
+  fr: 'Villes actives',
 }
 
-const legendLabels: Record<string, { active: string; coming: string }> = {
-  tr: { active: 'Aktif İller', coming: 'Yakında' },
-  en: { active: 'Active Cities', coming: 'Coming Soon' },
-  fr: { active: 'Villes actives', coming: 'Bientôt' },
-}
-
-function getProvinceColors(id: string) {
-  const hasInventory = id in provinceInventory
+function getProvinceColors() {
   return {
-    fill: hasInventory ? 'rgba(255, 10, 10, 0.3)' : 'rgba(255, 255, 255, 0.1)',
-    stroke: hasInventory ? 'rgba(255, 10, 10, 0.5)' : 'rgba(255, 255, 255, 0.25)',
+    fill: 'rgba(255, 10, 10, 0.3)',
+    stroke: 'rgba(255, 10, 10, 0.5)',
   }
 }
 
-function getProvinceHoverColors(id: string) {
-  const hasInventory = id in provinceInventory
+function getProvinceHoverColors() {
   return {
-    fill: hasInventory ? 'rgba(255, 10, 10, 0.55)' : 'rgba(255, 255, 255, 0.25)',
-    stroke: hasInventory ? 'rgba(255, 10, 10, 0.8)' : 'rgba(255, 255, 255, 0.5)',
+    fill: 'rgba(255, 10, 10, 0.55)',
+    stroke: 'rgba(255, 10, 10, 0.8)',
   }
 }
 
@@ -54,7 +46,6 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
   const svgContainerRef = useRef<HTMLDivElement>(null)
   const hoveredPath = useRef<SVGPathElement | null>(null)
   const labels = categoryLabels[locale] || categoryLabels.tr
-  const comingSoon = comingSoonLabels[locale] || comingSoonLabels.tr
   const legend = legendLabels[locale] || legendLabels.tr
 
   useEffect(() => {
@@ -92,7 +83,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
       const id = g.getAttribute('id') || ''
       if (id === 'turkiye' || id === 'svg-turkiye-haritasi') return
 
-      const colors = getProvinceColors(id)
+      const colors = getProvinceColors()
       const paths = g.querySelectorAll(':scope > path')
       paths.forEach(path => {
         path.setAttribute('fill', colors.fill)
@@ -116,7 +107,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
         label.setAttribute('text-anchor', 'middle')
         label.setAttribute('dominant-baseline', 'central')
         label.setAttribute('fill', '#ffffff')
-        label.setAttribute('font-size', '6')
+        label.setAttribute('font-size', '11')
         label.setAttribute('font-weight', '500')
         label.setAttribute('font-family', 'Inter, sans-serif')
         label.setAttribute('pointer-events', 'none')
@@ -160,7 +151,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
 
     const path = target as SVGPathElement
     const id = path.getAttribute('data-province-id') || ''
-    const colors = getProvinceHoverColors(id)
+    const colors = getProvinceHoverColors()
     path.setAttribute('fill', colors.fill)
     path.setAttribute('stroke', colors.stroke)
     path.setAttribute('stroke-width', '1.5')
@@ -172,8 +163,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
     if (!target.matches('path[data-province-id]')) return
 
     const path = target as SVGPathElement
-    const id = path.getAttribute('data-province-id') || ''
-    const colors = getProvinceColors(id)
+    const colors = getProvinceColors()
     path.setAttribute('fill', colors.fill)
     path.setAttribute('stroke', colors.stroke)
     path.setAttribute('stroke-width', '0.8')
@@ -218,7 +208,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
                 transform: popup.y < containerHeight * 0.35 ? 'translate(-50%, 20px)' : 'translate(-50%, -100%)',
               }}
             >
-              <div className="pointer-events-auto bg-[#0c1a3a] border border-white/15 rounded-xl shadow-2xl p-4 min-w-[220px] backdrop-blur-sm">
+              <div className="pointer-events-auto bg-[#0c1a3a] border border-white/15 rounded-xl shadow-2xl p-5 min-w-[280px] backdrop-blur-sm">
                 <div className="flex items-center justify-between mb-3">
                   <h4 className="font-heading font-bold text-white text-base">
                     {popup.name}
@@ -233,7 +223,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
                 </div>
 
                 {popup.inventory ? (
-                  <div className="space-y-1.5 max-h-[200px] overflow-y-auto">
+                  <div className="space-y-2 max-h-[240px] overflow-y-auto">
                     {Object.entries(popup.inventory).map(([key, value]) =>
                       value > 0 ? (
                         <InventoryRow key={key} label={labels[key] || key} count={value} />
@@ -241,7 +231,9 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
                     )}
                   </div>
                 ) : (
-                  <p className="text-sm text-white/50 italic">{comingSoon}</p>
+                  <p className="text-sm text-white/50 italic">
+                    {locale === 'en' ? 'Contact us for details' : locale === 'fr' ? 'Contactez-nous' : 'Detaylar için iletişime geçin'}
+                  </p>
                 )}
               </div>
             </div>
@@ -251,11 +243,7 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
         <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-sm text-white/50">
           <div className="flex items-center gap-2">
             <div className="w-4 h-3 rounded-sm bg-[rgba(255,10,10,0.25)] border border-[rgba(255,10,10,0.4)]" />
-            <span>{legend.active}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-4 h-3 rounded-sm bg-white/[0.08] border border-white/20" />
-            <span>{legend.coming}</span>
+            <span>{legend}</span>
           </div>
         </div>
 

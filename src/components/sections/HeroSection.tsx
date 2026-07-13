@@ -95,7 +95,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* DOOH — vertical */}
                 <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/dijital-ekran.jpg" alt={`${labels.digitalScreen} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
+                  <Image src="/images/led-ekranlar.jpg" alt={`${labels.digitalScreen} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
@@ -105,7 +105,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* Metro raket */}
                 <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/metrobus-raket.jpg" alt={`${labels.metrobus} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
+                  <Image src="/images/metrobus-tam-kaplama.jpg" alt={`${labels.metrobus} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
@@ -123,9 +123,9 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
                   </div>
                 </Link>
 
-                {/* Durak/Raket */}
+                {/* CLP Raket */}
                 <Link href={servicesHref} className="col-span-3 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/durak-reklam.jpg" alt={`${labels.busStop} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="120px" />
+                  <Image src="/images/clp-raket.jpg" alt={`${labels.busStop} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="120px" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-2 sm:p-2.5">
                     <div className="w-3.5 h-[2px] bg-accent/60 rounded-full mb-1" />

@@ -38,7 +38,7 @@ export default async function BlogPage({
       <PageHero
         title={dict.home.blog.title}
         description={dict.home.blog.description}
-        image="/images/dijital-ekran.jpg"
+        image="/images/led-ekranlar.jpg"
       />
 
       <Section>

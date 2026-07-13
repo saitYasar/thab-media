@@ -35,6 +35,7 @@ export default async function AdPreviewPage({
       selectFormat={dict.adPreviewPage.selectFormat}
       uploadImage={dict.adPreviewPage.uploadImage}
       resetImage={dict.adPreviewPage.resetImage}
+      changeBackground={dict.adPreviewPage.changeBackground}
       placeholder={dict.adPreviewPage.placeholder}
       privacyNote={dict.adPreviewPage.privacyNote}
       cta={dict.adPreviewPage.cta}

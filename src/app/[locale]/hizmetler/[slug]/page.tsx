@@ -10,15 +10,6 @@ import { PageHero } from '@/components/sections/PageHero'
 import { services } from '@/data/services'
 import { serviceDetails } from '@/data/serviceDetails'
 
-const serviceImages: Record<string, string> = {
-  billboard: '/images/billboard.jpg',
-  'metro-reklam': '/images/metrobus-raket.jpg',
-  'dijital-ekran': '/images/dijital-ekran.jpg',
-  lightbox: '/images/lightbox.jpg',
-  'pole-banner': '/images/pole-banner.jpg',
-  'raket-reklam': '/images/durak-reklam.jpg',
-}
-
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }))
 }
@@ -172,17 +163,15 @@ export default async function ServiceDetailPage({
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-5">
             {detail.relatedSlugs.map((relSlug) => {
               const relText = dict.services[relSlug as keyof typeof dict.services]
-              const relImage = serviceImages[relSlug]
-              if (!relText) return null
+              const relService = services.find(s => s.slug === relSlug)
+              if (!relText || !relService) return null
               return (
                 <Link
                   key={relSlug}
                   href={`${servicesPrefix}/${relSlug}`}
                   className="group relative rounded-2xl overflow-hidden min-h-[180px] sm:min-h-[200px] block transition-all duration-300 hover:scale-[1.015] hover:shadow-xl"
                 >
-                  {relImage && (
-                    <Image src={relImage} alt={`${relText.title} | ThaB Media`} fill sizes="33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
-                  )}
+                  <Image src={relService.image} alt={`${relText.title} | ThaB Media`} fill sizes="33vw" className="object-cover group-hover:scale-105 transition-transform duration-500" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-black/10" />
                   <div className="absolute inset-x-0 bottom-0 p-5">
                     <div className="w-6 h-[2px] bg-accent rounded-full mb-2" />

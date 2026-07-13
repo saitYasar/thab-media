@@ -51,16 +51,20 @@
     },
     "marquee": {
       "title": "Şehirde Görünür Olacağınız Alanlar",
-      "description": "Billboard'dan dijital ekrana, durak reklamından araç giydirmeye — markanız şehrin her köşesinde.",
+      "description": "Billboard'dan LED ekrana, köprü alınlıktan araç giydirmeye — markanız şehrin her köşesinde.",
       "cards": [
-        { "title": "Billboard", "label": "Mega Panel • Şehir Girişleri" },
-        { "title": "Metrobüs Raket", "label": "Toplu Ulaşım Hatları" },
-        { "title": "Dijital Ekran", "label": "LED / DOOH • Programatik" },
-        { "title": "Lightbox Pano", "label": "AVM & Cadde • 7/24" },
-        { "title": "Elektrik Direkleri", "label": "Ana Arterler • Seri Etki" },
-        { "title": "Durak Reklamları", "label": "Yaya Trafiği • Şehir İçi" },
-        { "title": "Otobüs Giydirme", "label": "Tam Kaplama • Mobil Etki" },
-        { "title": "Totem Reklamları", "label": "Alışveriş Alanları" }
+        { "title": "Billboard", "label": "Şehir İçi • Yol Kenarı" },
+        { "title": "Giantboard", "label": "Devasa Panel • Otoban" },
+        { "title": "Köprü Alınlık", "label": "Üst Geçit • Otoban" },
+        { "title": "CLP Raket", "label": "Durak Kenarı • Aydınlatmalı" },
+        { "title": "Pole Banner", "label": "Ana Arterler • Seri Etki" },
+        { "title": "LED Ekranlar", "label": "Dijital • Dinamik İçerik" },
+        { "title": "Lightbox", "label": "Aydınlatmalı • Premium" },
+        { "title": "Megaboard", "label": "Şehir Merkezi • Mega Format" },
+        { "title": "Totem Yol Panoları", "label": "Kavşak • Yol Kenarı" },
+        { "title": "Metrobüs Tam Kaplama", "label": "Hareketli • Şehir Boyu" },
+        { "title": "Otobüs Tam Kaplama", "label": "Tam Giydirme • Geniş Güzergah" },
+        { "title": "Otobüs Superback", "label": "Arka Panel • Trafik Etkisi" }
       ],
       "altSuffix": "reklam alanı"
     },
@@ -141,12 +145,18 @@
     }
   },
   "services": {
-    "billboard": { "title": "Billboard Reklamları", "shortDescription": "Şehrin en görünür noktalarında büyük format açık hava panoları." },
-    "dijital-ekran": { "title": "Dijital Ekran / DOOH", "shortDescription": "LED ekranlar ve dijital totemlerle dinamik, programatik reklam çözümleri." },
-    "metro-reklam": { "title": "Metro / Metrobüs Raket", "shortDescription": "Metro istasyonları ve metrobüs hatlarında yüksek frekanslı erişim." },
-    "raket-reklam": { "title": "Durak / Raket Reklamları", "shortDescription": "Otobüs durakları ve yol kenarı panellerle yaya trafiğine ulaşın." },
-    "lightbox": { "title": "Lightbox Reklamları", "shortDescription": "Arka aydınlatmalı vitrin tipi panellerle 7/24 görünürlük." },
-    "pole-banner": { "title": "Elektrik Direkleri / Pole Banner", "shortDescription": "Ana cadde ve bulvarlarda direk pankartlarıyla seri görünürlük." }
+    "billboard": { "title": "Billboard", "shortDescription": "Şehrin en görünür noktalarında büyük format açık hava panoları ile markanızı öne çıkarın." },
+    "giantboard": { "title": "Giantboard", "shortDescription": "Devasa boyutlu panolarla yüksek trafikli noktalarda göz alıcı marka görünürlüğü." },
+    "kopru-alinlik": { "title": "Köprü Alınlık", "shortDescription": "Üst geçit ve köprü alınlıklarında otoban trafiğine kesintisiz mesaj iletimi." },
+    "clp-raket": { "title": "CLP Raket", "shortDescription": "Şehir içi yaya ve araç trafiğine yakın aydınlatmalı vitrin panelleri." },
+    "pole-banner": { "title": "Pole Banner", "shortDescription": "Ana cadde ve bulvarlarda direk pankartlarıyla seri marka görünürlüğü." },
+    "led-ekranlar": { "title": "LED Ekranlar", "shortDescription": "Dijital LED ekranlarla dinamik, dikkat çekici ve programlanabilir reklam çözümleri." },
+    "lightbox": { "title": "Lightbox", "shortDescription": "Arka aydınlatmalı büyük format panellerle gece gündüz premium görünürlük." },
+    "megaboard": { "title": "Megaboard", "shortDescription": "Şehir merkezlerinde mega boyutlu panolarla maksimum marka etkisi." },
+    "totem-yol-panolari": { "title": "Totem Yol Panoları", "shortDescription": "Yol kenarı totem yapılarla sürücülere ve yolculara güçlü mesaj iletimi." },
+    "metrobus-tam-kaplama": { "title": "Metrobüs Tam Kaplama", "shortDescription": "Metrobüs araçlarının tam kaplama giydirmesiyle şehir boyu hareketli reklam." },
+    "otobus-tam-kaplama": { "title": "Otobüs Tam Kaplama", "shortDescription": "Halk otobüslerinin tam giydirmesiyle geniş güzergahlarda sürekli görünürlük." },
+    "otobus-superback": { "title": "Otobüs Superback", "shortDescription": "Otobüs arka panelinde büyük format reklamla arkadan gelen trafiğe etki." }
   },
   "serviceDetail": {
     "benefitsTitle": "Bu Mecra Ne Sağlar?",
@@ -163,31 +173,31 @@
         { "question": "Billboard tasarımı da yapıyor musunuz?", "answer": "Tasarım desteği sunabiliyoruz veya mevcut tasarımınızı uygun formata adapte edebiliriz." }
       ]
     },
-    "metro-reklam": {
-      "benefits": ["Günlük yüksek yolcu trafiğine erişim", "Bekleme süresinde dikkat çekme", "Hedefli lokasyon bazlı planlama", "Tekrarlayan görünürlük ile mesaj pekiştirme"],
-      "useCases": ["Şehir içi kampanyalar", "Uygulama ve dijital ürün tanıtımları", "Eğitim ve kurs reklamları", "Perakende mağaza yönlendirmeleri"],
-      "process": ["İstasyon ve hat bazlı hedefleme yapılır", "Yolcu profili ve yoğunluk analizi değerlendirilir", "Format seçimi (raket, CLP, dijital) belirlenir", "Uygulama ve kampanya takibi sağlanır"],
+    "giantboard": {
+      "benefits": ["Devasa boyutlarla rakipsiz görünürlük", "Uzak mesafeden bile okunabilir mesaj", "Yoğun trafikli güzergahlarda marka hakimiyeti", "Uzun süreli kampanyalara uygun"],
+      "useCases": ["Büyük ölçekli marka bilinirliği kampanyaları", "Ürün lansmanları", "Şehirlerarası yol güzergahı reklamları", "AVM ve büyük mağaza duyuruları"],
+      "process": ["Güzergah ve görünürlük analizi yapılır", "Panel boyutu ve konum belirlenir", "Tasarım ve baskı süreci yönetilir", "Montaj ve kampanya takibi sağlanır"],
       "faq": [
-        { "question": "Hangi metro/metrobüs hatlarında alan var?", "answer": "İstanbul başta olmak üzere büyükşehirlerdeki metro ve metrobüs hatlarında alan sağlıyoruz. Detaylar için iletişime geçin." },
-        { "question": "Raket ve CLP arasındaki fark nedir?", "answer": "Raket daha küçük formatta durak kenarı panellerdir. CLP ise arka aydınlatmalı, daha büyük vitrin tipi panellerdir." }
+        { "question": "Giantboard ile billboard arasındaki fark nedir?", "answer": "Giantboard, billboard'dan daha büyük formatlardır ve genellikle otoban kenarı ya da yüksek trafikli arter noktalarda konumlanır." },
+        { "question": "Giantboard ne kadar süreyle kiralanabilir?", "answer": "Minimum 2 hafta olmak üzere, kampanya ihtiyacınıza göre esnek süreler sunuyoruz." }
       ]
     },
-    "dijital-ekran": {
-      "benefits": ["Hareketli ve dikkat çekici içerik gösterimi", "Gün/saat bazlı esnek yayın planlama", "Birden fazla marka/mesaj rotasyonu", "Anlık kampanya güncellemesi imkanı"],
-      "useCases": ["Dinamik içerikli kampanyalar", "Zaman bazlı teklifler ve promosyonlar", "Birden fazla ürün/mesaj döndürme", "Programatik açık hava stratejileri"],
-      "process": ["Ekran lokasyonu ve boyutu belirlenir", "İçerik formatı ve yayın planı oluşturulur", "Dijital kreatif üretim/adaptasyon yapılır", "Yayın başlatılır ve performans takip edilir"],
+    "kopru-alinlik": {
+      "benefits": ["Otoban ve ana arter trafiğine kesintisiz erişim", "Yüksek hızlı geçiş noktalarında zorunlu görünürlük", "Geniş yüzey alanı ile etkili mesaj iletimi", "7/24 görünürlük"],
+      "useCases": ["Şehirlerarası kampanyalar", "Büyük marka bilinirliği projeleri", "Otoyol güzergahı reklam stratejileri", "Etkinlik ve festival duyuruları"],
+      "process": ["Köprü ve üst geçit lokasyonları değerlendirilir", "Trafik yoğunluğu ve hız verileri analiz edilir", "İzin süreçleri ve tasarım koordine edilir", "Montaj ve bakım takibi yapılır"],
       "faq": [
-        { "question": "Dijital ekranlarda video içerik kullanılabilir mi?", "answer": "Evet, çoğu dijital ekran video, animasyon ve statik görselleri destekler. Teknik detaylar ekrana göre değişir." },
-        { "question": "Programatik DOOH nedir?", "answer": "Dijital açık hava alanlarının otomatik satın alma sistemleri ile hedefli ve zamanlı şekilde yönetilmesidir." }
+        { "question": "Köprü alınlık hangi şehirlerde mevcut?", "answer": "Başta İstanbul ve Ankara olmak üzere büyükşehirlerdeki otoban köprülerinde alan sağlıyoruz." },
+        { "question": "Köprü alınlık reklamları ne kadar sürede monte edilir?", "answer": "Konum ve izin sürecine bağlı olarak genellikle 3-5 gün içinde montaj tamamlanır." }
       ]
     },
-    "lightbox": {
-      "benefits": ["Gece dahil 7/24 aydınlatmalı görünürlük", "Yaya yoğunluğu yüksek cadde ve AVM'lerde etki", "Kompakt formatta premium marka algısı", "Uzun süreli kampanyalara uygunluk"],
-      "useCases": ["Lüks ve premium marka kampanyaları", "AVM ve alışveriş bölgesi reklamları", "Cadde mağaza yönlendirmeleri", "Lansman ve sezonluk kampanyalar"],
-      "process": ["Yaya trafiği ve görünürlük açısı değerlendirilir", "Panel boyutu ve konumu belirlenir", "Baskı ve montaj süreci yönetilir", "Aydınlatma ve bakım takibi yapılır"],
+    "clp-raket": {
+      "benefits": ["Yaya ve araç trafiğine yakın mesafede iletişim", "Arka aydınlatma ile gece görünürlüğü", "Kompakt formatta etkili reklam alanı", "Toplu taşıma kullanıcılarına erişim"],
+      "useCases": ["Yerel işletme ve mağaza reklamları", "Mobil uygulama tanıtımları", "Hizmet sektörü kampanyaları", "Üniversite ve eğitim reklamları"],
+      "process": ["Hedef bölge ve durak yoğunluğu analiz edilir", "Panel formatı ve konumu belirlenir", "Baskı üretimi ve montaj koordine edilir", "Kampanya boyunca durum takibi sağlanır"],
       "faq": [
-        { "question": "Lightbox ne kadar süre aydınlatılır?", "answer": "Genellikle gün batımından gün doğumuna kadar otomatik olarak aydınlatılır, böylece gece görünürlüğü sağlanır." },
-        { "question": "CLP ile lightbox aynı şey mi?", "answer": "CLP (City Light Poster) lightbox kategorisinin bir alt türüdür. İkisi de arka aydınlatmalı panellerdir ancak boyut ve konumlanma farklılıkları olabilir." }
+        { "question": "CLP Raket nedir?", "answer": "City Light Poster (CLP) Raket, arka aydınlatmalı, durak kenarı ve yol kenarı konumlu vitrin tipi reklam panelleridir." },
+        { "question": "Kaç lokasyonda CLP Raket mevcut?", "answer": "Büyükşehirlerde binlerce noktada CLP Raket alanı mevcuttur. Hedefinize göre paket önerisi sunuyoruz." }
       ]
     },
     "pole-banner": {
@@ -199,13 +209,67 @@
         { "question": "Pole banner izin süreci ne kadar sürer?", "answer": "Belediye izin süreçleri şehre göre değişmekle birlikte genellikle 1-2 hafta sürer. Bu süreyi sizin adınıza yönetiyoruz." }
       ]
     },
-    "raket-reklam": {
-      "benefits": ["Yaya trafiğine yakın mesafede iletişim", "Toplu taşıma kullanıcılarına erişim", "Şehir içi yaygın kapsama ağı", "Uzun bekleme sürelerinde dikkat çekme"],
-      "useCases": ["Yerel işletme ve mağaza reklamları", "Mobil uygulama indirme kampanyaları", "Hizmet sektörü tanıtımları", "Üniversite ve eğitim reklamları"],
-      "process": ["Hedef bölge ve durak yoğunluğu analiz edilir", "Format seçimi (raket, CLP, mini billboard) yapılır", "Baskı üretimi ve montaj koordine edilir", "Kampanya boyunca durum takibi sağlanır"],
+    "led-ekranlar": {
+      "benefits": ["Hareketli ve dikkat çekici içerik gösterimi", "Gün/saat bazlı esnek yayın planlama", "Birden fazla marka/mesaj rotasyonu", "Anlık kampanya güncellemesi imkanı"],
+      "useCases": ["Dinamik içerikli kampanyalar", "Zaman bazlı teklifler ve promosyonlar", "Birden fazla ürün/mesaj döndürme", "Programatik açık hava stratejileri"],
+      "process": ["Ekran lokasyonu ve boyutu belirlenir", "İçerik formatı ve yayın planı oluşturulur", "Dijital kreatif üretim/adaptasyon yapılır", "Yayın başlatılır ve performans takip edilir"],
       "faq": [
-        { "question": "Kaç durakta reklam verilebilir?", "answer": "Kampanya bütçenize ve hedef bölgenize göre tek bir duraktan yüzlerce durağa kadar planlama yapabiliriz." },
-        { "question": "Durak reklamları vandalizme karşı korumalı mı?", "answer": "Modern raket ve CLP panellerinin çoğu dayanıklı malzeme ile korunmaktadır. Hasar durumunda bakım süreci yürütülür." }
+        { "question": "LED ekranlarda video içerik kullanılabilir mi?", "answer": "Evet, çoğu LED ekran video, animasyon ve statik görselleri destekler. Teknik detaylar ekrana göre değişir." },
+        { "question": "Yayın süresi ne kadardır?", "answer": "Genellikle 10-15 saniyelik spotlar halinde, gün boyu rotasyonla yayınlanır. Detaylar ekran ve pakete göre değişir." }
+      ]
+    },
+    "lightbox": {
+      "benefits": ["Gece dahil 7/24 aydınlatmalı görünürlük", "Yüksek trafikli cadde ve kavşaklarda etki", "Büyük formatta premium marka algısı", "Uzun süreli kampanyalara uygunluk"],
+      "useCases": ["Premium marka kampanyaları", "Otoyol kenarı ve kavşak reklamları", "Lansman ve sezonluk kampanyalar", "Şehir giriş/çıkış noktaları"],
+      "process": ["Görünürlük ve trafik açısı değerlendirilir", "Panel boyutu ve konumu belirlenir", "Baskı ve montaj süreci yönetilir", "Aydınlatma ve bakım takibi yapılır"],
+      "faq": [
+        { "question": "Lightbox ne kadar süre aydınlatılır?", "answer": "Genellikle gün batımından gün doğumuna kadar otomatik olarak aydınlatılır, böylece gece görünürlüğü sağlanır." },
+        { "question": "Lightbox hangi boyutlarda gelir?", "answer": "Lokasyona göre farklı boyutlarda lightbox panelleri mevcuttur. İhtiyacınıza göre en uygun formatı öneriyoruz." }
+      ]
+    },
+    "megaboard": {
+      "benefits": ["Şehir merkezlerinde devasa boyutlarla dikkat çekme", "Yaya ve araç trafiğine aynı anda ulaşım", "Marka prestijini artıran premium konum", "Rakiplerden ayrışan göz alıcı görünürlük"],
+      "useCases": ["Büyük marka kampanyaları", "Ürün ve hizmet lansmanları", "Lüks segment reklamları", "Şehir merkezi etkinlik duyuruları"],
+      "process": ["Şehir merkezi lokasyonları değerlendirilir", "Panel boyutu ve montaj planı hazırlanır", "Tasarım ve üretim koordine edilir", "Montaj ve kampanya takibi yapılır"],
+      "faq": [
+        { "question": "Megaboard ile billboard farkı nedir?", "answer": "Megaboard, standart billboard'dan çok daha büyük boyutlu panellerdir ve genellikle şehir merkezlerinin en prestijli noktalarına konumlanır." },
+        { "question": "Megaboard kampanya süresi ne kadardır?", "answer": "Minimum 2 hafta olmak üzere uzun süreli kampanyalar için idealdir." }
+      ]
+    },
+    "totem-yol-panolari": {
+      "benefits": ["Yol kenarında yüksek görünürlüklü yapı", "Hem sürücülere hem yayalara ulaşım", "Sağlam yapısıyla uzun ömürlü kullanım", "Stratejik kavşak ve yol ayrımlarında etki"],
+      "useCases": ["AVM ve perakende yönlendirmeleri", "Şehir giriş noktaları reklamları", "Sanayi bölgesi ve iş merkezi tanıtımları", "Zincir mağaza duyuruları"],
+      "process": ["Kavşak ve yol ayrımı noktaları belirlenir", "Totem yapı boyutu ve tasarımı planlanır", "İzin ve montaj süreci yönetilir", "Kampanya ve bakım takibi yapılır"],
+      "faq": [
+        { "question": "Totem yol panosu nedir?", "answer": "Yol kenarında dikey olarak konumlanan, genellikle çift taraflı, bağımsız yapılardır. Hem yürüyenler hem sürücüler tarafından görülür." },
+        { "question": "Totem panolar hangi bölgelerde bulunur?", "answer": "Şehir giriş/çıkışları, ana kavşaklar ve ticari bölgelerde totem panoları mevcuttur." }
+      ]
+    },
+    "metrobus-tam-kaplama": {
+      "benefits": ["Şehir boyu hareketli reklam alanı", "Günlük yüz binlerce kişiye erişim", "Yoğun hat güzergahlarında tekrarlayan görünürlük", "Büyük yüzey alanı ile dikkat çekici tasarım"],
+      "useCases": ["Şehir geneli marka bilinirliği kampanyaları", "Ürün lansmanları", "Uygulama ve dijital hizmet tanıtımları", "Sezonluk büyük bütçeli kampanyalar"],
+      "process": ["Hat ve güzergah analizi yapılır", "Araç seçimi ve tasarım adaptasyonu planlanır", "Kaplama üretimi ve uygulaması yapılır", "Kampanya süresince araç takibi sağlanır"],
+      "faq": [
+        { "question": "Metrobüs tam kaplama ne kadar sürer?", "answer": "Genellikle minimum 1 ay olmak üzere, kampanya bütçe ve hedeflerinize göre esnek süreler sunuyoruz." },
+        { "question": "Tasarımda sınırlamalar var mı?", "answer": "Pencere, kapı ve güvenlik alanları dışında tüm yüzey kullanılabilir. Teknik şablonu paylaşıyoruz." }
+      ]
+    },
+    "otobus-tam-kaplama": {
+      "benefits": ["Geniş güzergah ağında sürekli görünürlük", "Farklı semtlere ulaşan hareketli reklam", "Büyük yüzey alanıyla etkileyici tasarım imkanı", "Yaya ve araç trafiğine aynı anda erişim"],
+      "useCases": ["Şehir içi yaygın marka kampanyaları", "Perakende mağaza ve AVM duyuruları", "Belediye ve kamu hizmeti tanıtımları", "Eğitim kurumu reklamları"],
+      "process": ["Güzergah ve hat analizi yapılır", "Araç sayısı ve kaplama alanı belirlenir", "Tasarım adaptasyonu ve üretim koordine edilir", "Uygulama ve kampanya takibi sağlanır"],
+      "faq": [
+        { "question": "Kaç otobüse aynı anda reklam verilebilir?", "answer": "Bütçe ve hedefinize göre tek otobüsten filo kaplamaya kadar planlama yapabiliyoruz." },
+        { "question": "Otobüs kaplama süreci ne kadar sürer?", "answer": "Bir otobüsün kaplaması genellikle 2-3 gün içinde tamamlanır." }
+      ]
+    },
+    "otobus-superback": {
+      "benefits": ["Arkadan gelen trafik akışına doğrudan mesaj", "Araç trafiği yoğun saatlerde maksimum etki", "Uygun maliyet ile yüksek görünürlük oranı", "Şehir içi yaygın kapsama"],
+      "useCases": ["Hızlı farkındalık kampanyaları", "Yerel işletme ve hizmet tanıtımları", "Uygulama indirme kampanyaları", "QR kod ve dijital etkileşim kampanyaları"],
+      "process": ["Hedef bölge ve hat analizi yapılır", "Araç sayısı ve süre belirlenir", "Arka panel tasarım ve baskısı üretilir", "Uygulama ve kampanya takibi sağlanır"],
+      "faq": [
+        { "question": "Otobüs superback nedir?", "answer": "Otobüsün arka paneline yerleştirilen büyük formatlı reklam alanıdır. Arkadan gelen araç trafiği tarafından rahatlıkla görülür." },
+        { "question": "Superback ile tam kaplama arasındaki fark?", "answer": "Superback sadece otobüsün arka panelini kapsar, tam kaplama ise tüm dış yüzeyi kullanır. Superback daha uygun maliyetlidir." }
       ]
     }
   },
@@ -336,6 +400,7 @@
     "selectFormat": "Mecra Seçin",
     "uploadImage": "Görsel Yükleyin",
     "resetImage": "Sıfırla",
+    "changeBackground": "Arka Plan Değiştir",
     "placeholder": "Markanız Burada",
     "privacyNote": "Görsel yalnızca tarayıcınızda önizleme için kullanılır, sunucuya yüklenmez.",
     "cta": "Bu mecra için teklif al",
@@ -344,6 +409,7 @@
       "busStop": "Durak Raket",
       "digitalScreen": "Dijital Ekran",
       "busBack": "Otobüs Arkası",
+      "poleBanner": "Pole Banner",
       "lightbox": "Lightbox"
     },
     "formatDescriptions": {
@@ -351,6 +417,7 @@
       "busStop": "Otobüs durağı yanı dikey raket panosu. Yaya ve toplu taşıma yolcularına ulaşır.",
       "digitalScreen": "LED dijital ekran. Hareketli içerik ve dinamik kampanyalar için ideal.",
       "busBack": "Otobüs arka cephesi reklamı. Şehir trafiğinde sürekli hareket halinde görünürlük.",
+      "poleBanner": "Aydınlatma direklerine montajlı dikey bayrak. Ana caddelerde yoğun görünürlük.",
       "lightbox": "Arka aydınlatmalı vitrin paneli. Gece dahil 7/24 premium görünüm."
     }
   },

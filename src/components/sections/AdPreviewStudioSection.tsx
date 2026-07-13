@@ -12,6 +12,7 @@ interface FormatLabels {
   busStop: string
   digitalScreen: string
   busBack: string
+  poleBanner: string
   lightbox: string
 }
 
@@ -20,6 +21,7 @@ interface FormatDescriptions {
   busStop: string
   digitalScreen: string
   busBack: string
+  poleBanner: string
   lightbox: string
 }
 
@@ -29,6 +31,7 @@ interface AdPreviewStudioProps {
   selectFormat: string
   uploadImage: string
   resetImage: string
+  changeBackground: string
   placeholder: string
   privacyNote: string
   cta: string
@@ -58,6 +61,7 @@ const FORMAT_CONFIGS: Record<string, Format3DConfig> = {
   busStop: { panelWidth: 1.2, panelHeight: 1.8, poleHeight: 0, poleCount: 0, hasBase: false, hasShelter: true, hasBusBody: false, isGlowing: true, cameraDistance: 10, cameraHeight: 3.0 },
   digitalScreen: { panelWidth: 1.8, panelHeight: 3.2, poleHeight: 0.5, poleCount: 1, hasBase: true, hasShelter: false, hasBusBody: false, isGlowing: true, cameraDistance: 8, cameraHeight: 2.5 },
   busBack: { panelWidth: 1.1, panelHeight: 0.9, poleHeight: 0, poleCount: 0, hasBase: false, hasShelter: false, hasBusBody: true, isGlowing: false, cameraDistance: 6, cameraHeight: 1.5 },
+  poleBanner: { panelWidth: 0.8, panelHeight: 1.8, poleHeight: 5.0, poleCount: 0, hasBase: false, hasShelter: false, hasBusBody: false, isGlowing: false, cameraDistance: 10, cameraHeight: 4 },
   lightbox: { panelWidth: 1.2, panelHeight: 1.8, poleHeight: 0.3, poleCount: 0, hasBase: true, hasShelter: false, hasBusBody: false, isGlowing: true, cameraDistance: 6.5, cameraHeight: 1.8 },
 }
 
@@ -101,7 +105,7 @@ function BusBody() {
 useGLTF.preload('/models/bus.gltf')
 
 function AdPanel3D({ formatId, userTexture, placeholderText }: { formatId: string; userTexture: THREE.Texture | null; placeholderText: string }) {
-  const config = FORMAT_CONFIGS[formatId]
+  const config = FORMAT_CONFIGS[formatId] || FORMAT_CONFIGS.billboard
   const groupRef = useRef<THREE.Group>(null)
 
   useFrame((state) => {
@@ -153,8 +157,8 @@ function AdPanel3D({ formatId, userTexture, placeholderText }: { formatId: strin
   const panelZ = config.hasBusBody ? 2.75 : 0
   return (
     <group ref={groupRef}>
-      {/* Panel frame - hidden for busStop (panel is inside shelter group) */}
-      {!config.hasShelter && (
+      {/* Panel frame - hidden for busStop and poleBanner (custom rendering) */}
+      {!config.hasShelter && formatId !== 'poleBanner' && (
         <>
           <RoundedBox args={[config.panelWidth + 0.1, config.panelHeight + 0.1, 0.08]} radius={0.03} position={[0, panelY, panelZ - 0.02]} castShadow>
             <meshStandardMaterial color="#111111" metalness={0.9} roughness={0.2} />
@@ -188,11 +192,56 @@ function AdPanel3D({ formatId, userTexture, placeholderText }: { formatId: strin
           </mesh>
         </>
       )}
-      {config.poleCount === 1 && (
+      {config.poleCount === 1 && formatId !== 'poleBanner' && (
         <mesh position={[0, config.poleHeight / 2 + (config.hasBase ? 0.3 : 0), -0.05]} castShadow>
           <cylinderGeometry args={[0.05, 0.07, config.poleHeight, 12]} />
           <meshStandardMaterial color="#222222" metalness={0.95} roughness={0.15} />
         </mesh>
+      )}
+      {formatId === 'poleBanner' && (
+        <>
+          {/* Main pole - thick metallic */}
+          <mesh position={[0, config.poleHeight / 2, 0]} castShadow>
+            <cylinderGeometry args={[0.1, 0.14, config.poleHeight + 1, 20]} />
+            <meshStandardMaterial color="#777777" metalness={0.95} roughness={0.15} />
+          </mesh>
+          {/* Top light fixture - sphere */}
+          <mesh position={[0, config.poleHeight + 0.6, 0]} castShadow>
+            <sphereGeometry args={[0.35, 20, 20]} />
+            <meshStandardMaterial color="#333333" metalness={0.9} roughness={0.2} />
+          </mesh>
+          {/* Light fixture neck */}
+          <mesh position={[0, config.poleHeight + 0.2, 0]} castShadow>
+            <cylinderGeometry args={[0.12, 0.1, 0.3, 16]} />
+            <meshStandardMaterial color="#555555" metalness={0.9} roughness={0.2} />
+          </mesh>
+          {/* Left bracket arm */}
+          <mesh position={[-0.4, config.poleHeight - 1.2, 0]} rotation={[0, 0, -0.15]} castShadow>
+            <boxGeometry args={[0.6, 0.04, 0.04]} />
+            <meshStandardMaterial color="#666666" metalness={0.9} roughness={0.2} />
+          </mesh>
+          {/* Right bracket arm */}
+          <mesh position={[0.4, config.poleHeight - 1.2, 0]} rotation={[0, 0, 0.15]} castShadow>
+            <boxGeometry args={[0.6, 0.04, 0.04]} />
+            <meshStandardMaterial color="#666666" metalness={0.9} roughness={0.2} />
+          </mesh>
+          {/* Left banner panel */}
+          <RoundedBox args={[config.panelWidth + 0.06, config.panelHeight + 0.06, 0.04]} radius={0.01} position={[-0.65, config.poleHeight - 2.2, 0.01]} castShadow>
+            <meshStandardMaterial color="#111111" metalness={0.8} roughness={0.3} />
+          </RoundedBox>
+          <mesh position={[-0.65, config.poleHeight - 2.2, 0.04]}>
+            <planeGeometry args={[config.panelWidth, config.panelHeight]} />
+            <meshStandardMaterial map={displayTexture} />
+          </mesh>
+          {/* Right banner panel */}
+          <RoundedBox args={[config.panelWidth + 0.06, config.panelHeight + 0.06, 0.04]} radius={0.01} position={[0.65, config.poleHeight - 2.2, 0.01]} castShadow>
+            <meshStandardMaterial color="#111111" metalness={0.8} roughness={0.3} />
+          </RoundedBox>
+          <mesh position={[0.65, config.poleHeight - 2.2, 0.04]}>
+            <planeGeometry args={[config.panelWidth, config.panelHeight]} />
+            <meshStandardMaterial map={displayTexture} />
+          </mesh>
+        </>
       )}
 
       {/* Base plate */}
@@ -300,12 +349,30 @@ function AdPanel3D({ formatId, userTexture, placeholderText }: { formatId: strin
   )
 }
 
-function Scene({ formatId, userTexture, placeholderText }: { formatId: string; userTexture: THREE.Texture | null; placeholderText: string }) {
+function Scene({ formatId, userTexture, userBgTexture, placeholderText }: { formatId: string; userTexture: THREE.Texture | null; userBgTexture: THREE.Texture | null; placeholderText: string }) {
   const config = FORMAT_CONFIGS[formatId]
   const { camera } = useThree()
   const controlsRef = useRef<any>(null)
   const targetPos = useRef(new THREE.Vector3())
   const targetLookAt = useRef(new THREE.Vector3())
+
+  const defaultBgTexture = useMemo(() => {
+    const loader = new THREE.TextureLoader()
+    const path = formatId === 'busBack' ? '/images/otobus-arka-ornek.jpg' : '/images/default-bg.jpg'
+    const tex = loader.load(path)
+    tex.colorSpace = THREE.SRGBColorSpace
+    return tex
+  }, [formatId])
+
+  const floorTexture = useMemo(() => {
+    if (formatId !== 'busBack') return null
+    const loader = new THREE.TextureLoader()
+    const tex = loader.load('/images/road-floor.jpg')
+    tex.colorSpace = THREE.SRGBColorSpace
+    return tex
+  }, [formatId])
+
+  const bgTexture = userBgTexture || defaultBgTexture
 
   useEffect(() => {
     if (config.hasBusBody) {
@@ -348,12 +415,29 @@ function Scene({ formatId, userTexture, placeholderText }: { formatId: string; u
       {/* Studio floor */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0, 2]} receiveShadow>
         <planeGeometry args={[20, 16]} />
-        <meshStandardMaterial color="#555555" roughness={0.8} metalness={0.05} />
+        {floorTexture ? (
+          <meshBasicMaterial map={floorTexture} />
+        ) : (
+          <meshStandardMaterial color="#555555" roughness={0.8} metalness={0.05} />
+        )}
       </mesh>
-      {/* Background wall */}
+      {/* Background walls - image on sides and back */}
       <mesh position={[0, 4, -6]}>
-        <planeGeometry args={[20, 10]} />
-        <meshStandardMaterial color="#444444" roughness={0.9} />
+        <planeGeometry args={[24, 14]} />
+        <meshBasicMaterial map={bgTexture} />
+      </mesh>
+      <mesh position={[-10, 4, 0]} rotation={[0, Math.PI / 2, 0]}>
+        <planeGeometry args={[24, 14]} />
+        <meshBasicMaterial map={bgTexture} />
+      </mesh>
+      <mesh position={[10, 4, 0]} rotation={[0, -Math.PI / 2, 0]}>
+        <planeGeometry args={[24, 14]} />
+        <meshBasicMaterial map={bgTexture} />
+      </mesh>
+      {/* Sky ceiling */}
+      <mesh position={[0, 11, 0]} rotation={[Math.PI / 2, 0, 0]}>
+        <planeGeometry args={[24, 24]} />
+        <meshBasicMaterial color="#87CEEB" />
       </mesh>
 
       {/* Contact shadow */}
@@ -381,6 +465,7 @@ export function AdPreviewStudioSection({
   selectFormat,
   uploadImage,
   resetImage,
+  changeBackground,
   placeholder,
   privacyNote,
   cta,
@@ -391,8 +476,10 @@ export function AdPreviewStudioSection({
   const [activeFormat, setActiveFormat] = useState(adPreviewFormats[0].id)
   const [userImage, setUserImage] = useState<string | null>(null)
   const [userTexture, setUserTexture] = useState<THREE.Texture | null>(null)
+  const [userBgTexture, setUserBgTexture] = useState<THREE.Texture | null>(null)
   const [isClient, setIsClient] = useState(false)
   const fileInputRef = useRef<HTMLInputElement>(null)
+  const bgInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => { setIsClient(true) }, [])
 
@@ -418,10 +505,30 @@ export function AdPreviewStudioSection({
     reader.readAsDataURL(file)
   }
 
+  function handleBgChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0]
+    if (!file) return
+    if (!file.type.startsWith('image/')) return
+    if (file.size > MAX_FILE_SIZE) return
+
+    const reader = new FileReader()
+    reader.onload = (ev) => {
+      const dataUrl = ev.target?.result as string
+      const loader = new THREE.TextureLoader()
+      loader.load(dataUrl, (tex) => {
+        tex.colorSpace = THREE.SRGBColorSpace
+        setUserBgTexture(tex)
+      })
+    }
+    reader.readAsDataURL(file)
+  }
+
   function handleReset() {
     setUserImage(null)
     setUserTexture(null)
+    setUserBgTexture(null)
     if (fileInputRef.current) fileInputRef.current.value = ''
+    if (bgInputRef.current) bgInputRef.current.value = ''
   }
 
   return (
@@ -474,7 +581,7 @@ export function AdPreviewStudioSection({
               >
                 {uploadImage}
               </button>
-              {userImage && (
+              {(userImage || userBgTexture) && (
                 <button
                   onClick={handleReset}
                   className="rounded-lg bg-white/[0.06] border border-white/[0.08] text-white/50 px-3 py-2.5 text-xs lg:text-sm hover:text-white/80 transition-colors"
@@ -483,11 +590,24 @@ export function AdPreviewStudioSection({
                 </button>
               )}
             </div>
+            <button
+              onClick={() => bgInputRef.current?.click()}
+              className="w-full rounded-lg bg-white/[0.04] border border-white/[0.08] text-white/50 px-3 py-2 text-xs lg:text-sm hover:bg-white/[0.08] hover:text-white/70 transition-colors"
+            >
+              {changeBackground}
+            </button>
             <input
               ref={fileInputRef}
               type="file"
               accept="image/png,image/jpeg,image/webp"
               onChange={handleFileChange}
+              className="hidden"
+            />
+            <input
+              ref={bgInputRef}
+              type="file"
+              accept="image/png,image/jpeg,image/webp"
+              onChange={handleBgChange}
               className="hidden"
             />
 
@@ -513,11 +633,12 @@ export function AdPreviewStudioSection({
                   shadows
                   gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
                   camera={{ fov: 45, near: 0.1, far: 50 }}
-                  style={{ background: '#3a3a3a' }}
+                  style={{ background: '#87CEEB' }}
                 >
                   <Scene
                     formatId={activeFormat}
                     userTexture={userTexture}
+                    userBgTexture={userBgTexture}
                     placeholderText={placeholder}
                   />
                 </Canvas>
