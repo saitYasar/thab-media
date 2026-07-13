@@ -116,7 +116,8 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
         label.setAttribute('text-anchor', 'middle')
         label.setAttribute('dominant-baseline', 'central')
         label.setAttribute('fill', '#ffffff')
-        label.setAttribute('font-size', '3.5')
+        label.setAttribute('font-size', '6')
+        label.setAttribute('font-weight', '500')
         label.setAttribute('font-family', 'Inter, sans-serif')
         label.setAttribute('pointer-events', 'none')
         label.textContent = name
@@ -257,6 +258,10 @@ export function LocationsMapSection({ title, description, locale }: LocationsMap
             <span>{legend.coming}</span>
           </div>
         </div>
+
+        <p className="mt-3 text-center text-xs text-white/30">
+          {locale === 'en' ? '* Approximate inventory count' : locale === 'fr' ? '* Nombre approximatif d\'inventaire' : '* Yaklaşık envanter adedidir'}
+        </p>
       </Container>
     </Section>
   )
