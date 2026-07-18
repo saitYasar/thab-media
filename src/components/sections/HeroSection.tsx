@@ -84,7 +84,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
               <div className="grid grid-cols-12 grid-rows-6 gap-2.5 sm:gap-3 h-[300px] sm:h-[360px] lg:h-[440px]">
                 {/* Billboard — large panel */}
                 <Link href={servicesHref} className="col-span-7 row-span-4 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/billboard.jpg" alt={`${labels.billboard} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="300px" />
+                  <Image src="/images/billboard.jpg" alt={`${labels.billboard} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 58vw, (max-width: 1024px) 45vw, 540px" quality={85} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-4 sm:p-5">
                     <div className="w-7 h-[3px] bg-accent rounded-full mb-2" />
@@ -95,7 +95,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* DOOH — vertical */}
                 <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/led-ekranlar.jpg" alt={`${labels.digitalScreen} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
+                  <Image src="/images/led-ekranlar.jpg" alt={`${labels.digitalScreen} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 42vw, (max-width: 1024px) 32vw, 380px" quality={85} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
@@ -105,7 +105,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* Metro raket */}
                 <Link href={servicesHref} className="col-span-5 row-span-3 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/metrobus-tam-kaplama.jpg" alt={`${labels.metrobus} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="200px" />
+                  <Image src="/images/metrobus-tam-kaplama.jpg" alt={`${labels.metrobus} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 42vw, (max-width: 1024px) 32vw, 380px" quality={85} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-3 sm:p-4">
                     <div className="w-5 h-[2px] bg-accent rounded-full mb-1.5" />
@@ -115,7 +115,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* Lightbox */}
                 <Link href={servicesHref} className="col-span-4 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/lightbox.jpg" alt={`${labels.lightbox} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="150px" />
+                  <Image src="/images/lightbox.jpg" alt={`${labels.lightbox} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 33vw, (max-width: 1024px) 26vw, 300px" quality={85} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-2.5 sm:p-3">
                     <div className="w-4 h-[2px] bg-accent/70 rounded-full mb-1" />
@@ -125,7 +125,7 @@ export function HeroSection({ title, subtitle, ctaPrimary, ctaSecondary, badge, 
 
                 {/* CLP Raket */}
                 <Link href={servicesHref} className="col-span-3 row-span-2 rounded-2xl overflow-hidden relative border border-white/[0.08] group">
-                  <Image src="/images/clp-raket.jpg" alt={`${labels.busStop} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="120px" />
+                  <Image src="/images/clp-raket.jpg" alt={`${labels.busStop} | ThaB Media`} fill className="object-cover transition-transform duration-500 group-hover:scale-105" sizes="(max-width: 768px) 25vw, (max-width: 1024px) 20vw, 230px" quality={85} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-2 sm:p-2.5">
                     <div className="w-3.5 h-[2px] bg-accent/60 rounded-full mb-1" />

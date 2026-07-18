@@ -83,7 +83,7 @@ export default async function LocaleLayout({
   const dict = await getDictionary(locale)
   const contactHref = locale === 'tr' ? '/iletisim' : `/${locale}/contact`
 
-  const serviceNames = services.slice(0, 4).map((s) => ({
+  const serviceNames = services.map((s) => ({
     slug: s.slug,
     title: (dict.services[s.slug as keyof typeof dict.services])?.title ?? s.slug,
   }))

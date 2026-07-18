@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import { Section } from '@/components/ui/Section'
 import { Container } from '@/components/ui/Container'
@@ -9,6 +11,8 @@ interface ReferencesSectionProps {
 }
 
 export function ReferencesSection({ title, subtitle }: ReferencesSectionProps) {
+  const doubledRefs = [...references, ...references]
+
   return (
     <Section bg="dark">
       <Container>
@@ -20,23 +24,29 @@ export function ReferencesSection({ title, subtitle }: ReferencesSectionProps) {
             {subtitle}
           </p>
         </div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4">
-          {references.map((brand) => (
+      </Container>
+
+      <div className="relative overflow-hidden">
+        <div className="absolute left-0 top-0 bottom-0 w-16 bg-gradient-to-r from-[#060e1f] to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-16 bg-gradient-to-l from-[#060e1f] to-transparent z-10 pointer-events-none" />
+
+        <div className="flex animate-marquee gap-4 w-max">
+          {doubledRefs.map((brand, i) => (
             <div
-              key={brand.slug}
-              className="flex items-center justify-center h-[80px] md:h-[90px] rounded-xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm transition-all duration-200 hover:border-white/20 hover:bg-white/[0.06] px-4"
+              key={`${brand.slug}-${i}`}
+              className="flex items-center justify-center h-[70px] md:h-[80px] w-[160px] md:w-[190px] flex-shrink-0 rounded-xl border border-white/[0.08] bg-white/[0.03] backdrop-blur-sm px-4"
             >
               <Image
                 src={brand.logo}
                 alt={`${brand.name} | ThaB Media`}
                 width={160}
                 height={50}
-                className="w-auto h-8 md:h-10 opacity-70 hover:opacity-95 transition-opacity invert"
+                className="w-auto h-7 md:h-9 opacity-70 invert"
               />
             </div>
           ))}
         </div>
-      </Container>
+      </div>
     </Section>
   )
 }

@@ -1,5 +1,8 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import { Container } from '@/components/ui/Container'
 import { siteConfig } from '@/lib/site-config'
 
@@ -26,6 +29,7 @@ interface FooterProps {
 
 export function Footer({ locale, dictionary, footerDict, serviceNames }: FooterProps) {
   const prefix = locale === 'tr' ? '' : `/${locale}`
+  const pathname = usePathname()
 
   const navLinks = [
     { href: `${prefix}/`, label: dictionary.navigation.home },
@@ -66,31 +70,43 @@ export function Footer({ locale, dictionary, footerDict, serviceNames }: FooterP
             <div>
               <h3 className="text-sm font-semibold mb-5 text-white/90">{footerDict.navTitle}</h3>
               <ul className="space-y-3">
-                {navLinks.map((link) => (
-                  <li key={link.href}>
-                    <Link href={link.href} className="text-sm text-white/45 hover:text-white transition-colors">
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
+                {navLinks.map((link) => {
+                  const isCurrentPage = pathname === link.href || pathname === link.href + '/'
+                  return (
+                    <li key={link.href}>
+                      <Link
+                        href={link.href}
+                        onClick={(e) => {
+                          if (isCurrentPage) {
+                            e.preventDefault()
+                            window.scrollTo({ top: 0, behavior: 'smooth' })
+                          }
+                        }}
+                        className="text-sm text-white/45 hover:text-white transition-colors"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  )
+                })}
               </ul>
             </div>
 
             {/* Services column */}
             <div>
               <h3 className="text-sm font-semibold mb-5 text-white/90">{footerDict.servicesTitle}</h3>
-              <ul className="space-y-3">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-x-4 gap-y-2.5">
                 {serviceNames ? (
                   serviceNames.map((svc) => (
                     <li key={svc.slug}>
-                      <Link href={`${prefix}/hizmetler/${svc.slug}`} className="text-sm text-white/45 hover:text-white transition-colors">
+                      <Link href={`${prefix}/hizmetler/${svc.slug}`} className="text-[13px] text-white/45 hover:text-white transition-colors leading-snug">
                         {svc.title}
                       </Link>
                     </li>
                   ))
                 ) : (
                   <li>
-                    <Link href={`${prefix}/hizmetler`} className="text-sm text-white/45 hover:text-white transition-colors">
+                    <Link href={`${prefix}/hizmetler`} className="text-[13px] text-white/45 hover:text-white transition-colors">
                       {dictionary.navigation.services}
                     </Link>
                   </li>
